@@ -1,0 +1,427 @@
+{
+ "manifest": {
+  "id": "authortoday",
+  "name": "Author.Today",
+  "version": "1.0.0",
+  "api": 1,
+  "lang": "ru",
+  "site": "https://author.today",
+  "domains": [
+   "author.today",
+   "cm.author.today"
+  ],
+  "icon": "icons/authortoday.png",
+  "content": [
+   "text"
+  ],
+  "features": [
+   "popular",
+   "latest",
+   "search",
+   "filters",
+   "login",
+   "byUrl"
+  ],
+  "nsfw": false,
+  "studio": "permission",
+  "browser": "onChallenge",
+  "rateLimit": {
+   "rps": 0.5,
+   "burst": 2
+  },
+  "login": {
+   "url": "https://author.today/account/login",
+   "kind": "cookies"
+  }
+ },
+ "core": {
+  "version": "1.1.0"
+ },
+ "results": [
+  {
+   "fn": "search",
+   "args": [
+    "механик",
+    1
+   ],
+   "result": {
+    "ok": {
+     "items": [
+      {
+       "id": "302475",
+       "title": "Механик",
+       "cover": "https://cm.author.today/content/2023/10/12/584046a47d57458b8c8053bb6738a656.jpg?width=153&height=200&rmode=max",
+       "author": "Виктор Волков"
+      },
+      {
+       "id": "421625",
+       "title": "Механик",
+       "cover": "https://cm.author.today/content/2025/02/13/68e8a1d1888046e2a877c61dbc508735.jpg?width=153&height=200&rmode=max",
+       "author": "Лана Земницкая"
+      },
+      {
+       "id": "452967",
+       "title": "Механик",
+       "cover": "https://cm.author.today/content/2025/05/26/d021e0e44896445dbaa3c4a3462969ef.jpg?width=153&height=200&rmode=max",
+       "author": "Анчутка Бес-Пятый"
+      },
+      {
+       "id": "513537",
+       "title": "Механик",
+       "cover": "https://cm.author.today/content/2025/11/18/5bc986351faa45d3837329362615be17.jpg?width=153&height=200&rmode=max",
+       "author": "Тимур Усеинов"
+      },
+      {
+       "id": "579689",
+       "title": "Механик",
+       "cover": "https://cm.author.today/content/2026/04/19/b92f5962de634d4bb07a5990c0677dc4.jpg?width=153&height=200&rmode=max",
+       "author": "Алекс Любич"
+      },
+      {
+       "id": "79016",
+       "title": "Механик",
+       "cover": "https://cm.author.today/content/2020/06/22/6a8f7ae17c444cf9a2d9229b5d015d64.jpg?width=153&height=200&rmode=max",
+       "author": "Антон Гологузов"
+      },
+      {
+       "id": "81238",
+       "title": "Механик",
+       "cover": "https://cm.author.today/content/2020/07/08/e09bd415e4e1454390ea0b8563641453.jpg?width=153&height=200&rmode=max",
+       "author": "BaronKorr"
+      },
+      {
+       "id": "90284",
+       "title": "Механик",
+       "cover": "https://cm.author.today/content/2020/09/11/dc9795f4685142e5a37eada5a0f2a28e.jpg?width=153&height=200&rmode=max",
+       "author": "Эдуард Стиганцов"
+      },
+      {
+       "id": "677832",
+       "title": "Возрождение механика. Том 3",
+       "cover": "https://cm.author.today/content/2026/10/31/7e8e68ceed2a4c33b96ff1b4593a88a3.jpg?width=153&height=200&rmode=max",
+       "author": "Сергей Жуков, Григорий Володин"
+      },
+      {
+       "id": "660214",
+       "title": "Возрождение механика. Том I",
+       "cover": "https://cm.author.today/content/2026/10/16/89ec7405030645eaa781344eb75f09d2.jpg?width=153&height=200&rmode=max",
+       "author": "Сергей Жуков, Григорий Володин"
+      },
+      {
+       "id": "670912",
+       "title": "Возрождение механика. Том 2",
+       "cover": "https://cm.author.today/content/2026/10/21/93461b57662e457392ca2995f3fdd257.jpg?width=153&height=200&rmode=max",
+       "author": "Сергей Жуков, Григорий Володин"
+      },
+      {
+       "id": "234565",
+       "title": "Механика света",
+       "cover": "https://cm.author.today/content/2024/06/11/27f79996970b484994fbd6a79b349ca3.jpg?width=153&height=200&rmode=max",
+       "author": "Юлия Ода"
+      },
+      {
+       "id": "605737",
+       "title": "Механика света. Начало",
+       "cover": "https://cm.author.today/content/2026/06/10/593358da5bce4064855a74be9160f67a.jpg?width=153&height=200&rmode=max",
+       "author": "Юлия Ода"
+      },
+      {
+       "id": "552755",
+       "title": "Безумный Механик том 4: Остров невезения в океане есть!",
+       "cover": "https://cm.author.today/content/2026/02/16/f266a6f3aee34bc4b480e945f18b579c.jpg?width=153&height=200&rmode=max",
+       "author": "Кай Ханси"
+      },
+      {
+       "id": "532008",
+       "title": "Механика пустоты",
+       "cover": "https://cm.author.today/content/2025/12/31/bef44ff9ccf94be69f7893c9daab78d8.jpg?width=153&height=200&rmode=max",
+       "author": "Игорь Евдокимов"
+      },
+      {
+       "id": "676348",
+       "title": "Механик для Ангелов Смерти",
+       "cover": "https://cm.author.today/content/2026/10/29/59cd6c8ef99d4284ba23d2a12dec889c.jpg?width=153&height=200&rmode=max",
+       "author": "Vladislav Burdin"
+      },
+      {
+       "id": "257094",
+       "title": "Механик из Мондштадта",
+       "cover": "https://cm.author.today/content/2023/03/06/1d4547dacf2940bcb5f6f721433654b6.jpg?width=153&height=200&rmode=max",
+       "author": "Леонид Виноградов"
+      },
+      {
+       "id": "640861",
+       "title": "Механика пустоты 2",
+       "cover": "https://cm.author.today/content/2026/08/22/9e912c7de5b245a58cb7f7a59baf3c3e.jpg?width=153&height=200&rmode=max",
+       "author": "Игорь Евдокимов"
+      },
+      {
+       "id": "385266",
+       "title": "Безумный Механик том 2: Великий друг хоббитов.",
+       "cover": "https://cm.author.today/content/2024/10/09/d189dfb1945f4b138fa4c85c5f1b5540.jpg?width=153&height=200&rmode=max",
+       "author": "Кай Ханси"
+      },
+      {
+       "id": "384062",
+       "title": "Безумный Механик том 1: 1ОО аватаров на проводе!",
+       "cover": "https://cm.author.today/content/2024/10/06/72384a8a920747c6961803f7c892231d.jpg?width=153&height=200&rmode=max",
+       "author": "Кай Ханси"
+      },
+      {
+       "id": "486534",
+       "title": "Механика любви",
+       "cover": "https://cm.author.today/content/2026/10/31/5bb90c650929471cbd1cc68e24ef086c.jpg?width=153&height=200&rmode=max",
+       "author": "Елена Кароль"
+      },
+      {
+       "id": "397512",
+       "title": "Безумный Механик том 3: Да, я некромант, и что с того?",
+       "cover": "https://cm.author.today/content/2024/11/25/a050962cce0f4920a4a9111054d89dc3.jpg?width=153&height=200&rmode=max",
+       "author": "Кай Ханси"
+      },
+      {
+       "id": "437016",
+       "title": "Механики",
+       "cover": "https://cm.author.today/content/2025/04/04/64d40ccad35c42d6ae9bb83c7cbf1866.jpg?width=153&height=200&rmode=max",
+       "author": "nemoguta"
+      },
+      {
+       "id": "579747",
+       "title": "«Легендарный Механик: Сбой Процедурной Бесконечности»",
+       "cover": "https://cm.author.today/content/2026/04/16/1e435f91667b4ad6a33267dd3fd7dd37.jpg?width=153&height=200&rmode=max",
+       "author": "Нерзул"
+      },
+      {
+       "id": "660792",
+       "title": "Книга 1 - Механик",
+       "cover": "https://cm.author.today/content/2026/09/30/0acb4ff228924561861ea388e77d6567.jpg?width=153&height=200&rmode=max",
+       "author": "Arden_Vale"
+      },
+      {
+       "id": "332799",
+       "title": "Слово как инструмент создания и изменения реальности: физика, квантовая механика и влияние наблюдателя",
+       "cover": "https://cm.author.today/content/2024/02/27/bd62e2d693324e98b925a819337b9681.jpg?width=153&height=200&rmode=max",
+       "author": "Виктор Агеев-Полторжицкий"
+      },
+      {
+       "id": "340404",
+       "title": "Путь механика",
+       "cover": "https://cm.author.today/content/2024/04/06/b7e163040cbb4ecea8b49bbb3f68dce3.jpg?width=153&height=200&rmode=max",
+       "author": "Даниил Серый"
+      },
+      {
+       "id": "345704",
+       "title": "Воскрешение Христа и квантовая механика: параллели между верой и наукой",
+       "cover": "https://cm.author.today/content/2024/04/25/68169adf918643acbc07d71c1e379d4f.jpg?width=153&height=200&rmode=max",
+       "author": "Виктор Агеев-Полторжицкий"
+      },
+      {
+       "id": "354655",
+       "title": "Дрейф-механик",
+       "cover": "https://cm.author.today/content/2026/04/21/7a73412503a44176bd44d5cb332a2273.jpg?width=153&height=200&rmode=max",
+       "author": "Владимир Прягин"
+      },
+      {
+       "id": "382805",
+       "title": "Иисус и квантовая механика: пророчество через века",
+       "cover": "https://cm.author.today/content/2024/09/30/5a696d44ab254fb38fdc3b7cb84aec25.jpg?width=153&height=200&rmode=max",
+       "author": "Виктор Агеев-Полторжицкий"
+      }
+     ],
+     "hasNext": true
+    }
+   }
+  },
+  {
+   "fn": "search",
+   "args": [
+    "механик",
+    2
+   ],
+   "result": {
+    "ok": {
+     "items": [
+      {
+       "id": "398201",
+       "title": "Механик против моря",
+       "cover": "https://cm.author.today/content/2025/09/08/d4a01689fa7f400e905cf704aff44395.jpg?width=153&height=200&rmode=max",
+       "author": "Алексей Яшкин"
+      },
+      {
+       "id": "422648",
+       "title": "Век Механики: Изгои Гильдии",
+       "cover": "https://cm.author.today/content/2025/02/17/9b7eaee9665544748dca47545d0269f4.jpg?width=153&height=200&rmode=max",
+       "author": "Сергей Смирнов"
+      },
+      {
+       "id": "443465",
+       "title": "Механика D&D в мире вечной битвы. Том 1.",
+       "cover": "https://cm.author.today/content/2025/04/25/560c4de1d71e4dff9d9242ca6647b697.jpg?width=153&height=200&rmode=max",
+       "author": "Reiden108"
+      },
+      {
+       "id": "445187",
+       "title": "Идеи, концепции, механики",
+       "cover": "https://cm.author.today/content/2025/05/01/90e860cb095c4b279703dbc9b6fc6823.jpg?width=153&height=200&rmode=max",
+       "author": "Дмитрий Ляпин"
+      },
+      {
+       "id": "446109",
+       "title": "Механика Северного Сияния: История Ярослава Кузнецова",
+       "cover": "https://cm.author.today/content/2025/05/04/a3a0c55a0bc44a5291944140740a221b.jpg?width=153&height=200&rmode=max",
+       "author": "TELiNDUS"
+      },
+      {
+       "id": "480603",
+       "title": "Путь к звёздам: от механика до космического магната.",
+       "cover": "https://cm.author.today/content/2025/08/17/87820f4b0b884a31b866d01df40859fa.jpg?width=153&height=200&rmode=max",
+       "author": "Квасура"
+      },
+      {
+       "id": "499294",
+       "title": "Механика D&D в мире вечной битвы. Том 2.",
+       "cover": "https://cm.author.today/content/2025/10/11/42e60db1af074a748e6a21239cf89043.jpg?width=153&height=200&rmode=max",
+       "author": "Reiden108"
+      },
+      {
+       "id": "499538",
+       "title": "Вера сильнее иллюзий: взгляд сквозь призму квантовой механики",
+       "cover": "https://cm.author.today/content/2025/10/12/22d9af0dfd704f7b9f876fe33ab4d488.jpg?width=153&height=200&rmode=max",
+       "author": "Виктор Агеев-Полторжицкий"
+      },
+      {
+       "id": "512704",
+       "title": "Механика из Планов Бытия...",
+       "author": "Mirhanrat"
+      },
+      {
+       "id": "514226",
+       "title": "Механика скрытых сердец",
+       "cover": "https://cm.author.today/content/2025/11/20/aa4e7bfb447c436a94c9e2d346695fd5.jpg?width=153&height=200&rmode=max",
+       "author": "Милослава Буян"
+      },
+      {
+       "id": "516635",
+       "title": "Механик своей судьбы",
+       "cover": "https://cm.author.today/content/2026/02/10/4fc20c3513cc4635a0eb8238e8c7c036.jpg?width=153&height=200&rmode=max",
+       "author": "Joan Woolfy"
+      },
+      {
+       "id": "515838",
+       "title": "Квантовая механика - это не магия.",
+       "cover": "https://cm.author.today/content/2025/11/24/d9eca0afd4fe45bf921ac391280b00dd.jpg?width=153&height=200&rmode=max",
+       "author": "Федор Капитанов"
+      },
+      {
+       "id": "517871",
+       "title": "Механики неба",
+       "cover": "https://cm.author.today/content/2025/11/29/ef3fd0fb033444808703edc41ebc43ea.jpg?width=153&height=200&rmode=max",
+       "author": "Алексей Брацкий"
+      },
+      {
+       "id": "530050",
+       "title": "Механика Божьего дара",
+       "cover": "https://cm.author.today/content/2025/12/26/ab966e6429974e75ba3caed80c08a90e.jpg?width=153&height=200&rmode=max",
+       "author": "WKPB"
+      },
+      {
+       "id": "537419",
+       "title": "Контрольная по небесной механике",
+       "author": "Герасимов Михаил Николаевич"
+      },
+      {
+       "id": "538791",
+       "title": "Пульс механики",
+       "cover": "https://cm.author.today/content/2026/10/09/619f5df706c1400baec67ef20188a6f9.jpg?width=153&height=200&rmode=max",
+       "author": "Мисс Дождь, Полина Мещерякова"
+      },
+      {
+       "id": "556134",
+       "title": "Киборг и его механик",
+       "cover": "https://cm.author.today/content/2026/02/24/00818f0f79e54b4d85bbace91b2651ea.jpg?width=153&height=200&rmode=max",
+       "author": "Бармен из \"79\""
+      },
+      {
+       "id": "571577",
+       "title": "Механика искренности: Мастер из Дома Шепотов",
+       "cover": "https://cm.author.today/content/2026/03/30/4d9bdf1e28cf4714b8e39c8af93d23dc.jpg?width=153&height=200&rmode=max",
+       "author": "Ника Веритас"
+      },
+      {
+       "id": "572862",
+       "title": "Механика Снов",
+       "cover": "https://cm.author.today/content/2026/04/01/e9613bd5bc9447b2871e2595c7ae885d.jpg?width=153&height=200&rmode=max",
+       "author": "Эндер Сав"
+      },
+      {
+       "id": "587352",
+       "title": "Механика души. Распад",
+       "cover": "https://cm.author.today/content/2026/07/21/09ed42e82a804a21b5762797e66ec968.jpg?width=153&height=200&rmode=max",
+       "author": "Веспер"
+      },
+      {
+       "id": "595403",
+       "title": "Механика любви",
+       "cover": "https://cm.author.today/content/2026/06/14/322a37b3d86c48c9aeac57c6595da71a.jpg?width=153&height=200&rmode=max",
+       "author": "Dmitri Melnikow"
+      },
+      {
+       "id": "658794",
+       "title": "Механика любви",
+       "cover": "https://cm.author.today/content/2026/09/26/c8e394c147cc449da0b8520d8eca6fd9.jpg?width=153&height=200&rmode=max",
+       "author": "Анна Иванова"
+      },
+      {
+       "id": "663419",
+       "title": "Долговая механика",
+       "cover": "https://cm.author.today/content/2026/10/05/eed2404df38340009f0d2e9f08454dd0.jpg?width=153&height=200&rmode=max",
+       "author": "Александр Теней"
+      },
+      {
+       "id": "663725",
+       "title": "Механика войны",
+       "cover": "https://cm.author.today/content/2026/10/05/6191f93f6eb84ecf8afc2830cc295e93.jpg?width=153&height=200&rmode=max",
+       "author": "warhistory 1942"
+      },
+      {
+       "id": "12398",
+       "title": "Тонкая механика сложных чувств",
+       "cover": "https://cm.author.today/content/2023/09/18/16ef06435bb34fc69092d8dbaca73fe8.jpg?width=153&height=200&rmode=max",
+       "author": "strom"
+      },
+      {
+       "id": "19126",
+       "title": "Механик",
+       "cover": "https://cm.author.today/content/2018/08/20/3165260be50743808d088183eed9a78b.jpg?width=153&height=200&rmode=max",
+       "author": "Станислав Пляскин"
+      },
+      {
+       "id": "27795",
+       "title": "Стрип-клуб \"Механика\"",
+       "author": "IvanGromin"
+      },
+      {
+       "id": "28196",
+       "title": "Стальной механик",
+       "cover": "https://cm.author.today/content/2020/02/28/46da23d7abb84ca9a8f5c22eb88948d3.jpg?width=153&height=200&rmode=max",
+       "author": "Nikninja"
+      },
+      {
+       "id": "47797",
+       "title": "Проклятый Механик",
+       "cover": "https://cm.author.today/content/2019/10/20/6cc0aadbbc9e4049bec8d2faec180fc0.jpg?width=153&height=200&rmode=max",
+       "author": "Наталья Романова"
+      },
+      {
+       "id": "71410",
+       "title": "Исследования механики простых заклинаний Эдгара Рипплера",
+       "author": "jug"
+      }
+     ],
+     "hasNext": true
+    }
+   }
+  }
+ ],
+ "missing": []
+}

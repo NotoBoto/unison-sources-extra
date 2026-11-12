@@ -1,0 +1,656 @@
+{
+ "manifest": {
+  "id": "authortoday",
+  "name": "Author.Today",
+  "version": "1.0.0",
+  "api": 1,
+  "lang": "ru",
+  "site": "https://author.today",
+  "domains": [
+   "author.today",
+   "cm.author.today"
+  ],
+  "icon": "icons/authortoday.png",
+  "content": [
+   "text"
+  ],
+  "features": [
+   "popular",
+   "latest",
+   "search",
+   "filters",
+   "login",
+   "byUrl"
+  ],
+  "nsfw": false,
+  "studio": "permission",
+  "browser": "onChallenge",
+  "rateLimit": {
+   "rps": 0.5,
+   "burst": 2
+  },
+  "login": {
+   "url": "https://author.today/account/login",
+   "kind": "cookies"
+  }
+ },
+ "core": {
+  "version": "1.1.0"
+ },
+ "results": [
+  {
+   "fn": "popular",
+   "args": [
+    1,
+    {
+     "form": "story",
+     "sort": "recent"
+    }
+   ],
+   "result": {
+    "ok": {
+     "items": [
+      {
+       "id": "684807",
+       "title": "Пройдут года",
+       "cover": "https://cm.author.today/content/2026/11/12/fcfc243bb3b54040907547140279b494.jpg?width=153&height=200&rmode=max",
+       "author": "Anton Ivashkevych"
+      },
+      {
+       "id": "684790",
+       "title": "Чувства",
+       "cover": "https://cm.author.today/content/2026/11/12/72ad18128a91421c9bbd63587844cb7e.jpg?width=153&height=200&rmode=max",
+       "author": "Алёна Усова"
+      },
+      {
+       "id": "684787",
+       "title": "Пустота в хорошие руки",
+       "cover": "https://cm.author.today/content/2026/11/12/f77425b444ab4a6eb0541390e2083759.jpg?width=153&height=200&rmode=max",
+       "author": "Денис Пожидаев"
+      },
+      {
+       "id": "684788",
+       "title": "Золотари (ассенизаторы) города Проскурова",
+       "cover": "https://cm.author.today/content/2026/11/12/d9f08c80e3164dc3b833e23d7157c6ee.jpg?width=153&height=200&rmode=max",
+       "author": "bibliofag"
+      },
+      {
+       "id": "684433",
+       "title": "Крылатые бестии",
+       "cover": "https://cm.author.today/content/2026/11/11/959f31a29baf4ddfb179f50839562893.jpg?width=153&height=200&rmode=max",
+       "author": "Joker F_A"
+      },
+      {
+       "id": "681170",
+       "title": "Один в поле (из серии «Дети большой страны»)",
+       "cover": "https://cm.author.today/content/2026/11/06/091187bee46047c0b83f3a4a82414f11.jpg?width=153&height=200&rmode=max",
+       "author": "Татьяна Бадалова"
+      },
+      {
+       "id": "684777",
+       "title": "Азраль",
+       "author": "Форсайд"
+      },
+      {
+       "id": "684779",
+       "title": "Эффект эха",
+       "cover": "https://cm.author.today/content/2026/11/12/1d4d53bbc0f24840912c4446526649b5.jpg?width=153&height=200&rmode=max",
+       "author": "Алексеенко Марина Владимировна"
+      },
+      {
+       "id": "684774",
+       "title": "Мистер 33 несчастья",
+       "author": "Artsy Artifex"
+      },
+      {
+       "id": "644094",
+       "title": "Быт и Муза",
+       "cover": "https://cm.author.today/content/2026/09/16/d2a8a7aa215d4c09bcc9d2aef99c9ab5.jpg?width=153&height=200&rmode=max",
+       "author": "Каролина Шторк"
+      },
+      {
+       "id": "683011",
+       "title": "Перпетум-мобилле",
+       "cover": "https://cm.author.today/content/2026/11/12/26e98348494b49fd90aec6af7c0076f2.jpg?width=153&height=200&rmode=max",
+       "author": "Елена Прогонова"
+      },
+      {
+       "id": "684768",
+       "title": "Шутник",
+       "cover": "https://cm.author.today/content/2026/11/12/aac13f95ac3a47e9a939f4f087ad2bf4.jpg?width=153&height=200&rmode=max",
+       "author": "Алексей Тарасов"
+      },
+      {
+       "id": "668398",
+       "title": "Миссия невыполнима",
+       "author": "Тани Миртани",
+       "nsfw": true
+      },
+      {
+       "id": "684759",
+       "title": "Компромат",
+       "cover": "https://cm.author.today/content/2026/11/12/b5981ca50e0c4d91be824d5b6c4fb062.jpg?width=153&height=200&rmode=max",
+       "author": "Рия Леви"
+      },
+      {
+       "id": "684762",
+       "title": "Турбулентность",
+       "author": "Ирина Дуканич-Йоффе"
+      },
+      {
+       "id": "684758",
+       "title": "Пресумасбродный движ",
+       "cover": "https://cm.author.today/content/2026/11/12/34607eda0dea4f7e8382f1545b8349b8.jpg?width=153&height=200&rmode=max",
+       "author": "Ordmas Black"
+      },
+      {
+       "id": "684159",
+       "title": "Новелки",
+       "cover": "https://cm.author.today/content/2026/11/11/96e86fd7b5f04f5fa2f30175e988df0b.jpg?width=153&height=200&rmode=max",
+       "author": "Альта"
+      },
+      {
+       "id": "684744",
+       "title": "Редко Живу Дома",
+       "cover": "https://cm.author.today/content/2026/11/12/dee6b5109ba84e6ebbe78592ea73cc14.jpg?width=153&height=200&rmode=max",
+       "author": "Аполлинарий Скифский"
+      },
+      {
+       "id": "684694",
+       "title": "Одиннадцатая",
+       "cover": "https://cm.author.today/content/2026/11/12/e029955f37ba459d8d153f57919a6ddd.jpg?width=153&height=200&rmode=max",
+       "author": "илюхов максим"
+      },
+      {
+       "id": "684738",
+       "title": "«wet floor»",
+       "cover": "https://cm.author.today/content/2026/11/12/7900acfaf0964e08b3b57e2d29b8cfea.jpg?width=153&height=200&rmode=max",
+       "author": "Андрей Щуров"
+      },
+      {
+       "id": "684732",
+       "title": "Большая любовь",
+       "cover": "https://cm.author.today/content/2026/11/12/0a9cb474a19f40db84e4290333d8631e.jpg?width=153&height=200&rmode=max",
+       "author": "Виктория Бауш"
+      },
+      {
+       "id": "684673",
+       "title": "Не называй меня",
+       "cover": "https://cm.author.today/content/2026/11/12/c7f14f5962e6430080d5373afd950c35.jpg?width=153&height=200&rmode=max",
+       "author": "Ирина Бодякшина"
+      },
+      {
+       "id": "630391",
+       "title": "Поиск своего пути.",
+       "cover": "https://cm.author.today/content/2026/08/01/631e5dc453bc41de9cc3855b6ca8c21e.jpg?width=153&height=200&rmode=max",
+       "author": "Алексей Токарев"
+      },
+      {
+       "id": "684706",
+       "title": "Встреча на эльбе",
+       "cover": "https://cm.author.today/content/2026/11/12/c9410089025d4098866e8fed31903f05.jpg?width=153&height=200&rmode=max",
+       "author": "S.Khar"
+      },
+      {
+       "id": "684719",
+       "title": "Металл.",
+       "cover": "https://cm.author.today/content/2026/11/12/0102cddddb764508aa92b9946c7b3679.jpg?width=153&height=200&rmode=max",
+       "author": "Exr0w"
+      }
+     ],
+     "hasNext": true
+    }
+   }
+  },
+  {
+   "fn": "latest",
+   "args": [
+    2
+   ],
+   "result": {
+    "ok": {
+     "items": [
+      {
+       "id": "120618",
+       "title": "STALKER [Проклятое место] Лестница в небо",
+       "cover": "https://cm.author.today/content/2026/10/28/a73c84bb43294f5dad209e47b8dabbe8.jpg?width=153&height=200&rmode=max",
+       "author": "Артём Помозов"
+      },
+      {
+       "id": "684806",
+       "title": "Дневник Сталкера. Наследие",
+       "cover": "https://cm.author.today/content/2026/11/12/ec4898f54e114fb5bc42b78f837d0990.jpg?width=153&height=200&rmode=max",
+       "author": "Луна"
+      },
+      {
+       "id": "684275",
+       "title": "Сокровище зверя",
+       "cover": "https://cm.author.today/content/2026/11/11/41827dcce8e7416c83498f7e3215956d.jpg?width=153&height=200&rmode=max",
+       "author": "Юлия Шевченко"
+      },
+      {
+       "id": "682286",
+       "title": "Кофе в Цветке",
+       "cover": "https://cm.author.today/content/2026/11/08/76ae53383ddd42598ab77fd648f91bf0.jpg?width=153&height=200&rmode=max",
+       "author": "Erya Meg"
+      },
+      {
+       "id": "670444",
+       "title": "Чудовищная работа",
+       "cover": "https://cm.author.today/content/2026/10/18/ddfe1b50cefc4b64af41318b17292c83.jpg?width=153&height=200&rmode=max",
+       "author": "Маир Арлатов"
+      },
+      {
+       "id": "684775",
+       "title": "Кот и Синеокая Звезда",
+       "cover": "https://cm.author.today/content/2026/11/12/0cd9c333214e456ca8b3d7a32d3734d7.jpg?width=153&height=200&rmode=max",
+       "author": "Лившина Елена"
+      },
+      {
+       "id": "646077",
+       "title": "Выживание в магазине:Пустыня",
+       "cover": "https://cm.author.today/content/2026/09/01/47182c825d5048b2ac352c81b68ba9ab.jpg?width=153&height=200&rmode=max",
+       "author": "Черный Кот"
+      },
+      {
+       "id": "680574",
+       "title": "Агнозоариум",
+       "cover": "https://cm.author.today/content/2026/11/05/a910a7b557d641439ed24f1f6f3c6815.jpg?width=153&height=200&rmode=max",
+       "author": "Страшила"
+      },
+      {
+       "id": "684801",
+       "title": "Протокол \"Чужая земля\"",
+       "cover": "https://cm.author.today/content/2026/11/12/5cc63ff638d5442db54cce34e02e54ee.jpg?width=153&height=200&rmode=max",
+       "author": "Ян Духов"
+      },
+      {
+       "id": "613447",
+       "title": "Крылья ночи",
+       "cover": "https://cm.author.today/content/2026/06/28/4a746a9b16444566b6628fb25f2741b4.jpg?width=153&height=200&rmode=max",
+       "author": "FakeL"
+      },
+      {
+       "id": "682546",
+       "title": "Смерть Ангела",
+       "cover": "https://cm.author.today/content/2026/11/08/4788fe1fcb5c474e851fc734a83c2aa8.jpg?width=153&height=200&rmode=max",
+       "author": "Lina Vokintis"
+      },
+      {
+       "id": "684073",
+       "title": "Перехват. Шифр «Магдебурга»",
+       "cover": "https://cm.author.today/content/2026/11/11/a5aa9f48a5884a4f9f5a7c898e518e32.jpg?width=153&height=200&rmode=max",
+       "author": "Левиафан Кейн, Тереньтьев Михаил Петрович"
+      },
+      {
+       "id": "682968",
+       "title": "Сталь и лёд (Из тени…) книга 5",
+       "cover": "https://cm.author.today/content/2026/11/10/21ae81bd2e424beab74ffbf6d29703c5.jpg?width=153&height=200&rmode=max",
+       "author": "equus albus"
+      },
+      {
+       "id": "682264",
+       "title": "Приют",
+       "cover": "https://cm.author.today/content/2026/11/08/2dacbdf7f1eb4a5d84fe954708317a7f.jpg?width=153&height=200&rmode=max",
+       "author": "Степанов Георгий Владимирович"
+      },
+      {
+       "id": "599118",
+       "title": "Архив \"Константы\"",
+       "cover": "https://cm.author.today/content/2026/09/08/d60299b1601d4f29a1a12ec2c69f93b2.jpg?width=153&height=200&rmode=max",
+       "author": "Наталья Мидоночева"
+      },
+      {
+       "id": "658467",
+       "title": "Хроники террагона: Пир лжецов",
+       "cover": "https://cm.author.today/content/2026/10/16/296fb0d06e6f41d98f5864834bc8f416.jpg?width=153&height=200&rmode=max",
+       "author": "Максим Главатских"
+      },
+      {
+       "id": "621613",
+       "title": "Побеги Блэка",
+       "cover": "https://cm.author.today/content/2026/07/15/5f872e800eac4b1ea7060821a7e47f38.jpg?width=153&height=200&rmode=max",
+       "author": "E ea I"
+      },
+      {
+       "id": "684791",
+       "title": "Дневники архимага",
+       "cover": "https://cm.author.today/content/2026/11/12/09e253896ed3407385e35907c7464aa4.jpg?width=153&height=200&rmode=max",
+       "author": "Marina Belinckaya"
+      },
+      {
+       "id": "674610",
+       "title": "Зов Улары",
+       "cover": "https://cm.author.today/content/2026/11/06/2beb69d5a2f6483a86de18d5f4d1cabd.jpg?width=153&height=200&rmode=max",
+       "author": "Алёхин Кирилл"
+      },
+      {
+       "id": "683491",
+       "title": "Фиалка для дальнобойщика",
+       "cover": "https://cm.author.today/content/2026/11/10/c304e80d5614452a88714fd82ffef573.jpg?width=153&height=200&rmode=max",
+       "author": "Ава Штайн",
+       "nsfw": true
+      },
+      {
+       "id": "668734",
+       "title": "Танцы в персиковом саду",
+       "cover": "https://cm.author.today/content/2026/10/20/d4fe40a5fdd746428f6d930cdc24c10b.jpg?width=153&height=200&rmode=max",
+       "author": "Дмитрий Ласточкин"
+      },
+      {
+       "id": "645375",
+       "title": "Мор. Книга 2. Перегрин.",
+       "cover": "https://cm.author.today/content/2026/11/04/7f415cb7eaef48178ac3b7f423400408.jpg?width=153&height=200&rmode=max",
+       "author": "Александр Теслин"
+      },
+      {
+       "id": "683965",
+       "title": "Девятый вагон",
+       "cover": "https://cm.author.today/content/2026/11/11/b89f44ac80a64d3ebf8d5942bcc15407.jpg?width=153&height=200&rmode=max",
+       "author": "Лев Белояр"
+      },
+      {
+       "id": "658404",
+       "title": "Четвёртый",
+       "author": "Кин Станислав Янович"
+      },
+      {
+       "id": "673439",
+       "title": "Бей в бубен, Хис! - II",
+       "cover": "https://cm.author.today/content/2026/10/24/1455d6f6823042febb82a9b11387b9b9.jpg?width=153&height=200&rmode=max",
+       "author": "Николай Михайлов"
+      }
+     ],
+     "hasNext": true
+    }
+   }
+  },
+  {
+   "fn": "filters",
+   "args": [],
+   "result": {
+    "ok": [
+     {
+      "id": "sort",
+      "title": "Сортировка",
+      "type": "select",
+      "default": "popular",
+      "options": [
+       {
+        "id": "popular",
+        "title": "По популярности"
+       },
+       {
+        "id": "trending",
+        "title": "Набирающие популярность"
+       },
+       {
+        "id": "likes",
+        "title": "По лайкам"
+       },
+       {
+        "id": "views",
+        "title": "По просмотрам"
+       },
+       {
+        "id": "comments",
+        "title": "По комментариям"
+       },
+       {
+        "id": "recent",
+        "title": "Новинки"
+       },
+       {
+        "id": "updated",
+        "title": "По обновлениям"
+       }
+      ]
+     },
+     {
+      "id": "genre",
+      "title": "Жанр",
+      "type": "select",
+      "options": [
+       {
+        "id": "sf-history",
+        "title": "Альтернативная история"
+       },
+       {
+        "id": "sf-action",
+        "title": "Боевая фантастика"
+       },
+       {
+        "id": "action",
+        "title": "Боевик"
+       },
+       {
+        "id": "fantasy-action",
+        "title": "Боевое фэнтези"
+       },
+       {
+        "id": "boyar-anime",
+        "title": "Бояръ-Аниме"
+       },
+       {
+        "id": "everyday-fantasy",
+        "title": "Бытовое фэнтези"
+       },
+       {
+        "id": "sf-heroic",
+        "title": "Героическая фантастика"
+       },
+       {
+        "id": "heroic-fantasy",
+        "title": "Героическое фэнтези"
+       },
+       {
+        "id": "urban-fantasy",
+        "title": "Городское фэнтези"
+       },
+       {
+        "id": "detective",
+        "title": "Детектив"
+       },
+       {
+        "id": "dorama",
+        "title": "Дорама"
+       },
+       {
+        "id": "historical-fiction",
+        "title": "Историческая проза"
+       },
+       {
+        "id": "historical-adventure",
+        "title": "Исторические приключения"
+       },
+       {
+        "id": "litrpg",
+        "title": "ЛитРПГ"
+       },
+       {
+        "id": "romance",
+        "title": "Любовные романы"
+       },
+       {
+        "id": "magic-school",
+        "title": "Магическая академия"
+       },
+       {
+        "id": "back-to-ussr",
+        "title": "Назад в СССР"
+       },
+       {
+        "id": "teen-prose",
+        "title": "Подростковая проза"
+       },
+       {
+        "id": "popadantsy",
+        "title": "Попаданцы"
+       },
+       {
+        "id": "popadantsy-v-magicheskie-miry",
+        "title": "Попаданцы в магические миры"
+       },
+       {
+        "id": "popadantsy-vo-vremeni",
+        "title": "Попаданцы во времени"
+       },
+       {
+        "id": "poetry",
+        "title": "Поэзия"
+       },
+       {
+        "id": "adventure",
+        "title": "Приключения"
+       },
+       {
+        "id": "realrpg",
+        "title": "РеалРПГ"
+       },
+       {
+        "id": "rusreal",
+        "title": "Русреал"
+       },
+       {
+        "id": "modern-prose",
+        "title": "Современная проза"
+       },
+       {
+        "id": "sf-social",
+        "title": "Социальная фантастика"
+       },
+       {
+        "id": "techno-fantasy",
+        "title": "Технофэнтези"
+       },
+       {
+        "id": "thriller",
+        "title": "Триллер"
+       },
+       {
+        "id": "horror",
+        "title": "Ужасы"
+       },
+       {
+        "id": "wuxia",
+        "title": "Уся"
+       },
+       {
+        "id": "sci-fi",
+        "title": "Фантастика"
+       },
+       {
+        "id": "fanfiction",
+        "title": "Фанфик"
+       },
+       {
+        "id": "fantasy",
+        "title": "Фэнтези"
+       },
+       {
+        "id": "fantasy-erotika",
+        "title": "Эротическое фэнтези"
+       },
+       {
+        "id": "humor",
+        "title": "Юмор"
+       }
+      ]
+     },
+     {
+      "id": "form",
+      "title": "Форма",
+      "type": "select",
+      "options": [
+       {
+        "id": "novel",
+        "title": "Роман"
+       },
+       {
+        "id": "tale",
+        "title": "Повесть"
+       },
+       {
+        "id": "story",
+        "title": "Рассказ"
+       },
+       {
+        "id": "story-book",
+        "title": "Сборник рассказов"
+       },
+       {
+        "id": "poetry",
+        "title": "Сборник поэзии"
+       },
+       {
+        "id": "translation",
+        "title": "Перевод"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "fn": "bookIdFromUrl",
+   "args": [
+    "https://author.today/work/677832#comments"
+   ],
+   "result": {
+    "ok": "677832"
+   }
+  },
+  {
+   "fn": "bookIdFromUrl",
+   "args": [
+    "https://author.today/reader/677832/6554513"
+   ],
+   "result": {
+    "ok": "677832"
+   }
+  },
+  {
+   "fn": "bookIdFromUrl",
+   "args": [
+    "https://ranobelib.me/ru/book/1--x"
+   ],
+   "result": {
+    "ok": null
+   }
+  },
+  {
+   "fn": "details",
+   "args": [
+    "1"
+   ],
+   "result": {
+    "ok": {
+     "id": "1",
+     "title": "1917: Да здравствует Император!",
+     "tags": [
+      "Роман",
+      "Фантастика",
+      "Попаданцы во времени",
+      "Альтернативная история",
+      "авторский мир",
+      "война",
+      "интриги",
+      "интриги и политические заговоры",
+      "опасные приключения",
+      "попаданцы",
+      "российская империя",
+      "сильный герой",
+      "социальная фантастика"
+     ],
+     "status": "completed",
+     "lang": "ru",
+     "url": "https://author.today/work/1",
+     "author": "Владимир Марков-Бабкин",
+     "cover": "https://cm.author.today/content/2019/05/30/cc7b5a639c3f480ab31c57bad6fc628a.jpg",
+     "description": "Книга первая: «1917: ДА ЗДРАВСТВУЕТ ИМПЕРАТОР!» Можно ли сломать ход истории за два дня? Особенно, если революция уже идет полным ходом? Наш современник оказывается в теле брата Николая Второго в дни Февральской революции. Понимая, что обречен на гибель, обновленный Михаил пытается вырваться из ловушки, но единственным путем к спасению становится будущая встреча с Николаем Вторым, в попытке изменить ход истории России. Но между ними 600 километров, а времени в запасе считанные часы. А в Петрограде события развиваются своим чередом. Охваченная революцией столица не подчиняется никакой власти, и уже погрузилась в пучину анархии. Но пока по улицам бродят воодушевленные статисты с флагами, за кулисами революции идет Большая Игра. Удастся ли главному герою добраться и убедить царя? А если нет, то удастся ли ему самостоятельно изменить ход истории?"
+    }
+   }
+  }
+ ],
+ "missing": []
+}

@@ -1,7 +1,18 @@
 {
   "ranobelib": {
-    "search": ["мать ученья", 1],
+    "search": [
+      "мать ученья",
+      1
+    ],
     "book": "19232--mother-of-learning",
     "minChapters": 100
+  },
+  "authortoday": {
+    "search": [
+      1
+    ],
+    "searchFn": "popular",
+    "book": "677832",
+    "minChapters": 3
   }
 }

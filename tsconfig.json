@@ -1,4 +1,16 @@
 {
   "extends": "./base/tsconfig.json",
-  "include": ["base/lib/**/*.ts", "plugins/**/*.ts"]
+  "include": [
+    "base/lib/**/*.ts",
+    "plugins/**/*.ts"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "base/node_modules/*",
+        "base/node_modules/@types/*"
+      ]
+    }
+  }
 }
