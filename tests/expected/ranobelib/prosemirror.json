@@ -1,0 +1,2984 @@
+{
+ "manifest": {
+  "id": "ranobelib",
+  "name": "RanobeLib",
+  "version": "1.0.0",
+  "api": 1,
+  "lang": "ru",
+  "site": "https://ranobelib.me",
+  "domains": [
+   "api.cdnlibs.org",
+   "ranobelib.me"
+  ],
+  "icon": "icons/ranobelib.png",
+  "content": [
+   "text"
+  ],
+  "features": [
+   "popular",
+   "latest",
+   "search",
+   "filters",
+   "login",
+   "byUrl"
+  ],
+  "nsfw": false,
+  "studio": "private",
+  "browser": "onChallenge",
+  "rateLimit": {
+   "rps": 1,
+   "burst": 3
+  },
+  "login": {
+   "url": "https://ranobelib.me/ru/front/auth",
+   "kind": "localStorage",
+   "key": "auth",
+   "path": "/token/access_token",
+   "header": "Authorization: Bearer {token}"
+  }
+ },
+ "core": {
+  "version": "1.1.0"
+ },
+ "results": [
+  {
+   "fn": "chapters",
+   "args": [
+    "214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls"
+   ],
+   "result": {
+    "ok": [
+     {
+      "id": "1/1@21644",
+      "title": "Глава 1. Во что я ввязался...",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c1?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T04:38:39Z"
+     },
+     {
+      "id": "1/2@21644",
+      "title": "Глава 2. «Abyss Transpo»",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c2?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T04:40:26Z"
+     },
+     {
+      "id": "1/3@21644",
+      "title": "Глава 3. Потерянная вещь",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c3?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T04:42:58Z"
+     },
+     {
+      "id": "1/4@21644",
+      "title": "Глава 4. Нужная станция",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c4?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T04:48:10Z"
+     },
+     {
+      "id": "1/5@21644",
+      "title": "Глава 5. Церемония вручения подарков",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c5?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T04:49:25Z"
+     },
+     {
+      "id": "1/6@21644",
+      "title": "Глава 6. Корпоративное жильё",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c6?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T04:50:23Z"
+     },
+     {
+      "id": "1/7@21644",
+      "title": "Глава 7. Вводный курс",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c7?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T04:51:09Z"
+     },
+     {
+      "id": "1/8@21644",
+      "title": "Глава 8",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c8?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T04:52:00Z"
+     },
+     {
+      "id": "1/9@21644",
+      "title": "Глава 9",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c9?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T04:53:01Z"
+     },
+     {
+      "id": "1/10@21644",
+      "title": "Глава 10",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c10?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T04:54:09Z"
+     },
+     {
+      "id": "1/11@21644",
+      "title": "Глава 11",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c11?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T04:55:21Z"
+     },
+     {
+      "id": "1/12@21644",
+      "title": "Глава 12",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c12?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T04:57:12Z"
+     },
+     {
+      "id": "1/13@21644",
+      "title": "Глава 13",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c13?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T04:58:38Z"
+     },
+     {
+      "id": "1/14@21644",
+      "title": "Глава 14",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c14?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:02:05Z"
+     },
+     {
+      "id": "1/15@21644",
+      "title": "Глава 15",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c15?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:03:03Z"
+     },
+     {
+      "id": "1/16@21644",
+      "title": "Глава 16",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c16?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:05:24Z"
+     },
+     {
+      "id": "1/17@21644",
+      "title": "Глава 17",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c17?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:06:41Z"
+     },
+     {
+      "id": "1/18@21644",
+      "title": "Глава 18",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c18?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:08:13Z"
+     },
+     {
+      "id": "1/19@21644",
+      "title": "Глава 19",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c19?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:09:52Z"
+     },
+     {
+      "id": "1/20@21644",
+      "title": "Глава 20",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c20?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:11:40Z"
+     },
+     {
+      "id": "1/21@21644",
+      "title": "Глава 21",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c21?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:13:11Z"
+     },
+     {
+      "id": "1/22@21644",
+      "title": "Глава 22",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c22?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:14:32Z"
+     },
+     {
+      "id": "1/23@21644",
+      "title": "Глава 23",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c23?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:15:38Z"
+     },
+     {
+      "id": "1/24@21644",
+      "title": "Глава 24",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c24?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:21:15Z"
+     },
+     {
+      "id": "1/25@21644",
+      "title": "Глава 25",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c25?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:25:48Z"
+     },
+     {
+      "id": "1/26@21644",
+      "title": "Глава 26",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c26?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:27:25Z"
+     },
+     {
+      "id": "1/27@21644",
+      "title": "Глава 27",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c27?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:28:17Z"
+     },
+     {
+      "id": "1/28@21644",
+      "title": "Глава 28",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c28?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:29:11Z"
+     },
+     {
+      "id": "1/29@21644",
+      "title": "Глава 29",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c29?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:31:27Z"
+     },
+     {
+      "id": "1/30@21644",
+      "title": "Глава 30",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c30?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:37:22Z"
+     },
+     {
+      "id": "1/31@21644",
+      "title": "Глава 31",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c31?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:39:18Z"
+     },
+     {
+      "id": "1/32@21644",
+      "title": "Глава 32",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c32?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:42:08Z"
+     },
+     {
+      "id": "1/33@21644",
+      "title": "Глава 33",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c33?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:43:02Z"
+     },
+     {
+      "id": "1/34@21644",
+      "title": "Глава 34",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c34?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:43:52Z"
+     },
+     {
+      "id": "1/35@21644",
+      "title": "Глава 35",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c35?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:44:31Z"
+     },
+     {
+      "id": "1/36@21644",
+      "title": "Глава 36",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c36?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:45:19Z"
+     },
+     {
+      "id": "1/37@21644",
+      "title": "Глава 37",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c37?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:53:30Z"
+     },
+     {
+      "id": "1/38@21644",
+      "title": "Глава 38",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c38?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:54:43Z"
+     },
+     {
+      "id": "1/39@21644",
+      "title": "Глава 39",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c39?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T05:58:11Z"
+     },
+     {
+      "id": "1/40@21644",
+      "title": "Глава 40",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c40?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:01:10Z"
+     },
+     {
+      "id": "1/41@21644",
+      "title": "Глава 41",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c41?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:22:13Z"
+     },
+     {
+      "id": "1/42@21644",
+      "title": "Глава 42",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c42?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:23:08Z"
+     },
+     {
+      "id": "1/43@21644",
+      "title": "Глава 43",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c43?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:29:28Z"
+     },
+     {
+      "id": "1/44@21644",
+      "title": "Глава 44",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c44?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:31:09Z"
+     },
+     {
+      "id": "1/45@21644",
+      "title": "Глава 45",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c45?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:37:54Z"
+     },
+     {
+      "id": "1/46@21644",
+      "title": "Глава 46",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c46?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:39:03Z"
+     },
+     {
+      "id": "1/47@21644",
+      "title": "Глава 47",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c47?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:39:55Z"
+     },
+     {
+      "id": "1/48@21644",
+      "title": "Глава 48",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c48?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:40:44Z"
+     },
+     {
+      "id": "1/49@21644",
+      "title": "Глава 49",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c49?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:41:43Z"
+     },
+     {
+      "id": "1/50@21644",
+      "title": "Глава 50",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c50?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:42:48Z"
+     },
+     {
+      "id": "1/51@21644",
+      "title": "Глава 51",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c51?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:43:42Z"
+     },
+     {
+      "id": "1/52@21644",
+      "title": "Глава 52",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c52?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:47:01Z"
+     },
+     {
+      "id": "1/53@21644",
+      "title": "Глава 53",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c53?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:49:23Z"
+     },
+     {
+      "id": "1/54@21644",
+      "title": "Глава 54",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c54?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:52:00Z"
+     },
+     {
+      "id": "1/55@21644",
+      "title": "Глава 55",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c55?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:52:54Z"
+     },
+     {
+      "id": "1/56@21644",
+      "title": "Глава 56",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c56?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T06:53:39Z"
+     },
+     {
+      "id": "1/57@21644",
+      "title": "Глава 57",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c57?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:04:42Z"
+     },
+     {
+      "id": "1/58@21644",
+      "title": "Глава 58",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c58?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:05:10Z"
+     },
+     {
+      "id": "1/59@21644",
+      "title": "Глава 59",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c59?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:06:57Z"
+     },
+     {
+      "id": "1/60@21644",
+      "title": "Глава 60",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c60?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:07:55Z"
+     },
+     {
+      "id": "1/61@21644",
+      "title": "Глава 61",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c61?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:09:56Z"
+     },
+     {
+      "id": "1/62@21644",
+      "title": "Глава 62",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c62?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:14:10Z"
+     },
+     {
+      "id": "1/63@21644",
+      "title": "Глава 63",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c63?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:18:02Z"
+     },
+     {
+      "id": "1/64@21644",
+      "title": "Глава 64",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c64?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:18:46Z"
+     },
+     {
+      "id": "1/65@21644",
+      "title": "Глава 65",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c65?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:23:45Z"
+     },
+     {
+      "id": "1/66@21644",
+      "title": "Глава 66",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c66?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:24:30Z"
+     },
+     {
+      "id": "1/67@21644",
+      "title": "Глава 67",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c67?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:26:08Z"
+     },
+     {
+      "id": "1/68@21644",
+      "title": "Глава 68",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c68?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:28:43Z"
+     },
+     {
+      "id": "1/69@21644",
+      "title": "Глава 69",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c69?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:31:03Z"
+     },
+     {
+      "id": "1/70@21644",
+      "title": "Глава 70",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c70?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:31:32Z"
+     },
+     {
+      "id": "1/71@21644",
+      "title": "Глава 71",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c71?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:32:35Z"
+     },
+     {
+      "id": "1/72@21644",
+      "title": "Глава 72",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c72?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:34:05Z"
+     },
+     {
+      "id": "1/73@21644",
+      "title": "Глава 73",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c73?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:35:13Z"
+     },
+     {
+      "id": "1/74@21644",
+      "title": "Глава 74",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c74?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:38:49Z"
+     },
+     {
+      "id": "1/75@21644",
+      "title": "Глава 75",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c75?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:40:15Z"
+     },
+     {
+      "id": "1/76@21644",
+      "title": "Глава 76",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c76?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:41:19Z"
+     },
+     {
+      "id": "1/77@21644",
+      "title": "Глава 77",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c77?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:43:48Z"
+     },
+     {
+      "id": "1/78@21644",
+      "title": "Глава 78",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c78?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:44:31Z"
+     },
+     {
+      "id": "1/79@21644",
+      "title": "Глава 79",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c79?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:48:32Z"
+     },
+     {
+      "id": "1/80@21644",
+      "title": "Глава 80",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c80?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:51:53Z"
+     },
+     {
+      "id": "1/81@21644",
+      "title": "Глава 81",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c81?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:54:55Z"
+     },
+     {
+      "id": "1/82@21644",
+      "title": "Глава 82",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c82?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:55:48Z"
+     },
+     {
+      "id": "1/83@21644",
+      "title": "Глава 83",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c83?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T07:56:20Z"
+     },
+     {
+      "id": "1/84@21644",
+      "title": "Глава 84",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c84?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T08:00:09Z"
+     },
+     {
+      "id": "1/85@21644",
+      "title": "Глава 85",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c85?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T08:01:22Z"
+     },
+     {
+      "id": "1/86@21644",
+      "title": "Глава 86",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c86?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T08:02:34Z"
+     },
+     {
+      "id": "1/87@21644",
+      "title": "Глава 87",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c87?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T08:03:17Z"
+     },
+     {
+      "id": "1/88@21644",
+      "title": "Глава 88",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c88?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T08:04:02Z"
+     },
+     {
+      "id": "1/89@21644",
+      "title": "Глава 89",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c89?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T08:04:56Z"
+     },
+     {
+      "id": "1/90@21644",
+      "title": "Глава 90",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c90?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T08:05:44Z"
+     },
+     {
+      "id": "1/91@21644",
+      "title": "Глава 91",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c91?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T08:07:46Z"
+     },
+     {
+      "id": "1/92@21644",
+      "title": "Глава 92",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c92?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T08:08:46Z"
+     },
+     {
+      "id": "1/93@21644",
+      "title": "Глава 93",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c93?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T08:19:10Z"
+     },
+     {
+      "id": "1/94@21644",
+      "title": "Глава 94",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c94?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T08:19:57Z"
+     },
+     {
+      "id": "1/95@21644",
+      "title": "Глава 95",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c95?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T08:22:33Z"
+     },
+     {
+      "id": "1/96@21644",
+      "title": "Глава 96",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c96?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T08:26:10Z"
+     },
+     {
+      "id": "1/97@21644",
+      "title": "Глава 97",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c97?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T08:56:44Z"
+     },
+     {
+      "id": "1/98@21644",
+      "title": "Глава 98",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c98?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T08:57:37Z"
+     },
+     {
+      "id": "1/99@21644",
+      "title": "Глава 99",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c99?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T08:58:37Z"
+     },
+     {
+      "id": "1/100@21644",
+      "title": "Глава 100",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c100?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-16T09:00:05Z"
+     },
+     {
+      "id": "1/101@21644",
+      "title": "Глава 101",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c101?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-20T15:10:18Z"
+     },
+     {
+      "id": "1/102@21644",
+      "title": "Глава 102",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c102?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-20T15:10:57Z"
+     },
+     {
+      "id": "1/103@21644",
+      "title": "Глава 103",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c103?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-20T15:15:15Z"
+     },
+     {
+      "id": "1/104@21644",
+      "title": "Глава 104",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c104?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-24T11:18:26Z"
+     },
+     {
+      "id": "1/105@21644",
+      "title": "Глава 105",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c105?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-24T11:20:35Z"
+     },
+     {
+      "id": "1/106@21644",
+      "title": "Глава 106",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c106?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-24T11:21:56Z"
+     },
+     {
+      "id": "1/107@21644",
+      "title": "Глава 107",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c107?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-28T14:43:07Z"
+     },
+     {
+      "id": "1/108@21644",
+      "title": "Глава 108",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c108?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-03-28T14:44:41Z"
+     },
+     {
+      "id": "1/109@21644",
+      "title": "Глава 109",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c109?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-04-07T16:08:58Z"
+     },
+     {
+      "id": "1/110@21644",
+      "title": "Глава 110",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c110?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-04-07T16:09:53Z"
+     },
+     {
+      "id": "1/111@21644",
+      "title": "Глава 111",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c111?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-04-07T16:12:13Z"
+     },
+     {
+      "id": "1/112@21644",
+      "title": "Глава 112",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c112?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-04-07T16:14:09Z"
+     },
+     {
+      "id": "1/113@21644",
+      "title": "Глава 113",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c113?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-04-07T16:16:17Z"
+     },
+     {
+      "id": "1/114@21644",
+      "title": "Глава 114",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c114?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-04-18T14:36:15Z"
+     },
+     {
+      "id": "1/115@21644",
+      "title": "Глава 115",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c115?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-04-18T14:39:28Z"
+     },
+     {
+      "id": "1/116@21644",
+      "title": "Глава 116",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c116?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-04-26T10:45:07Z"
+     },
+     {
+      "id": "1/117@21644",
+      "title": "Глава 117",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c117?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-05-03T06:02:48Z"
+     },
+     {
+      "id": "1/118@21644",
+      "title": "Глава 118",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c118?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-05-14T06:55:02Z"
+     },
+     {
+      "id": "1/119@21644",
+      "title": "Глава 119",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c119?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-05-14T07:04:57Z"
+     },
+     {
+      "id": "1/120@21644",
+      "title": "Глава 120",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c120?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-05-16T06:56:20Z"
+     },
+     {
+      "id": "1/121@21644",
+      "title": "Глава 121",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c121?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-05-26T11:45:06Z"
+     },
+     {
+      "id": "1/122@21644",
+      "title": "Глава 122",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c122?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-01T11:02:11Z"
+     },
+     {
+      "id": "1/123@21644",
+      "title": "Глава 123",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c123?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-02T06:29:55Z"
+     },
+     {
+      "id": "1/124@21644",
+      "title": "Глава 124",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c124?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-03T07:25:05Z"
+     },
+     {
+      "id": "1/125@21644",
+      "title": "Глава 125",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c125?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-04T06:28:51Z"
+     },
+     {
+      "id": "1/126@21644",
+      "title": "Глава 126",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c126?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-05T08:16:46Z"
+     },
+     {
+      "id": "1/127@21644",
+      "title": "Глава 127",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c127?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-06T06:26:17Z"
+     },
+     {
+      "id": "1/128@21644",
+      "title": "Глава 128",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c128?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-07T06:13:30Z"
+     },
+     {
+      "id": "1/129@21644",
+      "title": "Глава 129",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c129?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-08T08:24:15Z"
+     },
+     {
+      "id": "1/130@21644",
+      "title": "Глава 130",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c130?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-09T05:55:02Z"
+     },
+     {
+      "id": "1/131@21644",
+      "title": "Глава 131",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c131?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-10T07:40:50Z"
+     },
+     {
+      "id": "1/132@21644",
+      "title": "Глава 132",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c132?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-14T08:37:52Z"
+     },
+     {
+      "id": "1/133@21644",
+      "title": "Глава 133",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c133?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-15T06:39:37Z"
+     },
+     {
+      "id": "1/134@21644",
+      "title": "Глава 134",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c134?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-16T14:28:23Z"
+     },
+     {
+      "id": "1/135@21644",
+      "title": "Глава 135",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c135?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-21T06:21:29Z"
+     },
+     {
+      "id": "1/136@21644",
+      "title": "Глава 136",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c136?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-22T08:56:58Z"
+     },
+     {
+      "id": "1/137@21644",
+      "title": "Глава 137",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c137?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-23T06:22:46Z"
+     },
+     {
+      "id": "1/138@21644",
+      "title": "Глава 138",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c138?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-24T07:45:14Z"
+     },
+     {
+      "id": "1/139@21644",
+      "title": "Глава 139",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c139?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-25T11:07:48Z"
+     },
+     {
+      "id": "1/140@21644",
+      "title": "Глава 140",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c140?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-26T06:58:26Z"
+     },
+     {
+      "id": "1/141@21644",
+      "title": "Глава 141",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c141?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-07-27T06:45:30Z"
+     },
+     {
+      "id": "1/142@21644",
+      "title": "Глава 142",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c142?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-01T05:52:18Z"
+     },
+     {
+      "id": "1/143@21644",
+      "title": "Глава 143",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c143?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-01T05:52:19Z"
+     },
+     {
+      "id": "1/144@21644",
+      "title": "Глава 144",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c144?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-01T05:52:19Z"
+     },
+     {
+      "id": "1/145@21644",
+      "title": "Глава 145",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c145?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-01T05:52:19Z"
+     },
+     {
+      "id": "1/146@21644",
+      "title": "Глава 146",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c146?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-01T05:52:19Z"
+     },
+     {
+      "id": "1/147@21644",
+      "title": "Глава 147",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c147?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-05T07:59:14Z"
+     },
+     {
+      "id": "1/148@21644",
+      "title": "Глава 148",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c148?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-05T07:59:14Z"
+     },
+     {
+      "id": "1/149@21644",
+      "title": "Глава 149",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c149?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-05T07:59:15Z"
+     },
+     {
+      "id": "1/150@21644",
+      "title": "Глава 150",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c150?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-05T07:59:15Z"
+     },
+     {
+      "id": "1/151@21644",
+      "title": "Глава 151",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c151?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-05T07:59:15Z"
+     },
+     {
+      "id": "1/152@21644",
+      "title": "Глава 152",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c152?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-05T07:59:15Z"
+     },
+     {
+      "id": "1/153@21644",
+      "title": "Глава 153",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c153?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-05T07:59:15Z"
+     },
+     {
+      "id": "1/154@21644",
+      "title": "Глава 154",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c154?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-05T07:59:16Z"
+     },
+     {
+      "id": "1/155@21644",
+      "title": "Глава 155",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c155?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-06T12:18:05Z"
+     },
+     {
+      "id": "1/156@21644",
+      "title": "Глава 156",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c156?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-06T13:19:33Z"
+     },
+     {
+      "id": "1/157@21644",
+      "title": "Глава 157",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c157?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-07T08:44:12Z"
+     },
+     {
+      "id": "1/158@21644",
+      "title": "Глава 158",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c158?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-07T10:37:05Z"
+     },
+     {
+      "id": "1/159@21644",
+      "title": "Глава 159",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c159?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-10T15:47:57Z"
+     },
+     {
+      "id": "1/160@21644",
+      "title": "Глава 160",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c160?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-10T15:47:58Z"
+     },
+     {
+      "id": "1/161@21644",
+      "title": "Глава 161",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c161?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-10T15:47:58Z"
+     },
+     {
+      "id": "1/162@21644",
+      "title": "Глава 162",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c162?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-10T15:47:58Z"
+     },
+     {
+      "id": "1/163@21644",
+      "title": "Глава 163",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c163?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-10T15:47:58Z"
+     },
+     {
+      "id": "1/164@21644",
+      "title": "Глава 164",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c164?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-10T15:47:59Z"
+     },
+     {
+      "id": "1/165@21644",
+      "title": "Глава 165",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c165?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-10T15:47:59Z"
+     },
+     {
+      "id": "1/166@21644",
+      "title": "Глава 166",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c166?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-14T19:44:58Z"
+     },
+     {
+      "id": "1/167@21644",
+      "title": "Глава 167",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c167?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-14T19:44:59Z"
+     },
+     {
+      "id": "1/168@21644",
+      "title": "Глава 168",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c168?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-16T16:48:12Z"
+     },
+     {
+      "id": "1/169@21644",
+      "title": "Глава 169",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c169?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-17T14:21:28Z"
+     },
+     {
+      "id": "1/170@21644",
+      "title": "Глава 170",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c170?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-18T16:32:35Z"
+     },
+     {
+      "id": "1/171@21644",
+      "title": "Глава 171",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c171?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-19T17:03:13Z"
+     },
+     {
+      "id": "1/172@21644",
+      "title": "Глава 172",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c172?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-20T16:54:47Z"
+     },
+     {
+      "id": "1/173@21644",
+      "title": "Глава 173",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c173?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-21T16:44:30Z"
+     },
+     {
+      "id": "1/174@21644",
+      "title": "Глава 174",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c174?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-22T16:40:32Z"
+     },
+     {
+      "id": "1/175@21644",
+      "title": "Глава 175",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c175?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-23T12:19:34Z"
+     },
+     {
+      "id": "1/176@21644",
+      "title": "Глава 176",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c176?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-24T14:40:20Z"
+     },
+     {
+      "id": "1/177@21644",
+      "title": "Глава 177",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c177?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-26T13:09:31Z"
+     },
+     {
+      "id": "1/178@21644",
+      "title": "Глава 178",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c178?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-27T11:43:09Z"
+     },
+     {
+      "id": "1/179@21644",
+      "title": "Глава 179",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c179?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-27T12:54:48Z"
+     },
+     {
+      "id": "1/180@21644",
+      "title": "Глава 180",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c180?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-28T12:39:00Z"
+     },
+     {
+      "id": "1/181@21644",
+      "title": "Глава 181",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c181?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-28T12:39:50Z"
+     },
+     {
+      "id": "1/182@21644",
+      "title": "Глава 182",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c182?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-28T12:40:40Z"
+     },
+     {
+      "id": "1/183@21644",
+      "title": "Глава 183",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c183?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-08-28T12:41:32Z"
+     },
+     {
+      "id": "1/184@21644",
+      "title": "Глава 184",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c184?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-09-01T10:25:16Z"
+     },
+     {
+      "id": "1/185@21644",
+      "title": "Глава 185",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c185?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-09-03T12:27:20Z"
+     },
+     {
+      "id": "1/186@21644",
+      "title": "Глава 186",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c186?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-09-03T12:31:10Z"
+     },
+     {
+      "id": "1/187@21644",
+      "title": "Глава 187",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c187?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-09-04T11:43:54Z"
+     },
+     {
+      "id": "1/188@21644",
+      "title": "Глава 188",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c188?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-09-07T08:37:40Z"
+     },
+     {
+      "id": "1/189@21644",
+      "title": "Глава 189",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c189?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-09-07T08:42:13Z"
+     },
+     {
+      "id": "1/190@21644",
+      "title": "Глава 190",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c190?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-09-10T15:39:19Z"
+     },
+     {
+      "id": "1/191@21644",
+      "title": "Глава 191",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c191?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-09-13T15:08:44Z"
+     },
+     {
+      "id": "1/192@21644",
+      "title": "Глава 192",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c192?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-09-17T15:47:20Z"
+     },
+     {
+      "id": "1/193@21644",
+      "title": "Глава 193",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c193?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-09-18T16:35:57Z"
+     },
+     {
+      "id": "1/194@21644",
+      "title": "Глава 194",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c194?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-09-19T15:12:23Z"
+     },
+     {
+      "id": "1/195@21644",
+      "title": "Глава 195",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c195?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-09-22T15:12:53Z"
+     },
+     {
+      "id": "1/196@21644",
+      "title": "Глава 196",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c196?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-09-30T15:32:35Z"
+     },
+     {
+      "id": "1/197@21644",
+      "title": "Глава 197",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c197?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-10-05T08:15:09Z"
+     },
+     {
+      "id": "1/198@21644",
+      "title": "Глава 198",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c198?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-10-05T08:15:48Z"
+     },
+     {
+      "id": "1/199@21644",
+      "title": "Глава 199",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c199?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-10-05T08:25:02Z"
+     },
+     {
+      "id": "1/200@21644",
+      "title": "Глава 200",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c200?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-10-06T15:47:35Z"
+     },
+     {
+      "id": "1/201@21644",
+      "title": "Глава 201",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c201?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-10-10T15:48:56Z"
+     },
+     {
+      "id": "1/202@21644",
+      "title": "Глава 202",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c202?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-10-11T13:23:30Z"
+     },
+     {
+      "id": "1/203@21644",
+      "title": "Глава 203",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c203?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-10-11T13:24:03Z"
+     },
+     {
+      "id": "1/204@21644",
+      "title": "Глава 204",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c204?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-10-11T13:28:42Z"
+     },
+     {
+      "id": "1/205@21644",
+      "title": "Глава 205",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c205?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-10-11T13:30:56Z"
+     },
+     {
+      "id": "1/206@21644",
+      "title": "Глава 206",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c206?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-10-11T13:34:21Z"
+     },
+     {
+      "id": "1/207@21644",
+      "title": "Глава 207",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c207?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-10-11T13:42:17Z"
+     },
+     {
+      "id": "1/208@21644",
+      "title": "Глава 208",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v1/c208?bid=21644",
+      "volume": "Том 1",
+      "date": "2025-10-11T13:56:04Z"
+     },
+     {
+      "id": "2/209@21644",
+      "title": "Глава 209",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c209?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-10-13T15:31:04Z"
+     },
+     {
+      "id": "2/210@21644",
+      "title": "Глава 210",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c210?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-10-15T16:11:04Z"
+     },
+     {
+      "id": "2/211@21644",
+      "title": "Глава 211",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c211?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-10-15T16:11:48Z"
+     },
+     {
+      "id": "2/212@21644",
+      "title": "Глава 212",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c212?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-10-15T16:14:07Z"
+     },
+     {
+      "id": "2/213@21644",
+      "title": "Глава 213",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c213?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-10-19T08:28:23Z"
+     },
+     {
+      "id": "2/214@21644",
+      "title": "Глава 214",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c214?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-10-19T08:29:05Z"
+     },
+     {
+      "id": "2/215@21644",
+      "title": "Глава 215",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c215?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-10-19T08:30:33Z"
+     },
+     {
+      "id": "2/216@21644",
+      "title": "Глава 216",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c216?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-10-19T08:31:33Z"
+     },
+     {
+      "id": "2/217@21644",
+      "title": "Глава 217",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c217?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-10-25T11:35:22Z"
+     },
+     {
+      "id": "2/218@21644",
+      "title": "Глава 218",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c218?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-10-25T11:37:28Z"
+     },
+     {
+      "id": "2/219@21644",
+      "title": "Глава 219",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c219?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-10-25T11:39:07Z"
+     },
+     {
+      "id": "2/220@21644",
+      "title": "Глава 220",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c220?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-10-25T11:47:26Z"
+     },
+     {
+      "id": "2/221@21644",
+      "title": "Глава 221",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c221?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-10-31T15:29:54Z"
+     },
+     {
+      "id": "2/222@21644",
+      "title": "Глава 222",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c222?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-01T07:44:52Z"
+     },
+     {
+      "id": "2/223@21644",
+      "title": "Глава 223",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c223?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-01T07:48:01Z"
+     },
+     {
+      "id": "2/224@21644",
+      "title": "Глава 224",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c224?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-01T07:50:30Z"
+     },
+     {
+      "id": "2/225@21644",
+      "title": "Глава 225",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c225?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-03T15:12:08Z"
+     },
+     {
+      "id": "2/226@21644",
+      "title": "Глава 226",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c226?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-08T11:10:55Z"
+     },
+     {
+      "id": "2/227@21644",
+      "title": "Глава 227",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c227?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-08T11:12:11Z"
+     },
+     {
+      "id": "2/228@21644",
+      "title": "Глава 228",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c228?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-08T11:13:28Z"
+     },
+     {
+      "id": "2/229@21644",
+      "title": "Глава 229",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c229?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-10T15:47:27Z"
+     },
+     {
+      "id": "2/230@21644",
+      "title": "Глава 230",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c230?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-10T15:56:24Z"
+     },
+     {
+      "id": "2/231@21644",
+      "title": "Глава 231",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c231?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-12T16:44:56Z"
+     },
+     {
+      "id": "2/232@21644",
+      "title": "Глава 232",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c232?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-12T16:45:34Z"
+     },
+     {
+      "id": "2/233@21644",
+      "title": "Глава 233",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c233?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-13T16:38:58Z"
+     },
+     {
+      "id": "2/234@21644",
+      "title": "Глава 234",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c234?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-14T15:45:18Z"
+     },
+     {
+      "id": "2/235@21644",
+      "title": "Глава 235",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c235?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-15T15:54:09Z"
+     },
+     {
+      "id": "2/236@21644",
+      "title": "Глава 236",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c236?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-15T15:54:51Z"
+     },
+     {
+      "id": "2/237@21644",
+      "title": "Глава 237",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c237?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-15T15:55:33Z"
+     },
+     {
+      "id": "2/238@21644",
+      "title": "Глава 238",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c238?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-15T15:56:10Z"
+     },
+     {
+      "id": "2/239@21644",
+      "title": "Глава 239",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c239?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-16T14:00:56Z"
+     },
+     {
+      "id": "2/240@21644",
+      "title": "Глава 240",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c240?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-16T14:07:08Z"
+     },
+     {
+      "id": "2/241@21644",
+      "title": "Глава 241",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c241?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-16T14:11:20Z"
+     },
+     {
+      "id": "2/242@21644",
+      "title": "Глава 242",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c242?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-16T14:21:45Z"
+     },
+     {
+      "id": "2/243@21644",
+      "title": "Глава 243",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c243?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-16T14:24:59Z"
+     },
+     {
+      "id": "2/244@21644",
+      "title": "Глава 244",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c244?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-17T16:22:09Z"
+     },
+     {
+      "id": "2/245@21644",
+      "title": "Глава 245",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c245?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-18T11:57:38Z"
+     },
+     {
+      "id": "2/246@21644",
+      "title": "Глава 246",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c246?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-19T15:32:18Z"
+     },
+     {
+      "id": "2/247@21644",
+      "title": "Глава 247",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c247?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-22T11:40:36Z"
+     },
+     {
+      "id": "2/248@21644",
+      "title": "Глава 248",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c248?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-22T11:50:04Z"
+     },
+     {
+      "id": "2/249@21644",
+      "title": "Глава 249",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c249?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-27T15:24:05Z"
+     },
+     {
+      "id": "2/250@21644",
+      "title": "Глава 250",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c250?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-29T12:18:59Z"
+     },
+     {
+      "id": "2/251@21644",
+      "title": "Глава 251",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c251?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-29T12:20:08Z"
+     },
+     {
+      "id": "2/252@21644",
+      "title": "Глава 252",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c252?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-29T12:22:04Z"
+     },
+     {
+      "id": "2/253@21644",
+      "title": "Глава 253",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c253?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-30T14:09:59Z"
+     },
+     {
+      "id": "2/254@21644",
+      "title": "Глава 254",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c254?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-30T14:13:50Z"
+     },
+     {
+      "id": "2/255@21644",
+      "title": "Глава 255",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c255?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-30T14:23:59Z"
+     },
+     {
+      "id": "2/256@21644",
+      "title": "Глава 256",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c256?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-30T14:26:41Z"
+     },
+     {
+      "id": "2/257@21644",
+      "title": "Глава 257",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c257?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-11-30T14:35:52Z"
+     },
+     {
+      "id": "2/258@21644",
+      "title": "Глава 258",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c258?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-12-01T15:44:48Z"
+     },
+     {
+      "id": "2/259@21644",
+      "title": "Глава 259",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c259?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-12-01T15:48:57Z"
+     },
+     {
+      "id": "2/260@21644",
+      "title": "Глава 260",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c260?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-12-06T12:17:21Z"
+     },
+     {
+      "id": "2/261@21644",
+      "title": "Глава 261",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c261?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-12-07T13:11:13Z"
+     },
+     {
+      "id": "2/262@21644",
+      "title": "Глава 262",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c262?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-12-08T16:14:55Z"
+     },
+     {
+      "id": "2/263@21644",
+      "title": "Глава 263",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c263?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-12-09T16:51:06Z"
+     },
+     {
+      "id": "2/264@21644",
+      "title": "Глава 264",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c264?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-12-20T10:26:35Z"
+     },
+     {
+      "id": "2/265@21644",
+      "title": "Глава 265",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c265?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-12-20T10:27:19Z"
+     },
+     {
+      "id": "2/266@21644",
+      "title": "Глава 266",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c266?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-12-20T10:30:58Z"
+     },
+     {
+      "id": "2/267@21644",
+      "title": "Глава 267",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c267?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-12-27T07:42:51Z"
+     },
+     {
+      "id": "2/268@21644",
+      "title": "Глава 268",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c268?bid=21644",
+      "volume": "Том 2",
+      "date": "2025-12-27T07:54:00Z"
+     },
+     {
+      "id": "2/269@21644",
+      "title": "Глава 269",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c269?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-01-02T10:12:13Z"
+     },
+     {
+      "id": "2/270@21644",
+      "title": "Глава 270",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c270?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-01-02T10:13:11Z"
+     },
+     {
+      "id": "2/271@21644",
+      "title": "Глава 271",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c271?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-01-02T10:17:07Z"
+     },
+     {
+      "id": "2/272@21644",
+      "title": "Глава 272",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c272?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-01-24T10:05:28Z"
+     },
+     {
+      "id": "2/273@21644",
+      "title": "Глава 273",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c273?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-01-24T10:12:42Z"
+     },
+     {
+      "id": "2/274@21644",
+      "title": "Глава 274",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c274?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-01-24T10:19:33Z"
+     },
+     {
+      "id": "2/275@21644",
+      "title": "Глава 275",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c275?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-01-26T15:56:34Z"
+     },
+     {
+      "id": "2/276@21644",
+      "title": "Глава 276",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c276?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-02-05T15:43:42Z"
+     },
+     {
+      "id": "2/277@21644",
+      "title": "Глава 277",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c277?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-02-09T16:33:46Z"
+     },
+     {
+      "id": "2/278@21644",
+      "title": "Глава 278",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c278?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-02-14T11:56:52Z"
+     },
+     {
+      "id": "2/279@21644",
+      "title": "Глава 279",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c279?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-02-14T12:05:58Z"
+     },
+     {
+      "id": "2/280@21644",
+      "title": "Глава 280",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c280?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-02-18T16:19:57Z"
+     },
+     {
+      "id": "2/281@21644",
+      "title": "Глава 281",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c281?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-02-22T08:08:59Z"
+     },
+     {
+      "id": "2/282@21644",
+      "title": "Глава 282",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c282?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-02-28T12:34:16Z"
+     },
+     {
+      "id": "2/283@21644",
+      "title": "Глава 283",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c283?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-02-28T12:36:22Z"
+     },
+     {
+      "id": "2/284@21644",
+      "title": "Глава 284",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c284?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-03-08T07:43:42Z"
+     },
+     {
+      "id": "2/285@21644",
+      "title": "Глава 285",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c285?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-03-08T07:46:35Z"
+     },
+     {
+      "id": "2/286@21644",
+      "title": "Глава 286",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c286?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-03-14T13:12:42Z"
+     },
+     {
+      "id": "2/287@21644",
+      "title": "Глава 287",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c287?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-03-15T11:23:25Z"
+     },
+     {
+      "id": "2/288@21644",
+      "title": "Глава 288",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c288?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-03-15T11:26:26Z"
+     },
+     {
+      "id": "2/289@21644",
+      "title": "Глава 289",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c289?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-03-15T11:31:02Z"
+     },
+     {
+      "id": "2/290@21644",
+      "title": "Глава 290",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c290?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-03-15T11:34:12Z"
+     },
+     {
+      "id": "2/291@21644",
+      "title": "Глава 291",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c291?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-03-22T07:27:04Z"
+     },
+     {
+      "id": "2/292@21644",
+      "title": "Глава 292",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c292?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-03-22T07:30:08Z"
+     },
+     {
+      "id": "2/293@21644",
+      "title": "Глава 293",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c293?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-03-28T13:20:35Z"
+     },
+     {
+      "id": "2/294@21644",
+      "title": "Глава 294",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c294?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-03-28T13:28:30Z"
+     },
+     {
+      "id": "2/295@21644",
+      "title": "Глава 295",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c295?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-04-05T09:21:25Z"
+     },
+     {
+      "id": "2/296@21644",
+      "title": "Глава 296",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c296?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-04-05T09:25:19Z"
+     },
+     {
+      "id": "2/297@21644",
+      "title": "Глава 297",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c297?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-04-05T09:29:22Z"
+     },
+     {
+      "id": "2/298@21644",
+      "title": "Глава 298",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c298?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-04-18T10:56:40Z"
+     },
+     {
+      "id": "2/299@21644",
+      "title": "Глава 299",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c299?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-04-18T10:59:55Z"
+     },
+     {
+      "id": "2/300@21644",
+      "title": "Глава 300",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c300?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-04-18T11:02:39Z"
+     },
+     {
+      "id": "2/301@21644",
+      "title": "Глава 301",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c301?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-04-19T10:07:56Z"
+     },
+     {
+      "id": "2/302@21644",
+      "title": "Глава 302",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c302?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-04-19T10:10:58Z"
+     },
+     {
+      "id": "2/303@21644",
+      "title": "Глава 303",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c303?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-04-19T10:37:19Z"
+     },
+     {
+      "id": "2/304@21644",
+      "title": "Глава 304",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c304?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-04-19T10:42:25Z"
+     },
+     {
+      "id": "2/305@21644",
+      "title": "Глава 305",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c305?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-04-26T14:11:59Z"
+     },
+     {
+      "id": "2/306@21644",
+      "title": "Глава 306",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c306?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-04-26T14:18:47Z"
+     },
+     {
+      "id": "2/307@21644",
+      "title": "Глава 307",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c307?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-04-26T14:22:53Z"
+     },
+     {
+      "id": "2/308@21644",
+      "title": "Глава 308",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c308?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-05-01T13:22:05Z"
+     },
+     {
+      "id": "2/309@21644",
+      "title": "Глава 309",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c309?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-05-01T13:23:20Z"
+     },
+     {
+      "id": "2/310@21644",
+      "title": "Глава 310",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c310?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-05-01T13:30:11Z"
+     },
+     {
+      "id": "2/311@21644",
+      "title": "Глава 311",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c311?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-05-01T13:35:34Z"
+     },
+     {
+      "id": "2/312@21644",
+      "title": "Глава 312",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c312?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-05-03T06:23:16Z"
+     },
+     {
+      "id": "2/313@21644",
+      "title": "Глава 313",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c313?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-05-07T12:04:50Z"
+     },
+     {
+      "id": "2/314@21644",
+      "title": "Глава 314",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c314?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-05-07T12:08:15Z"
+     },
+     {
+      "id": "2/315@21644",
+      "title": "Глава 315",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c315?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-05-07T12:11:48Z"
+     },
+     {
+      "id": "2/316@21644",
+      "title": "Глава 316",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c316?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-05-07T12:18:45Z"
+     },
+     {
+      "id": "2/317@21644",
+      "title": "Глава 317",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c317?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-05-09T10:35:07Z"
+     },
+     {
+      "id": "2/318@21644",
+      "title": "Глава 318",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c318?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-05-24T08:10:39Z"
+     },
+     {
+      "id": "2/319@21644",
+      "title": "Глава 319",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c319?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-05-24T08:15:55Z"
+     },
+     {
+      "id": "2/320@21644",
+      "title": "Глава 320",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c320?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-05-24T08:20:03Z"
+     },
+     {
+      "id": "2/321@21644",
+      "title": "Глава 321",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c321?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-06-07T11:24:51Z"
+     },
+     {
+      "id": "2/322@21644",
+      "title": "Глава 322",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c322?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-06-07T11:31:36Z"
+     },
+     {
+      "id": "2/323@21644",
+      "title": "Глава 323",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c323?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-06-07T11:34:10Z"
+     },
+     {
+      "id": "2/324@21644",
+      "title": "Глава 324",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c324?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-06-21T15:34:31Z"
+     },
+     {
+      "id": "2/325@21644",
+      "title": "Глава 325",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c325?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-06-21T15:40:23Z"
+     },
+     {
+      "id": "2/326@21644",
+      "title": "Глава 326",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c326?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-06-21T15:42:45Z"
+     },
+     {
+      "id": "2/327@21644",
+      "title": "Глава 327",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c327?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-06-21T15:44:06Z"
+     },
+     {
+      "id": "2/328@21644",
+      "title": "Глава 328",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c328?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-06-21T15:50:24Z"
+     },
+     {
+      "id": "2/329@21644",
+      "title": "Глава 329",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c329?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-06-21T15:56:43Z"
+     },
+     {
+      "id": "2/330@21644",
+      "title": "Глава 330",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c330?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-05T11:51:01Z"
+     },
+     {
+      "id": "2/331@21644",
+      "title": "Глава 331",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c331?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-05T11:53:22Z"
+     },
+     {
+      "id": "2/332@21644",
+      "title": "Глава 332",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c332?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-05T11:55:02Z"
+     },
+     {
+      "id": "2/333@21644",
+      "title": "Глава 333",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c333?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-06T10:37:03Z"
+     },
+     {
+      "id": "2/334@21644",
+      "title": "Глава 334",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c334?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-06T10:41:28Z"
+     },
+     {
+      "id": "2/335@21644",
+      "title": "Глава 335",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c335?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-06T10:45:38Z"
+     },
+     {
+      "id": "2/336@21644",
+      "title": "Глава 336",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c336?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-10T16:25:55Z"
+     },
+     {
+      "id": "2/337@21644",
+      "title": "Глава 337",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c337?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-10T16:33:14Z"
+     },
+     {
+      "id": "2/338@21644",
+      "title": "Глава 338",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c338?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-11T15:37:36Z"
+     },
+     {
+      "id": "2/339@21644",
+      "title": "Глава 339",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c339?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-11T15:38:38Z"
+     },
+     {
+      "id": "2/340@21644",
+      "title": "Глава 340",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c340?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-11T15:43:00Z"
+     },
+     {
+      "id": "2/341@21644",
+      "title": "Глава 341",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c341?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-11T15:44:47Z"
+     },
+     {
+      "id": "2/342@21644",
+      "title": "Глава 342",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c342?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-12T13:13:35Z"
+     },
+     {
+      "id": "2/343@21644",
+      "title": "Глава 343",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c343?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-12T13:16:18Z"
+     },
+     {
+      "id": "2/344@21644",
+      "title": "Глава 344",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c344?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-12T13:24:47Z"
+     },
+     {
+      "id": "2/345@21644",
+      "title": "Глава 345",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c345?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-12T13:27:31Z"
+     },
+     {
+      "id": "2/346@21644",
+      "title": "Глава 346",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c346?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-12T15:48:25Z"
+     },
+     {
+      "id": "2/347@21644",
+      "title": "Глава 347",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c347?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-18T13:39:36Z"
+     },
+     {
+      "id": "2/348@21644",
+      "title": "Глава 348",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c348?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-18T13:47:54Z"
+     },
+     {
+      "id": "2/349@21644",
+      "title": "Глава 349",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c349?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-18T13:49:41Z"
+     },
+     {
+      "id": "2/350@21644",
+      "title": "Глава 350",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c350?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-18T13:54:22Z"
+     },
+     {
+      "id": "2/351@21644",
+      "title": "Глава 351",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c351?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-19T14:34:47Z"
+     },
+     {
+      "id": "2/352@21644",
+      "title": "Глава 352",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c352?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-19T14:37:17Z"
+     },
+     {
+      "id": "2/353@21644",
+      "title": "Глава 353",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c353?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-19T14:47:46Z"
+     },
+     {
+      "id": "2/354@21644",
+      "title": "Глава 354",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c354?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-19T14:52:03Z"
+     },
+     {
+      "id": "2/355@21644",
+      "title": "Глава 355",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c355?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-26T11:39:06Z"
+     },
+     {
+      "id": "2/356@21644",
+      "title": "Глава 356",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c356?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-26T11:41:07Z"
+     },
+     {
+      "id": "2/357@21644",
+      "title": "Глава 357",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c357?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-07-26T11:49:53Z"
+     },
+     {
+      "id": "2/358@21644",
+      "title": "Глава 358",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c358?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-08-01T16:25:16Z"
+     },
+     {
+      "id": "2/359@21644",
+      "title": "Глава 359",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c359?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-08-01T16:30:46Z"
+     },
+     {
+      "id": "2/360@21644",
+      "title": "Глава 360",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c360?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-08-01T16:42:02Z"
+     },
+     {
+      "id": "2/361@21644",
+      "title": "Глава 361",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c361?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-08-01T16:45:51Z"
+     },
+     {
+      "id": "2/362@21644",
+      "title": "Глава 362",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c362?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-08-01T16:54:52Z"
+     },
+     {
+      "id": "2/363@21644",
+      "title": "Глава 363",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c363?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-08-02T16:22:05Z"
+     },
+     {
+      "id": "2/364@21644",
+      "title": "Глава 364",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c364?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-08-02T16:27:20Z"
+     },
+     {
+      "id": "2/365@21644",
+      "title": "Глава 365",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c365?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-08-02T16:30:02Z"
+     },
+     {
+      "id": "2/366@21644",
+      "title": "Глава 366",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c366?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-08-02T16:31:19Z"
+     },
+     {
+      "id": "2/367@21644",
+      "title": "Глава 367",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c367?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-08-02T16:36:05Z"
+     },
+     {
+      "id": "2/368@21644",
+      "title": "Глава 368",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c368?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-08-16T16:08:13Z"
+     },
+     {
+      "id": "2/369@21644",
+      "title": "Глава 369",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c369?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-08-16T16:13:19Z"
+     },
+     {
+      "id": "2/370@21644",
+      "title": "Глава 370",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c370?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-08-16T16:21:58Z"
+     },
+     {
+      "id": "2/371@21644",
+      "title": "Глава 371",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v2/c371?bid=21644",
+      "volume": "Том 2",
+      "date": "2026-08-16T16:26:56Z"
+     },
+     {
+      "id": "3/372@21644",
+      "title": "Глава 372",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v3/c372?bid=21644",
+      "volume": "Том 3",
+      "date": "2026-08-23T13:30:54Z"
+     },
+     {
+      "id": "3/373@21644",
+      "title": "Глава 373",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v3/c373?bid=21644",
+      "volume": "Том 3",
+      "date": "2026-08-23T13:39:05Z"
+     },
+     {
+      "id": "3/374@21644",
+      "title": "Глава 374",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v3/c374?bid=21644",
+      "volume": "Том 3",
+      "date": "2026-08-30T14:01:09Z"
+     },
+     {
+      "id": "3/375@21644",
+      "title": "Глава 375",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v3/c375?bid=21644",
+      "volume": "Том 3",
+      "date": "2026-08-30T14:01:52Z"
+     },
+     {
+      "id": "3/376@21644",
+      "title": "Глава 376",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v3/c376?bid=21644",
+      "volume": "Том 3",
+      "date": "2026-08-30T14:08:14Z"
+     },
+     {
+      "id": "3/377@21644",
+      "title": "Глава 377",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v3/c377?bid=21644",
+      "volume": "Том 3",
+      "date": "2026-09-20T07:08:58Z"
+     },
+     {
+      "id": "3/378@21644",
+      "title": "Глава 378",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v3/c378?bid=21644",
+      "volume": "Том 3",
+      "date": "2026-09-27T06:31:39Z"
+     },
+     {
+      "id": "3/379@21644",
+      "title": "Глава 379",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v3/c379?bid=21644",
+      "volume": "Том 3",
+      "date": "2026-09-27T06:38:43Z"
+     },
+     {
+      "id": "3/380@21644",
+      "title": "Глава 380",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v3/c380?bid=21644",
+      "volume": "Том 3",
+      "date": "2026-10-11T10:33:41Z"
+     },
+     {
+      "id": "3/381@21644",
+      "title": "Глава 381",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v3/c381?bid=21644",
+      "volume": "Том 3",
+      "date": "2026-10-11T10:41:22Z"
+     },
+     {
+      "id": "3/382@21644",
+      "title": "Глава 382",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v3/c382?bid=21644",
+      "volume": "Том 3",
+      "date": "2026-10-31T14:40:22Z"
+     },
+     {
+      "id": "3/383@21644",
+      "title": "Глава 383",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v3/c383?bid=21644",
+      "volume": "Том 3",
+      "date": "2026-10-31T14:50:37Z"
+     },
+     {
+      "id": "3/384@21644",
+      "title": "Глава 384",
+      "url": "https://ranobelib.me/ru/214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls/read/v3/c384?bid=21644",
+      "volume": "Том 3",
+      "date": "2026-11-08T12:29:36Z"
+     }
+    ]
+   }
+  },
+  {
+   "fn": "chapter",
+   "args": [
+    "214246--even-if-you-find-yourself-in-a-haunted-tale-work-still-calls",
+    "1/3"
+   ],
+   "result": {
+    "ok": {
+     "kind": "text",
+     "title": "Глава 3",
+     "paras": [
+      "В истории о призрачном поезде Абигю-хвана, где погибают люди, вдруг появилась лазейка для спасения. Билет на выживание — как в кино, но всё это происходило на самом деле.",
+      "«Если пассажир выйдет с пропавшим предметом, как сказано в объявлении, он сможет покинуть поезд, как только появится сотрудник станции...»",
+      "Лучи надежды загорелись в глазах пассажиров. Проблема была лишь в том, что объявленный пропавшим предмет оказался… крайне странным.",
+      "— Ты слышал? Мужчина лет двадцати… что?",
+      "— Левое глазное яблоко взрослого мужчины типа А.",
+      "Время пошло.",
+      "— Тип А… Наверное, это про группу крови, — предположил кто-то.",
+      "— Да, скорее всего…",
+      "Сразу повисла напряженная тишина. Пассажиры начали дрожать, словно почувствовав надвигающуюся угрозу.",
+      "«…Мне просто передать эту информацию дальше?»",
+      "В конце концов, все могут выжить, если мы будем выходить по очереди на нужной станции. Но если кто-то рванёт первым, это создаст беспорядок и панику.",
+      "Однако дело не оказалось таким простым.",
+      "— Думаете, стоит всё-таки попытаться найти его?",
+      "— Наверное, это разумно. Мы ведь не знаем, что может случиться…",
+      "Новички настолько всерьёз восприняли объявление, что теперь не могли его игнорировать. Они начали переглядываться.",
+      "— Может, это ты подходишь по возрасту?",
+      "— Мне за тридцать, так что вряд ли, — ответил один из них.",
+      "— Выглядишь молодо… У меня вообще тип B.",
+      "— Тогда не то.",
+      "— У меня тоже не подходит…",
+      "Пассажиры один за другим сверялись, пытаясь понять, кто подходит под описание «мужчины с типом крови А, возраст около двадцати лет». Но ни один не соответствовал требованиям, и наконец взгляд всех обратился ко мне.",
+      "— Эй, а у тебя какая группа, Ким Соль Ым? — спросил один из новичков.",
+      "Я ответил спокойно:",
+      "— У меня тип АВ.",
+      "На самом деле это была ложь. Моя группа — А.",
+      "«Нет смысла раскрывать, что я подхожу под их критерии и являюсь целью…»",
+      "Если обнаружат, что я — потенциальный «бенефициар», это может быть расценено как попытка воспользоваться ситуацией. Доверие к мне может испариться в любой момент.",
+      "— Понял, тогда что насчёт Пэк Сахёна…",
+      "— Постойте.",
+      "Человек напротив меня внезапно поднял руку с серьёзным выражением лица.",
+      "— По всем параметрам я подхожу! Мне двадцать, и у меня тип А.",
+      "Тон его был почти торжественным, как будто он принял неизбежную судьбу.",
+      "— Пожалуйста, не волнуйтесь за меня.",
+      "Причина такого заявления вскоре стала понятна.",
+      "[Следующая станция — Станция Гнева.]",
+      "Громкоговоритель известил нас о прибытии на новую остановку, где нас уже должен был ожидать сотрудник для сбора «потерянных вещей». Лицо вызвавшегося парня побледнело.",
+      "— Может, всё-таки кто-то еще?",
+      "— Есть еще добровольцы?",
+      "— О боже… да неужели…",
+      "Пэк Сахён, сидевший рядом со мной и слушавший разговор, тяжело вздохнул и, наконец, обратился к претенденту.",
+      "Дверь с пометкой «Выход» находилась справа.",
+      "— У тебя тип А?",
+      "— Да, да..",
+      "И удар — внезапный оглушительный.",
+      "— Ч-что?!",
+      "Парню двадцати лет, только что подтвердившему, что он тип А, резко прилетел кулак в лицо, и треск был такой, будто сломалось нечто гораздо большее, чем только кость. Пэк Сахён саданул его прямо в глаз углом своего смартфона. Хруст стоил около ста миллионов. Сто миллионов вон — за один удар люксовым телефоном. Громкий грохот, и паренек даже крикнуть толком не успел, как рухнул на пол.",
+      "[Двери открываются.]",
+      "Пэк Сахён бесстрашно перескочил через него и вышел из поезда.",
+      "— Что сейчас только что..?",
+      "— Да это же.. Золото!!",
+      "— Вы о чем?",
+      "Люди только начали осознавать происходящее, их крики разлетались эхом по вагону. Пэк Сахён усмехнулся, глядя на них",
+      "— Вы просто амебы. Если можно выбраться, заплатив одним глазом, то лучше поторопиться!",
+      "— Я же говорил, что выйду отсюда!",
+      "Похоже, что Пэк Сахён прекрасно понимал, что означало объявление.",
+      "«Обнаружив потерянный предмет, пожалуйста, выйдите на следующей станции и сдайте его сотрудникам.»",
+      "Смелое решение, несмотря на то, что предупреждение прозвучало довольно двусмысленно",
+      "— Хотя, чего еще можно ожидать от человека, который предпочитает, чтобы за его жизнь отвечали другие?",
+      "— Ч-чего?!",
+      "Сухие, режущие слова Пэк Сахёна не оставляли сомнений, что он был уверен: никто не рискнет пойти за ним. И действительно никто не двинулся с места. Все уже видели, чем заканчивались попытки сойти там, где тебе не рады.",
+      "— Да он вообще кто такой?!",
+      "Го Ён Ын аж покраснела от ярости, а меня словно накрыл холодный душ, будто наконец-то что-то сложилось в единую картину.",
+      "Его прозвище: Вайпер",
+      "Если верить «Записям тёмных исследований», образ Пэк Сахёна как личности был настолько харизматичен, что заслуживал уважения, несмотря на всю его жестокость. Я думал, что раз он новенький, то ещё не до конца «испорчен» этим обществом, но, видимо, в нем это уже давно заложено.",
+      "Тем временем Пэк Сахён махнул рукой на прощание. Он был рад что удастся сбежать, даже если придётся заплатить за это левым глазом.",
+      "..но нужно ли было идти на такую жертву?",
+      "Пока все вокруг разглядывали его.спину, я незаметно потянулся к багажному отделению",
+      "«Я точно это видел.. Оно было здесь...»",
+      "Просунув руку глубже, я нащупал что-то странное, валяющееся в слепой зоне. Аккуратно вытащив руку, я взглянул на находку. Передо мной оказался странный футляр, что-то вроде портативной коробки для линз. Внутри неё — глазное яблоко и маленькая этикетка.",
+      "_________________________________________",
+      "Номер 23",
+      "[Тип А/Мужской/27/R]",
+      "_________________________________________",
+      "— Похоже, это и был тот самый «потерянный предмет». Потерянные вещи сами по себе ничего не значат, пока кто-то их не найдет, — пробормотал я, взглянув на глаз.",
+      "Объявление, как оказалось, было не чем иным, как сигналом к поискам. Среди множества предметов в багажных отсеках нужно было найти единственный совпадающий с описанием. И бывали случаи, когда люди сбегали, прихватив первый попавшийся объект.",
+      "«Похоже, теперь и Пэк Сахён оказался в их числе».",
+      "Но что, если бы он знал, что совсем не обязательно «жертвовать» глазом?",
+      "Сетчатая дверь уже закрылась, и пока поезд медленно отправлялся, я встретился взглядом с Пэк Сахёном, который обернулся с платформы.",
+      "Взяв футляр с глазом, я выставил его напротив двери, так, чтобы его было видно сквозь стекло.",
+      "— ...!!",
+      "Лицо Пэк Сахёна на миг исказилось, словно он понял, что упустил. Но было уже поздно",
+      "[Поезд уходит со станции «Гнев».]",
+      "Пока поезд удалялся, я мельком взглянул на новенького, которыйтолько что пострадал от кулак Пэк Сахёна. Судя по ране, тот решил «отдать» лишний предмет чтобы увеличить шанс на собственное спасение.",
+      "Думаю, он посчитал, что так его шанс на выживание возрастет. Но как далеко можно зайти, чтобы оправдать подобное?",
+      "Шум за спиной — глухие удары по сетчатой двери. А с платформы доносились крики человека, охваченного странной болью.",
+      "[Потерянный предмет успешно передан сотрудникам станции.]"
+     ],
+     "images": [
+      {
+       "after": 85,
+       "src": "https://ranobelib.me/uploads/ranobe/214246/chapters/3333212/5a41b896-2fd5-4e6e-9e64-89df54a17558.jpg",
+       "w": 972,
+       "h": 1280
+      },
+      {
+       "after": 85,
+       "src": "https://ranobelib.me/uploads/ranobe/214246/chapters/3333212/667420c7-1e8f-48a0-9269-9c886272f72c.jpg",
+       "w": 736,
+       "h": 977
+      }
+     ]
+    }
+   }
+  },
+  {
+   "fn": "chapter",
+   "args": [
+    "16539--the-legendary-mechanic",
+    "1/3"
+   ],
+   "result": {
+    "ok": {
+     "kind": "text",
+     "title": "Глава 3. Вся жизнь — игра",
+     "paras": [
+      "Хан Сяо был привязан к металлическому сиденью, его глаза насильно раскрыли расширителями. Перед ним был чёрный экран с динамиками с обеих сторон.",
+      "Он не мог никак сдвинуться с места.",
+      "— Как долго длится процедура?",
+      "— Двенадцать часов.",
+      "— Продолжай охранять здесь, — приказала Хила, прежде чем удалилась ворча.",
+      "Линь Вэй Сянь активировал процедуру, и экран загорелся. На нем показывались геометрические фигуры и узоры, которые непрерывно сменялись. Яркие, быстро меняющиеся цвета и резкое чередование музыки вызвали у Хан Сяо сильное чувство дискомфорта. Он хотел закрыть глаза, но не мог, и вскоре его глазные яблоки налились кровью и опухли.",
+      "«Ах! Как же неудобно!»",
+      "Это был примитивный метод промывания мозгов. Смысл заключался в том, чтобы подавить и исказить мысли объекта, тем самым облегчая передачу сообщений в их сознание.",
+      "Преимущество этого метода заключается в том, что данный метод не наносит необратимый ущерб мозгу, который могли бы оценить по достоинству и Хан Сяо, и Линь Вэй Сянь.",
+      "Развратное выражение лица Линь Вэй Сяня разгневало Хан Сяо. Он чувствовал себя свиньёй на бойне.",
+      "Хан Сяо добавил два из четырёх не распределенных очков Атрибутов в Интеллект.",
+      "Вам проводят промывку мозга (низкий уровень).",
+      "Ваш Интеллект: 7",
+      "Ваша сила воли: 3",
+      "Промывка мозгов не удалась.",
+      "Чувство дискомфорта Хан Сяо сразу же прошло.",
+      "...",
+      "Через двенадцать часов все тело Хан Сяо стало болеть, и его глаза полностью высохли.",
+      "Хила пришла по расписанию. Босс назначил ей задачу по промывке мозгов Хан Сяо, поэтому ей нужно было убедиться, что все проходит гладко.",
+      "Она сняла кандалы с Хан Сяо, оголяя синяки на его запястьях. Хотя тело Хан Сяо все еще болело, он продолжал отстраненно смотреть на экран, играя роль.",
+      "Хила внезапно наклонилась вперед, и ее лицо оказалось всего в пяти сантиметрах от него. Ее влажное дыхание ощущалась на его губах, но Хан Сяо был слишком обеспокоен своим затруднительным положением, чтобы отвлекаться на что-то другое.",
+      "Запах её духов заполнил его ноздри, раздражая его, и он прилагал большие усилия, чтобы противостоять стремлению чихнуть.",
+      "— Кто ты? — мягко и завораживающе спросила Хила.",
+      "Хан Сяо решил скривить лицо и не отвечать.",
+      "Хотя Хан Сяо никогда не был хорошим актером, но было не так сложно вести себя как идиот.",
+      "Внезапно Хила начала шептать ему на ухо. Её волосы щекотали горло Хан Сяо, а через вырез на форме его взору предстали два белоснежных пика. Он успокаивал сердце в молитве.",
+      "Между горными пиками находилась долина похожая на пустошь.",
+      "Над морями возвышается остров, прямо как дерево.",
+      "«Я, кто видел более ста горлянок, не попадусь на твою уловку!»",
+      "— С сегодняшнего дня тебя будут звать Зеро. Организация Гермина — твой дом, твоя страна и твоё всё. Ты всю жизнь будешь верен организации и будешь всегда стремиться помочь организации достичь её целей. Ты никогда ничего не скроешь и не предашь организацию, ты будешь выполнять свои приказы добросовестно, и ты пожертвуешь собой ради большего блага, когда придет время!",
+      "Лин Вэй Сянь разразился маниакальным смехом.",
+      "— Твоя жизнь принадлежит организации. Ты будешь делать все, что тебе прикажут, — добавил он.",
+      "— Кто ты? — переcпросила Хила.",
+      "На этот раз Хан Сяо знал, что ему нужно ответить. Однако он не ответил немедленно.",
+      "Хила бросила взгляд на Лин Вэй Сяня.",
+      "— Я следовал процедуре! Это не моя вина...",
+      "Внезапно Хан Сяо заговорил:",
+      "— Я... я... Зеро...",
+      "Глаза Линь Вэй Сяня загорелись.",
+      "— Валькирия улучшила способность Зеро к обучению, но, как побочный эффект, вызвала нарушение речи.",
+      "Хила вспомнила о прежнем поведении Зеро. Он действительно медленно реагировал на свое окружение.",
+      "— Похоже, что эксперимент в конце концов не был совершенным.",
+      "— Ты ошибаешься, это совершенство, ему не нужны эмоции.",
+      "— ...Уведи его, чтобы он восстановился, я доложу начальству.",
+      "«Теперь я в безопасности!»",
+      "Хан Сяо мог наконец-то расслабиться. Он решил действовать медленно, чтобы усыпить их бдительность в течение процедуры.",
+      "Хоть это и не лучшее место для перерождения, по крайней мере, касаемо времени все не так уж и плохо.",
+      "Эксперимент Валькирия был прототипом более позднего проекта суперсолдат, в котором испытуемым внедряли микрочипы, чтобы обеспечить их лояльность.",
+      "Перемещение в то время было бы намного хуже. Они могли бы взорвать его в любое время.",
+      "«По крайней мере, Леди Удача улыбнулась мне хоть в этом отношении!»",
+      "...",
+      "Хила позвонила по защищённой линии.",
+      "— Босс, ситуация стабилизировалась.",
+      "— Закончено ли промывание мозгов?",
+      "Голос человека был хриплым.",
+      "— Я сама следила за процедурой. Проблем не было. Что прикажете дальше делать с Зеро?",
+      "— Цель эксперимента Валькирия состоит в том, чтобы обучать солдат, так обучай его.",
+      "— Как там моя сестра?",
+      "— Не забудь о сделке, — предупредил мужчина. — Я разрешил тебе навещать ее раз в два месяца. Не пересекай черту.",
+      "Хила сжала кулаки.",
+      "...",
+      "Интерьер подземной лаборатории Валькирии был почти полностью белым. Охранники постоянно патрулировали территорию.",
+      "После ночного отдыха Хан Сяо был доставлен в изолированную тренировочную комнату, где его ожидала Хила.",
+      "Несмотря на то, что он не был уверен в том, какие планы были у организации на него, он был уверен, что они оценят его способность к обучению, то есть он определенно получит шанс повысить свои способности Механика. Из такой строго охраняемой крепости было практически невозможно вырваться, поэтому Хан Сяо подготовился к долгому проживанию.",
+      "— Зеро, с сегодняшнего дня ты будешь ежедневно практиковать боевые искусства и стрельбу. — Хила бросила ему костюм. — Надень это.",
+      "Хан Сяо быстро надел костюм. Как только он надел костюм, Хила атаковала, безжалостно ударив ногой на уровне груди.",
+      "*Взрыв!*",
+      "«Слишком быстро!»",
+      "Хан Сяо был не в состоянии отреагировать, и от удара у него треснули ребра через доспехи. Он отступил назад на дюжину шагов и сжал грудь, откашливаясь.",
+      "«Как и ожидалось от сверхчеловека».",
+      "Хотя она явно не использовала всю силу, она все еще была в несколько раз быстрее обычного человека.",
+      "— 30 секунд отдыха, — сказала она мягко.",
+      "Боевая подготовка была жесткой, но простой. Между парой не было обмена слов.",
+      "Они продолжали в течение двух часов, к концу которого Хан Сяо был полностью истощен и покрыт синяками. Он также теперь подозревал, что у Хилы были садистские наклонности.",
+      "«Интересно, все ли ледяные королевы являются таковыми?» — задумался он.",
+      "Хила (Ур. 30) научила вас [Базовому бою].",
+      "Прогресс: 5%",
+      "Хила молча ушла.",
+      "Подошёл тучный, крепкий человек, и повёл Хан Сяо на стрельбище.",
+      "— Я твой тренер по стрельбе, и один из заместителей командира этой базы, Балтар, — представился пугающе выглядевший человек с со шрамом на лбу.",
+      "Он дал 73-WASP в руки Хан Сяо и сказал:",
+      "— Здесь десять патронов, попади всеми десятью в центр мишени.",
+      "Хан Сяо нахмурился. Как мог новичок, который никогда не касался пушки в реальной жизни, попасть в яблочко? Кроме того, цель была движущейся мишенью в 30 метрах.",
+      "«Я не олимпийский чемпион!»",
+      "Хан Сяо пожал плечами и поднял пистолет ноющими руками.",
+      "*Бах-бах-бах...!*",
+      "После десяти выстрелов Хан Сяо посмотрел на табло. Как и ожидалось, он потерпел неудачу.",
+      "Внезапно он почувствовал жгучую боль в спине. Только с большим усилием он не закричал.",
+      "Он обернулся и увидел, как безумный Балтар слизывает кровь с черного тактического ножа.",
+      "— Продолжай, один промах, один порез. Давай посмотрим, сколько крови ты потеряешь сегодня.",
+      "Хан Сяо провел рукой по спине и увидел кровь на руках.",
+      "«Ублюдок!» — он выругался про себя.",
+      "Одной из стеклянных панелей в комнате было одностороннее зеркало. Хила и Линь Вэй Сянь наблюдали с другой стороны.",
+      "— Балтар слишком неосторожен с моим драгоценным испытуемым. С таким подходом, ты могла бы и мне позволить вскрыть его тело, — начал жаловаться Линь Вэй Сянь.",
+      "Хила взглянула на Линь Вэй Сяня и ответила: — Организация не одобрит твой запрос.",
+      "Лин Вэй Сиань холодно усмехнулся в ответ.",
+      "— Я рано или поздно найду способ, я создал его! Он мой!",
+      "Хила промолчала.",
+      "...",
+      "Балтар (Ур. 15) научил вас [Базовой стрельбе].",
+      "Прогресс: 5%",
+      "Прогресс разблокировки подкласса [Агент]: 1%",
+      "Хан Сяо получал порезы снова и снова. Сами порезы, возможно, не были глубокими, но их было так много, что его одежда была полностью залита кровью.",
+      "Балтар с усмешкой наблюдал за ослабленным Хан Сяо. Он наслаждался запахом свежей крови.",
+      "— Почему ты не кричишь? — спросил он. — Хорошая игрушка должна кричать.",
+      "«Чёртов ублюдок!»",
+      "Хан Сяо сделал глубокий вдох, чтобы успокоить себя. В то время как он действительно думал о том, как избить Балтара, он понимал, что не может позволить себе действовать безрассудно. В каком-то смысле это было похоже на League of Legends — когда ты продолжаешь нести бред после поражения, ты только ещё больше позоришь себя.",
+      "Пока, всё что он мог сделать, это проглотить обиду.",
+      "«Смейся, пока можешь...» — Хан Сяо стиснул зубы."
+     ],
+     "images": []
+    }
+   }
+  }
+ ],
+ "missing": []
+}

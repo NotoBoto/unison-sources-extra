@@ -1,0 +1,1111 @@
+{
+ "manifest": {
+  "id": "ranobelib",
+  "name": "RanobeLib",
+  "version": "1.0.0",
+  "api": 1,
+  "lang": "ru",
+  "site": "https://ranobelib.me",
+  "domains": [
+   "api.cdnlibs.org",
+   "ranobelib.me"
+  ],
+  "icon": "icons/ranobelib.png",
+  "content": [
+   "text"
+  ],
+  "features": [
+   "popular",
+   "latest",
+   "search",
+   "filters",
+   "login",
+   "byUrl"
+  ],
+  "nsfw": false,
+  "studio": "private",
+  "browser": "onChallenge",
+  "rateLimit": {
+   "rps": 1,
+   "burst": 3
+  },
+  "login": {
+   "url": "https://ranobelib.me/ru/front/auth",
+   "kind": "localStorage",
+   "key": "auth",
+   "path": "/token/access_token",
+   "header": "Authorization: Bearer {token}"
+  }
+ },
+ "core": {
+  "version": "1.1.0"
+ },
+ "results": [
+  {
+   "fn": "popular",
+   "args": [
+    1,
+    {
+     "sort": "-rate_avg",
+     "genres": [
+      "34"
+     ],
+     "types": [
+      "12"
+     ]
+    }
+   ],
+   "result": {
+    "ok": {
+     "items": [
+      {
+       "id": "274944--ling-zhu-jin-hua",
+       "title": "Эволюция лорда",
+       "cover": "https://cover.lib.social/uploads/cover/ling-zhu-jin-hua/cover/100939cc-7d5a-416d-af2f-6d2dce5f4849.jpg"
+      },
+      {
+       "id": "171776--longhuang-wushu-dao",
+       "title": "Мириады путей Дракона Императора (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/longhuang-wushu-dao/cover/8Rpg6L3i88fj_250x350.jpg"
+      },
+      {
+       "id": "15873--taigu-lei-long-jue",
+       "title": "Древнее Заклинание Громового Дракона (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/taigu-lei-long-jue/cover/cover_250x350.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "77827--power-arrester-molnienosec",
+       "title": "Молниеносец (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/power-arrester-molnienosec/cover/iy4hsRBtqn3E_250x350.jpg"
+      },
+      {
+       "id": "112643--starting-from-the-dragon-tribe",
+       "title": "Начиная с племени драконов (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/starting-from-the-dragon-tribe/cover/muNuNJ1twSdK_250x350.jpg"
+      },
+      {
+       "id": "267526--qu-mo-bi-ji-zhong-bu-xu-jia-dai-qing-shu",
+       "title": "Запрещено прятать любовные письма в дневнике экзорциста",
+       "cover": "https://cover.lib.social/uploads/cover/qu-mo-bi-ji-zhong-bu-xu-jia-dai-qing-shu/cover/77f6042b-e76d-4857-8b21-4504e2382224.jpg"
+      },
+      {
+       "id": "275462--zhe-ge-fan-pai-you-dian-liang-xin-dan-shi-bu-duo",
+       "title": "У этого злодея есть совесть, но совсем немного!",
+       "cover": "https://cover.lib.social/uploads/cover/zhe-ge-fan-pai-you-dian-liang-xin-dan-shi-bu-duo/cover/7e7b027c-881e-4c79-8337-a9aacc00ecbd.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "180486--sect-masters-immortal-journey",
+       "title": "Бессмертное путешествие Мастера Секты (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/sect-masters-immortal-journey/cover/WAve7zFMdr00_250x350.jpg"
+      },
+      {
+       "id": "67081--hidden-assassin",
+       "title": "Скрытый убийца (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/hidden-assassin/cover/M4YbIiCYJnqD_250x350.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "278285--spirit-blade-mountain",
+       "title": "Когда-то давным-давно стояла гора Духовных Мечей",
+       "cover": "https://cover.lib.social/uploads/cover/spirit-blade-mountain/cover/0d44ecb7-739f-4e51-8343-1efac765d345.jpg"
+      },
+      {
+       "id": "46095--warriors-promise",
+       "title": "Обещание воина (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/warriors-promise/cover/mBrVizSUKVBD_250x350.jpg"
+      },
+      {
+       "id": "54031--wangyou-wangzhe-tianxia",
+       "title": "Мир Экспертов (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/wangyou-wangzhe-tianxia/cover/l5ZCgD8GKFai_250x350.jpg"
+      },
+      {
+       "id": "275476--fan-chen-fei-xian-wo-you-yi-mian-fu-zhi-jing",
+       "title": "Смертный возносится к бессмертию: У меня есть зеркало дублирования",
+       "cover": "https://cover.lib.social/uploads/cover/fan-chen-fei-xian-wo-you-yi-mian-fu-zhi-jing/cover/7be1938f-4400-43d7-b1b5-943d17789b26.jpg"
+      },
+      {
+       "id": "269333--shifa-yongjiu-jia-shengminggexia-ruhe-ying-dui",
+       "title": "+10 HP за призыв нежити? Постойте, я же хотел быть обычным магом!",
+       "cover": "https://cover.lib.social/uploads/cover/shifa-yongjiu-jia-shengminggexia-ruhe-ying-dui/cover/b6162a6f-9e72-49ba-a5e1-22c4e0fe5757.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "274454--beng-tie-kai-ju-shi-yan-ti-wo-ren-ruan-mei-dang-ma",
+       "title": "Honkai: Star Rail — Опытный образец на старте, я признал Жуань Мэй мамой",
+       "cover": "https://cover.lib.social/uploads/cover/beng-tie-kai-ju-shi-yan-ti-wo-ren-ruan-mei-dang-ma/cover/84aff95f-6290-41d5-8a60-6c94aa900757.jpg"
+      },
+      {
+       "id": "274455--ti-qian-deng-lu-wu-xia-shi-jie",
+       "title": "Заблаговременный вход в мир боевых искусств",
+       "cover": "https://cover.lib.social/uploads/cover/ti-qian-deng-lu-wu-xia-shi-jie/cover/b1107e35-012d-478c-8acd-9a35ffbabd29.jpg"
+      },
+      {
+       "id": "110104--life-of-a-villain",
+       "title": "Жизнь Злодея (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/life-of-a-villain/cover/Yh30kFVTbkyr_250x350.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "273689--ling-qi-fu-su-kai-ju-huo-de-hu-xi-fa",
+       "title": "Возрождение духовной энергии: Начальный метод дыхания",
+       "cover": "https://cover.lib.social/uploads/cover/ling-qi-fu-su-kai-ju-huo-de-hu-xi-fa/cover/5c9aa445-0c23-4749-99e4-0ff0600e050b.jpg"
+      },
+      {
+       "id": "274970--gong-lu-qiu-sheng-wo-qi-san-lun-bai-tan-feng-shen",
+       "title": "Выживание на шоссе: я стала божеством, торгуя с трехколесного велосипеда",
+       "cover": "https://cover.lib.social/uploads/cover/gong-lu-qiu-sheng-wo-qi-san-lun-bai-tan-feng-shen/cover/795bf32e-8e92-4e5e-8855-fe43b8aa499c.jpg"
+      },
+      {
+       "id": "261658--wuxian-rensheng-bei-kun-zai-le-yi-sheng-de-shikong-li",
+       "title": "Бесконечная жизнь: В ловушке одной жизни",
+       "cover": "https://cover.lib.social/uploads/cover/wuxian-rensheng-bei-kun-zai-le-yi-sheng-de-shikong-li/cover/a097fa4c-6282-44a7-9a28-848cb3af4789.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "72220--strongest-immortal-reborn-in-city",
+       "title": "Сильнейший бессмертный возрождается в городе (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/strongest-immortal-reborn-in-city/cover/5vyIhMAIttm0_250x350.jpg"
+      },
+      {
+       "id": "150556--shi-shen-yin-hun",
+       "title": "Убийца богов (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/shi-shen-yin-hun/cover/lbg86NR58Nlf_250x350.jpg"
+      },
+      {
+       "id": "211229--apocalypse-i-have-a-super-farm",
+       "title": "Апокалипсис: у меня есть суперферма",
+       "cover": "https://cover.lib.social/uploads/cover/apocalypse-i-have-a-super-farm/cover/f75e7746-dc03-4c34-a5cf-4ce296692ff1.jpg"
+      },
+      {
+       "id": "274719--qi-hu-xian-yuan",
+       "title": "Судьба бессмертного с чудесной тыквой",
+       "cover": "https://cover.lib.social/uploads/cover/qi-hu-xian-yuan/cover/b4366a42-58bf-4a10-93b7-92518acafaa2.jpg"
+      },
+      {
+       "id": "275231--liu-fang-hou-wu-sui-e-ba-dai-quan-jia-zhan-shan-wei-wang",
+       "title": "После ссылки пятилетняя злодейка возглавила всю семью и захватила гору",
+       "cover": "https://cover.lib.social/uploads/cover/liu-fang-hou-wu-sui-e-ba-dai-quan-jia-zhan-shan-wei-wang/cover/bdd07fc8-9a16-4dd0-b1da-0d5a33517ec2.jpg"
+      },
+      {
+       "id": "274721--quan-min-hai-dao-kai-ju-sss-ji-ming-yun-chou-ka",
+       "title": "Остров для всех: Получение SSS-таланта вызова карт судьбы с самого начала",
+       "cover": "https://cover.lib.social/uploads/cover/quan-min-hai-dao-kai-ju-sss-ji-ming-yun-chou-ka/cover/1a930815-2da1-452c-9499-0d2af79e4c00.jpg"
+      },
+      {
+       "id": "141346--guanyu-qingchun-de-ge",
+       "title": "Песня о юности",
+       "cover": "https://cover.lib.social/uploads/cover/guanyu-qingchun-de-ge/cover/290b3bad-9df4-42a9-bd96-89f37ad29954.jpg"
+      },
+      {
+       "id": "232738--flowery-night-novel",
+       "title": "Записки расхитителя гробниц. Цветущая ночь",
+       "cover": "https://cover.lib.social/uploads/cover/flowery-night-novel/cover/ca6e9717-264d-43b7-8807-904cd8ee7f0a.jpg"
+      },
+      {
+       "id": "274211--ni-guan-zhe-jiao-jing-cha-zhong-pao-dou-jia-zu-jie-kou-le",
+       "title": "Ты называешь это полицией? Крупнокалиберную артиллерию у входа в концессию притащили!",
+       "cover": "https://cover.lib.social/uploads/cover/ni-guan-zhe-jiao-jing-cha-zhong-pao-dou-jia-zu-jie-kou-le/cover/e7f74de2-d2d2-4fe8-8a7a-978a208516c9.jpg"
+      },
+      {
+       "id": "274979--die-zhan-xiao-te-wu-de-ni-xi",
+       "title": "Контратака мелкого агента разведки",
+       "cover": "https://cover.lib.social/uploads/cover/die-zhan-xiao-te-wu-de-ni-xi/cover/3e32239a-443d-45b7-9e02-4871febb38a4.jpg"
+      },
+      {
+       "id": "274213--quan-min-gong-lu-qiu-sheng-wo-de-fang-che-wu-xian-jin-hua",
+       "title": "Всеобщая шоссейная выживалка: Мой автодом бесконечно эволюционирует",
+       "cover": "https://cover.lib.social/uploads/cover/quan-min-gong-lu-qiu-sheng-wo-de-fang-che-wu-xian-jin-hua/cover/47127eb0-4b61-4ab5-af0a-22db0ef9aece.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "232741--daomu-bijinovel",
+       "title": "Хроники расхитителей гробниц.Заметки в деревне Дождя",
+       "cover": "https://cover.lib.social/uploads/cover/daomu-bijinovel/cover/3a56cbcc-1cfc-48a2-8dd6-b2836d6d3130.jpg"
+      },
+      {
+       "id": "274470--rang-ni-diao-yu-mei-rang-ni-diao-shi-ti",
+       "title": "Велели рыбачить, а не трупы вылавливать!",
+       "cover": "https://cover.lib.social/uploads/cover/rang-ni-diao-yu-mei-rang-ni-diao-shi-ti/cover/ad079c9f-3857-4c1f-b623-88d4f965a5b5.jpg"
+      },
+      {
+       "id": "40742--immortal-ape-king",
+       "title": "Бессмертный король обезьян (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/immortal-ape-king/cover/X3mIL45Lmi_250x350.jpg"
+      },
+      {
+       "id": "273704--zhan-shen-chu-yu",
+       "title": "Бог войны выходит из тюрьмы",
+       "cover": "https://cover.lib.social/uploads/cover/zhan-shen-chu-yu/cover/41edd1bd-fb7a-4a1e-adb3-085a5dd36e16.jpg"
+      },
+      {
+       "id": "107305--killing-grounds-of-gods-and-devils",
+       "title": "Смертельные земли Богов и Демонов (Новелла)",
+       "cover": "https://cover.lib.social/static/images/placeholders/user_avatar.png"
+      },
+      {
+       "id": "256041--mi-gui-shijie-wo-kao-huangyan-cheng-shen",
+       "title": "Мир тайн: Я возношусь с помощью лжи",
+       "cover": "https://cover.lib.social/uploads/cover/mi-gui-shijie-wo-kao-huangyan-cheng-shen/cover/f453a571-26df-432f-951a-91943be1cc34.jpg"
+      },
+      {
+       "id": "265003--lingqi-fusu-wojia-fuzhu-you-na-dao-shangle",
+       "title": "Пробуждение: Почему лекарь опять машет мечом?",
+       "cover": "https://cover.lib.social/uploads/cover/lingqi-fusu-wojia-fuzhu-you-na-dao-shangle/cover/de42e77a-25ca-41a8-bf13-d3669414961c.jpg"
+      },
+      {
+       "id": "265005--moshi-dun-wu-wo-yao-tongguan-zhe-moshi",
+       "title": "Сбор припасов: Я пройду этот апокалипсис",
+       "cover": "https://cover.lib.social/uploads/cover/moshi-dun-wu-wo-yao-tongguan-zhe-moshi/cover/a46b41ad-7f1b-4e0f-92d6-dfd350c7e9ec.jpg"
+      },
+      {
+       "id": "225069--ingigakssaekppunyonjung",
+       "title": "Ролевая игра за популярного персонажа в разгаре",
+       "cover": "https://cover.lib.social/uploads/cover/ingigakssaekppunyonjung/cover/3b4ace8b-2701-446d-bb1c-2172f283681f.jpg"
+      },
+      {
+       "id": "165677--splitting-the-heavens",
+       "title": "Раскол небес",
+       "cover": "https://cover.lib.social/uploads/cover/splitting-the-heavens/cover/1421d279-f40b-4964-b0ba-5c62a6421773.jpg"
+      },
+      {
+       "id": "274222--zhou-zhi-jian-da-shou-ni-wu-fen-zhong-zhu-xian-qing-tu",
+       "title": "Дельта: Сертифицированный буст-игрок, ты за пять минут очистишь карту и завалишь богов!",
+       "cover": "https://cover.lib.social/uploads/cover/zhou-zhi-jian-da-shou-ni-wu-fen-zhong-zhu-xian-qing-tu/cover/27edf99e-dbc6-4734-9276-b575787f7788.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "165934--beast-taming-i-can-extract-pleasure-points",
+       "title": "Приручение зверей : Я могу извлекать очки удовольствия (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/beast-taming-i-can-extract-pleasure-points/cover/3206de9f-410f-47a4-9a60-a9ed148d1b94.jpg"
+      },
+      {
+       "id": "265007--gonglu-qiusheng-bang-yi-shuo-ta-yao-zou-dao-gonglu-jintou",
+       "title": "Выживание на шоссе: Первое место заявляет, что дойдёт до конца",
+       "cover": "https://cover.lib.social/uploads/cover/gonglu-qiusheng-bang-yi-shuo-ta-yao-zou-dao-gonglu-jintou/cover/838023ce-85cc-4160-9a0c-f9263bddaa3b.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "274223--ren-zai-gui-yi-kao-di-si-tian-zai-deng-ding-zhi-gao",
+       "title": "Находясь среди аномалий, восхожу на вершину с помощью Четвёртого бедствия",
+       "cover": "https://cover.lib.social/uploads/cover/ren-zai-gui-yi-kao-di-si-tian-zai-deng-ding-zhi-gao/cover/0557265b-9e57-4134-b112-04174a09c631.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "275248--quan-min-kong-bu-qiu-sheng-wo-jue-xing-jia-dian-xu-lie",
+       "title": "Ужасы всеобщего выживания: Я пробудил последовательность распределения очков!",
+       "cover": "https://cover.lib.social/uploads/cover/quan-min-kong-bu-qiu-sheng-wo-jue-xing-jia-dian-xu-lie/cover/89b2e8a8-b87b-4386-ab46-1da597b7005e.jpg"
+      },
+      {
+       "id": "189232--the-tale-of-a-half-hero-in-the-world-of-martial-arts",
+       "title": "Повесть о Полу-герое в Мире Боевых Искусств (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/the-tale-of-a-half-hero-in-the-world-of-martial-arts/cover/262f1aa1-3960-48e0-bdf2-09fb533cf33c.jpg"
+      },
+      {
+       "id": "181557--aer-zhousi-di-hai-zei-zhi-lu",
+       "title": "Пиратское путешествие Аркея (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/aer-zhousi-di-hai-zei-zhi-lu/cover/zErwl5s7PLuI_250x350.jpg"
+      },
+      {
+       "id": "112694--do-shi-er-qian-bian",
+       "title": "72 трансформаций земных демонов (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/do-shi-er-qian-bian/cover/iykYphLXXIBk_250x350.jpg"
+      },
+      {
+       "id": "187703--i-did-not-raise-the-divine-beasts",
+       "title": "Я не воспитывал божественных зверей (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/i-did-not-raise-the-divine-beasts/cover/4P14ackYbfD4_250x350.jpg"
+      },
+      {
+       "id": "62519--chou-fei-huo-guo-bu-yang-min",
+       "title": "Реквием Феникса (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/chou-fei-huo-guo-bu-yang-min/cover/sN69U5JSOKOf_250x350.jpg"
+      },
+      {
+       "id": "268345--wang-you-jin-ji-tian-fu-yong-heng-zai-e-zhi-zhu",
+       "title": "Онлайн-игра: Запретный талант, Владыка Вечных Бедствий",
+       "cover": "https://cover.lib.social/uploads/cover/wang-you-jin-ji-tian-fu-yong-heng-zai-e-zhi-zhu/cover/469af464-af88-459e-90f5-3eea499ec877.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "268346--bu-si-de-wo-su-tong-ling-yi-you-xi",
+       "title": "Бессмертный: Спидран хоррор-игр",
+       "cover": "https://cover.lib.social/uploads/cover/bu-si-de-wo-su-tong-ling-yi-you-xi/cover/5e987611-26c2-496b-a907-0368a03b635c.jpg"
+      },
+      {
+       "id": "205626--i-have-one-more-keyword-than-others",
+       "title": "Конец света: У меня больше ключевых слов, чем у остальных",
+       "cover": "https://cover.lib.social/uploads/cover/i-have-one-more-keyword-than-others/cover/d29bfa1d-8819-44f0-9650-48ca467433aa.jpg"
+      },
+      {
+       "id": "44859--king-of-the-dark-world-returns-to-city",
+       "title": "Король Темного Мира Возвращается в Город (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/king-of-the-dark-world-returns-to-city/cover/2630vZZCNZ13_250x350.jpg"
+      },
+      {
+       "id": "181819--invincible-dad-of-another-world",
+       "title": "Непобедимый папа из другого Мира (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/invincible-dad-of-another-world/cover/duB7Jd8W5LOl_250x350.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "138556--ride-and-cut-the-little-lord",
+       "title": "Повелитель верховой езды и резни (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/ride-and-cut-the-little-lord/cover/Qnrd8Wj4asaW_250x350.jpg"
+      },
+      {
+       "id": "150588--zhuizhu-zhenli-de-wushi",
+       "title": "Волшебники в погоне за правдой (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/zhuizhu-zhenli-de-wushi/cover/1Q4Mwr8UhLZH_250x350.jpg"
+      },
+      {
+       "id": "159038--shenghuo-xi-nan-shen",
+       "title": "Бог Жизни (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/shenghuo-xi-nan-shen/cover/AuSMp0EE7ZYH_250x350.jpg"
+      },
+      {
+       "id": "185150--xing-men-shiguang-zhi-zhu",
+       "title": "Звёздные Врата: Повелитель Времени (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/xing-men-shiguang-zhi-zhu/cover/db1a863d-bebf-425b-acb0-b2ee8dcd67dc.jpg"
+      }
+     ],
+     "hasNext": true
+    }
+   }
+  },
+  {
+   "fn": "latest",
+   "args": [
+    1
+   ],
+   "result": {
+    "ok": {
+     "items": [
+      {
+       "id": "270003--vsadnik-razrusenii-pervyi-mectatel",
+       "title": "Всадник Разрушений, Первый мечтатель",
+       "cover": "https://cover.lib.social/uploads/cover/vsadnik-razrusenii-pervyi-mectatel/cover/b6080b95-9701-498a-bf96-6f4e4aa8fb61.jpg"
+      },
+      {
+       "id": "271501--agnyeodeul-eul-chilyohaessdeoni-jibchaghanda",
+       "title": "Я вылечил злодеек, и теперь они одержимы мной",
+       "cover": "https://cover.lib.social/uploads/cover/agnyeodeul-eul-chilyohaessdeoni-jibchaghanda/cover/033a3a66-07e3-41df-91c4-ca691cd0786c.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "137534--the-day-of-my-ascension",
+       "title": "День моего вознесения (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/the-day-of-my-ascension/cover/p2JqegWGTm8k_250x350.jpg"
+      },
+      {
+       "id": "125480--saikyou-degarashi-ouji-no-anyaku-teii-arasoi-munou-wo-enjiru-ss-rank-ouji-wa-koui-keishou-sen-wo-kage-kara-shihai-suru-ln",
+       "title": "Хроники тайной борьбы за престол самого никчёмного принца: Наследник SS-ранга, притворяющийся бездарностью, контролирует битву за трон из тени (Печатная версия)",
+       "cover": "https://cover.lib.social/uploads/cover/saikyou-degarashi-ouji-no-anyaku-teii-arasoi-munou-wo-enjiru-ss-rank-ouji-wa-koui-keishou-sen-wo-kage-kara-shihai-suru-ln/cover/8e4a1d05-db49-48ae-b16a-4a6a190acd18.jpg"
+      },
+      {
+       "id": "17435--fan-ren-xiu-xian-chuan",
+       "title": "Путешествие к бессмертию",
+       "cover": "https://cover.lib.social/uploads/cover/fan-ren-xiu-xian-chuan/cover/ayTPUlIjSw2Q_250x350.jpg"
+      },
+      {
+       "id": "203276--transmigrated-into-a-tragic-romance-fantasy",
+       "title": "Переродился в трагическом романтическом фэнтези",
+       "cover": "https://cover.lib.social/uploads/cover/transmigrated-into-a-tragic-romance-fantasy/cover/9814d0a9-4cdb-4d7f-8b4d-8ea3a9ac4e84.jpg"
+      },
+      {
+       "id": "271903--tsuiho-sareta-tensei-jukishi-wa-gemu-chishiki-de-muso-suru-ln",
+       "title": "Изгнанный перерождённый тяжёлый рыцарь: благодаря знаниям об игре ему нет равных (LN)",
+       "cover": "https://cover.lib.social/uploads/cover/tsuiho-sareta-tensei-jukishi-wa-gemu-chishiki-de-muso-suru-ln/cover/c4c51b14-fd3c-4044-a49a-4e8c0fe8d999.jpg"
+      },
+      {
+       "id": "238931--survival-class-d-employee-simulator",
+       "title": "Выживание: Симулятор сотрудника класса D (SCP)",
+       "cover": "https://cover.lib.social/uploads/cover/survival-class-d-employee-simulator/cover/bc2c6539-5cdc-4cfe-bd6f-ba1f7c556274.jpg"
+      },
+      {
+       "id": "274273--kai-ju-ting-zhi-wo-zhuan-tou-ji-wei-diao-cha-zu",
+       "title": "Отстранен с самого начала? Я перехожу в следственную группу Дисциплинарной комиссии",
+       "cover": "https://cover.lib.social/uploads/cover/kai-ju-ting-zhi-wo-zhuan-tou-ji-wei-diao-cha-zu/cover/3ac79087-db82-475b-809d-0c947ee48297.jpg"
+      },
+      {
+       "id": "40022--agdang-daegongnim-ui-gwihadigwihan-yeodongsaeng",
+       "title": "Драгоценная сестра эрцгерцога-злодея",
+       "cover": "https://cover.lib.social/uploads/cover/agdang-daegongnim-ui-gwihadigwihan-yeodongsaeng/cover/16f652bd-4910-4b1c-a484-98ae5504f9e7.jpg"
+      },
+      {
+       "id": "16916--second-life-ranker-novel",
+       "title": "Ранкер, который живёт второй раз",
+       "cover": "https://cover.lib.social/uploads/cover/second-life-ranker-novel/cover/394eafec-fd6f-4a34-baa7-5f5d3cc58a86.jpg"
+      },
+      {
+       "id": "277022--agui-jojigui-amkeot-jogyo-damdangi-doeeotda-wn",
+       "title": "Я стал ответственным за подготовку женщин-ассистенток злой организации",
+       "cover": "https://cover.lib.social/uploads/cover/agui-jojigui-amkeot-jogyo-damdangi-doeeotda-wn/cover/c9439239-a07c-4d13-a9f3-4c295109187d.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "274505--naega-pan-noyega-geomuri-doeeo-dorawatda",
+       "title": "Рабыня, которую я продал, вернулась важной шишкой",
+       "cover": "https://cover.lib.social/uploads/cover/naega-pan-noyega-geomuri-doeeo-dorawatda/cover/a0fd163b-10aa-46f8-ae5b-19cc701c6d04.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "65380--the-legend-of-sun-knight",
+       "title": "Легенда о Рыцаре Солнца",
+       "cover": "https://cover.lib.social/uploads/cover/the-legend-of-sun-knight/cover/d0KL6AeGQ476_250x350.jpg"
+      },
+      {
+       "id": "77559--tantei-wa-mo-shindeiru",
+       "title": "Детектив уже мёртв",
+       "cover": "https://cover.lib.social/uploads/cover/tantei-wa-mo-shindeiru/cover/0cdae1ad-8c31-4c21-819b-d6eb306876b5.jpg"
+      },
+      {
+       "id": "274557--manghan-segye-eseo-mabeopsaro-sarananneun-beop",
+       "title": "Как выжить магу в разрушенном мире",
+       "cover": "https://cover.lib.social/uploads/cover/manghan-segye-eseo-mabeopsaro-sarananneun-beop/cover/7ab782ff-20bc-412e-b8e8-f0940db8a73e.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "278175--heonteomurinjul-aratneunde-setakmurieotda-wn",
+       "title": "Я думал, это история про охотников, а оказалось — про прачечную",
+       "cover": "https://cover.lib.social/uploads/cover/heonteomurinjul-aratneunde-setakmurieotda-wn/cover/8cdad7d0-deaf-424f-9872-1ea2b8656770.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "278165--jaeanggeup-hieorodeuri-naege-jipchakhanda-wn",
+       "title": "Герои катастрофического класса одержимы мной",
+       "cover": "https://cover.lib.social/uploads/cover/jaeanggeup-hieorodeuri-naege-jipchakhanda-wn/cover/a6a848fa-b43d-4ddd-a720-fd2dfe619085.jpg"
+      },
+      {
+       "id": "278036--akademi-kadeu-ppopgi-wonturi-doeeotda-wn",
+       "title": "Академия: я стал мастером карточного драфта",
+       "cover": "https://cover.lib.social/uploads/cover/akademi-kadeu-ppopgi-wonturi-doeeotda-wn/cover/3150b931-395e-46e2-b566-14f81073b984.jpg"
+      },
+      {
+       "id": "277811--meonchikin-yeomisaero-chakkakdanghaetda-wn",
+       "title": "Меня приняли за помешанного на женщинах",
+       "cover": "https://cover.lib.social/uploads/cover/meonchikin-yeomisaero-chakkakdanghaetda-wn/cover/7511a5a3-c3ac-4feb-aedb-40457551cbb4.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "277586--yakhonnyeoga-socheonma-yeotda-wn",
+       "title": "Невеста оказалась дочерью Небесного Демона",
+       "cover": "https://cover.lib.social/uploads/cover/yakhonnyeoga-socheonma-yeotda-wn/cover/65522ccb-c172-4f26-b668-a9f11a850cfc.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "276890--aksinege-jipchak-batneun-bangbeop-wn",
+       "title": "Как стать объектом одержимости злого бога",
+       "cover": "https://cover.lib.social/uploads/cover/aksinege-jipchak-batneun-bangbeop-wn/cover/1b562b4c-e865-403e-818a-6239745a1e72.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "276642--pantaeji-sesangui-nangman-baewoo-wn",
+       "title": "Романтичный актёр в мире фэнтези",
+       "cover": "https://cover.lib.social/uploads/cover/pantaeji-sesangui-nangman-baewoo-wn/cover/bd1a10d8-56b0-499c-8b0b-69e864a6d6fe.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "276264--bangguseok-kibodeu-budusulsa",
+       "title": "Диванный клавиатурный Шаман вуду",
+       "cover": "https://cover.lib.social/uploads/cover/bangguseok-kibodeu-budusulsa/cover/aaadb607-f7b4-43ec-a2ca-b7e2016201d4.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "275606--assajiman-baendeuneun-hago-sipeo",
+       "title": "Я аутсайдер, но хочу играть в группе!",
+       "cover": "https://cover.lib.social/uploads/cover/assajiman-baendeuneun-hago-sipeo/cover/fdf5c70b-5ba3-4fe9-9295-1ad273a1d9f4.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "271259--taming-the-despicable-saintess",
+       "title": "Как приручить мерзкую Святую",
+       "cover": "https://cover.lib.social/uploads/cover/taming-the-despicable-saintess/cover/3671313b-289c-42ca-a5ac-fd52fd39c4c8.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "247383--holdaebadneun-gungsuneun-akademileul-jjij-eo",
+       "title": "Недооценённый лучник покоряет Академию",
+       "cover": "https://cover.lib.social/uploads/cover/holdaebadneun-gungsuneun-akademileul-jjij-eo/cover/a6b9f49b-7509-4725-a935-95ec80cf7ed5.jpg"
+      },
+      {
+       "id": "246642--hieolo-manhwa-sog-sijangnim-i-doeeossda",
+       "title": "Некомпетентный мэр из геройской манхвы",
+       "cover": "https://cover.lib.social/uploads/cover/hieolo-manhwa-sog-sijangnim-i-doeeossda/cover/3a615fa4-1923-4ce6-ab4c-7aef3343024d.jpg"
+      },
+      {
+       "id": "224371--manghal-pantaji-sesang-eseo-sal-anamgi",
+       "title": "Выжить в проклятом фэнтези",
+       "cover": "https://cover.lib.social/uploads/cover/manghal-pantaji-sesang-eseo-sal-anamgi/cover/94ca1fa7-91ee-4d3e-98d9-2302720145ce.jpg"
+      },
+      {
+       "id": "187014--apokallibseu-syelteo-gwanlija",
+       "title": "Управляющий постапокалиптического убежища",
+       "cover": "https://cover.lib.social/uploads/cover/apokallibseu-syelteo-gwanlija/cover/a2a69f59-6548-4ebc-9876-10facf88627a.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "119699--dr-sin-song-han-mirae-boneun-eusa-novel",
+       "title": "Доктор Син Сон Хан: доктор, который видит будущее",
+       "cover": "https://cover.lib.social/uploads/cover/dr-sin-song-han-mirae-boneun-eusa-novel/cover/4B1vmypnismG_250x350.jpg"
+      },
+      {
+       "id": "90679--goedam-dong-ali",
+       "title": "Клуб историй о привидениях",
+       "cover": "https://cover.lib.social/uploads/cover/goedam-dong-ali/cover/3eb81ad2-db38-4897-b4ef-0aeeaa00d8fb.jpg"
+      },
+      {
+       "id": "276341--dakeu-pantajieseo-do-ssareun-meokgo-saraya-ji",
+       "title": "Даже в тёмном фэнтези нужно есть рис, чтобы выжить, верно?",
+       "cover": "https://cover.lib.social/uploads/cover/dakeu-pantajieseo-do-ssareun-meokgo-saraya-ji/cover/cc40db44-0aba-4daa-81c1-c8774c741757.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "275444--dakeu-pantajieseo-pogguneuro-chaggagdaham",
+       "title": "Принят за тирана в тёмном фэнтези",
+       "cover": "https://cover.lib.social/uploads/cover/dakeu-pantajieseo-pogguneuro-chaggagdaham/cover/d9d182df-9d66-402c-aa8e-363300bc2ed9.jpg"
+      },
+      {
+       "id": "273261--syn-diktatora",
+       "title": "Сын диктатора",
+       "cover": "https://cover.lib.social/uploads/cover/syn-diktatora/cover/5f358e42-49bb-4e09-9e6c-3cab78b6d3a6.jpg"
+      },
+      {
+       "id": "272883--ropan-sog-yeogbyeouisaga-doeeossda",
+       "title": "Я стал Чумным доктором в романтическом фэнтези",
+       "cover": "https://cover.lib.social/uploads/cover/ropan-sog-yeogbyeouisaga-doeeossda/cover/c405aee4-f682-4747-8424-3a15417de13c.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "261757--transmigrated-villain-at-the-beginning-i-kidnapped-the-female-lead",
+       "title": "Трансмиграция в злодея: Я похитил Главную Героиню, а затем приказал связать и себя!",
+       "cover": "https://cover.lib.social/uploads/cover/transmigrated-villain-at-the-beginning-i-kidnapped-the-female-lead/cover/89a535ce-6d70-4b5a-a6b5-bdc9fe58014e.jpg"
+      },
+      {
+       "id": "199649--the-tales-of-an-infinite-regressor",
+       "title": "Сказ о бесконечной регрессии",
+       "cover": "https://cover.lib.social/uploads/cover/the-tales-of-an-infinite-regressor/cover/d85aff19-1eb4-4e5b-85e3-ccc8e98ed959.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "277480--batsu-game-de-kokuhaku-suru-koto-ni-natta-no-to-classmate-no-bishoujo-ga-target-no-ore-ni-soudan-shite-kita-node-jaa-hontou-ni-tsukiacchau-to-ittara-hontou-no-koibito-ni-narimashita-wn",
+       "title": "Моя красавица-одноклассница призналась, что должна признаться мне в любви в качестве наказания, поэтому я предложил встречаться по-настоящему — и мы действительно стали парой",
+       "cover": "https://cover.lib.social/uploads/cover/batsu-game-de-kokuhaku-suru-koto-ni-natta-no-to-classmate-no-bishoujo-ga-target-no-ore-ni-soudan-shite-kita-node-jaa-hontou-ni-tsukiacchau-to-ittara-hontou-no-koibito-ni-narimashita-wn/cover/d1e9d30b-27a6-4b09-9abe-8ddb646e754f.jpg"
+      },
+      {
+       "id": "278066--goeireul-jugyeotdeoni-jipchakdanghanda-wn",
+       "title": "Убил аномалию — и теперь они одержимы мной",
+       "cover": "https://cover.lib.social/uploads/cover/goeireul-jugyeotdeoni-jipchakdanghanda-wn/cover/3f421d3e-ee32-4c05-898e-08dd7dd1ea7c.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "276114--my-daughter-is-a-vampire",
+       "title": "Моя дочь - вампир",
+       "cover": "https://cover.lib.social/uploads/cover/my-daughter-is-a-vampire/cover/7a1cd58a-d0ee-40f0-bcba-cf64203c8edb.jpg"
+      },
+      {
+       "id": "276038--spirit-game",
+       "title": "Игра духов",
+       "cover": "https://cover.lib.social/uploads/cover/spirit-game/cover/706f5750-53fb-4bb8-bbb7-86253b475b04.jpg"
+      },
+      {
+       "id": "275322--quan-zhi-jian-xiu",
+       "title": "Мастер меча на полную ставку",
+       "cover": "https://cover.lib.social/uploads/cover/quan-zhi-jian-xiu/cover/1ba0e4b7-52b8-410a-8c4d-5f28eca76590.jpg"
+      },
+      {
+       "id": "273135--delve",
+       "title": "Погружение в бездну",
+       "cover": "https://cover.lib.social/uploads/cover/delve/cover/b8b434d4-1170-4ebc-bdcb-aa6971ac8821.jpg"
+      },
+      {
+       "id": "269175--vzgliad-v-bezdnu",
+       "title": "Взгляд в Бездну",
+       "cover": "https://cover.lib.social/uploads/cover/vzgliad-v-bezdnu/cover/f972085b-a0b8-4faf-931b-0509e221a077.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "268919--wo-de-bing-jiao-jixie-qi",
+       "title": "Моя жена-робот Яндере",
+       "cover": "https://cover.lib.social/uploads/cover/wo-de-bing-jiao-jixie-qi/cover/0d2830ea-f737-4d28-8a06-c658cb429fec.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "265153--akademi-gaemangnani-gyosuga-doeeossda",
+       "title": "Я стал никчёмным профессором в академии",
+       "cover": "https://cover.lib.social/uploads/cover/akademi-gaemangnani-gyosuga-doeeossda/cover/71fccea6-ca7b-492d-a278-de92bfa4a9d2.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "256491--boksuhaneun-gime-aidol-tap-meokgetseumnida",
+       "title": "Месть Топ-Айдола",
+       "cover": "https://cover.lib.social/uploads/cover/boksuhaneun-gime-aidol-tap-meokgetseumnida/cover/8ac08149-b5e5-4a32-8b45-5fafa0c1c3dc.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "244739--nal-cheohyeonghan-yeong-ungdeul-i-naege-jibchaghanda",
+       "title": "Герои, казнившие меня, одержимы мной",
+       "cover": "https://cover.lib.social/uploads/cover/nal-cheohyeonghan-yeong-ungdeul-i-naege-jibchaghanda/cover/0cab0bbf-be78-43ba-99e4-599f448c8ebe.jpg"
+      },
+      {
+       "id": "229875--mangnanido-jiciossspnida",
+       "title": "Даже негодяй устаёт",
+       "cover": "https://cover.lib.social/uploads/cover/mangnanido-jiciossspnida/cover/0de013a5-c0e8-4efb-8c78-837202a15558.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "221114--i-became-the-inspector-for-the-villainess-lady",
+       "title": "Я Стал Инспектором для Леди-Злодейки",
+       "cover": "https://cover.lib.social/uploads/cover/i-became-the-inspector-for-the-villainess-lady/cover/b48a3a7d-ddb2-438c-8d57-b038d2acafc6.jpg"
+      },
+      {
+       "id": "214126--agdangdeul-ui-huwonjaga-doeeossda",
+       "title": "Стал покровителем злодеев",
+       "cover": "https://cover.lib.social/uploads/cover/agdangdeul-ui-huwonjaga-doeeossda/cover/7d63b499-a11d-4bd1-ba72-646c17bcc53e.jpg"
+      },
+      {
+       "id": "210382--gongpo-kkeim-sok-minpyekaega-saranamneun-bangbop",
+       "title": "Как выжить назойливому персонажу в хорроре",
+       "cover": "https://cover.lib.social/uploads/cover/gongpo-kkeim-sok-minpyekaega-saranamneun-bangbop/cover/c614bea2-1e87-41a3-936a-17aa0fbb4a94.jpg"
+      },
+      {
+       "id": "196071--i-accidentally-created-a-villainous-organization",
+       "title": "Я нечаянно создал Организацию Зла",
+       "cover": "https://cover.lib.social/uploads/cover/i-accidentally-created-a-villainous-organization/cover/53b60ba9-1a25-4382-b0c6-b9818b5984ab.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "180284--i-became-a-third-rate-villain-in-the-hero-academy",
+       "title": "Я стал третьесортным злодеем в Академии Героев",
+       "cover": "https://cover.lib.social/uploads/cover/i-became-a-third-rate-villain-in-the-hero-academy/cover/2da2b81c-a973-4145-bd7f-d171ee610d6c.jpg",
+       "nsfw": true
+      },
+      {
+       "id": "129687--hell-app",
+       "title": "Адское Приложение (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/hell-app/cover/QdoiwJt9rmN6_250x350.jpg"
+      },
+      {
+       "id": "69477--medical-return-novel",
+       "title": "Реинкарнация врача (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/medical-return-novel/cover/d77b5110-2e2f-40fc-a314-0b8066947fb3.jpg"
+      },
+      {
+       "id": "69241--shadowless-night-novel",
+       "title": "Ночь без тени",
+       "cover": "https://cover.lib.social/uploads/cover/shadowless-night-novel/cover/e35a3975-d877-493a-a2c3-b03d7ae05e0a.jpg"
+      },
+      {
+       "id": "52445--i-am-the-commander-of-the-second-male-leads-knights",
+       "title": "Я командир рыцарей второго главного героя",
+       "cover": "https://cover.lib.social/uploads/cover/i-am-the-commander-of-the-second-male-leads-knights/cover/157d0d10-2dad-4ffc-89f6-8f893160f86b.jpg"
+      },
+      {
+       "id": "37185--babman-meoggo-lebel-eob-novel",
+       "title": "Поднятие уровня с помощью еды (Новелла)",
+       "cover": "https://cover.lib.social/uploads/cover/babman-meoggo-lebel-eob-novel/cover/a0378ecd-e595-4a78-b9c3-c9ee5b0e4b4c.jpg"
+      }
+     ],
+     "hasNext": true
+    }
+   }
+  },
+  {
+   "fn": "filters",
+   "args": [],
+   "result": {
+    "ok": [
+     {
+      "id": "sort",
+      "title": "Сортировка",
+      "type": "sort",
+      "default": "-rating_score",
+      "options": [
+       {
+        "id": "rating_score",
+        "title": "По популярности"
+       },
+       {
+        "id": "rate_avg",
+        "title": "По рейтингу"
+       },
+       {
+        "id": "views",
+        "title": "По просмотрам"
+       },
+       {
+        "id": "chap_count",
+        "title": "По количеству глав"
+       },
+       {
+        "id": "last_chapter_at",
+        "title": "По дате обновления"
+       },
+       {
+        "id": "created_at",
+        "title": "По дате добавления"
+       },
+       {
+        "id": "rus_name",
+        "title": "По названию"
+       }
+      ]
+     },
+     {
+      "id": "types",
+      "title": "Тип",
+      "type": "multiselect",
+      "options": [
+       {
+        "id": "10",
+        "title": "Япония"
+       },
+       {
+        "id": "11",
+        "title": "Корея"
+       },
+       {
+        "id": "12",
+        "title": "Китай"
+       },
+       {
+        "id": "13",
+        "title": "Английский"
+       },
+       {
+        "id": "14",
+        "title": "Авторский"
+       },
+       {
+        "id": "15",
+        "title": "Фанфик"
+       }
+      ]
+     },
+     {
+      "id": "genres",
+      "title": "Жанры",
+      "type": "multiselect",
+      "options": [
+       {
+        "id": "32",
+        "title": "Арт"
+       },
+       {
+        "id": "91",
+        "title": "Безумие"
+       },
+       {
+        "id": "34",
+        "title": "Боевик"
+       },
+       {
+        "id": "35",
+        "title": "Боевые искусства"
+       },
+       {
+        "id": "36",
+        "title": "Вампиры"
+       },
+       {
+        "id": "89",
+        "title": "Военное"
+       },
+       {
+        "id": "37",
+        "title": "Гарем"
+       },
+       {
+        "id": "38",
+        "title": "Гендерная интрига"
+       },
+       {
+        "id": "39",
+        "title": "Героическое фэнтези"
+       },
+       {
+        "id": "81",
+        "title": "Демоны"
+       },
+       {
+        "id": "40",
+        "title": "Детектив"
+       },
+       {
+        "id": "41",
+        "title": "Дзёсэй"
+       },
+       {
+        "id": "43",
+        "title": "Драма"
+       },
+       {
+        "id": "44",
+        "title": "Игра"
+       },
+       {
+        "id": "79",
+        "title": "Исекай"
+       },
+       {
+        "id": "45",
+        "title": "История"
+       },
+       {
+        "id": "46",
+        "title": "Киберпанк"
+       },
+       {
+        "id": "76",
+        "title": "Кодомо"
+       },
+       {
+        "id": "47",
+        "title": "Комедия"
+       },
+       {
+        "id": "83",
+        "title": "Космос"
+       },
+       {
+        "id": "85",
+        "title": "Магия"
+       },
+       {
+        "id": "48",
+        "title": "Махо-сёдзё"
+       },
+       {
+        "id": "90",
+        "title": "Машины"
+       },
+       {
+        "id": "49",
+        "title": "Меха"
+       },
+       {
+        "id": "50",
+        "title": "Мистика"
+       },
+       {
+        "id": "80",
+        "title": "Музыка"
+       },
+       {
+        "id": "51",
+        "title": "Научная фантастика"
+       },
+       {
+        "id": "77",
+        "title": "Омегаверс"
+       },
+       {
+        "id": "86",
+        "title": "Пародия"
+       },
+       {
+        "id": "52",
+        "title": "Повседневность"
+       },
+       {
+        "id": "82",
+        "title": "Полиция"
+       },
+       {
+        "id": "53",
+        "title": "Постапокалиптика"
+       },
+       {
+        "id": "54",
+        "title": "Приключения"
+       },
+       {
+        "id": "55",
+        "title": "Психология"
+       },
+       {
+        "id": "56",
+        "title": "Романтика"
+       },
+       {
+        "id": "57",
+        "title": "Самурайский боевик"
+       },
+       {
+        "id": "58",
+        "title": "Сверхъестественное"
+       },
+       {
+        "id": "59",
+        "title": "Сёдзё"
+       },
+       {
+        "id": "60",
+        "title": "Сёдзё-ай"
+       },
+       {
+        "id": "61",
+        "title": "Сёнэн"
+       },
+       {
+        "id": "62",
+        "title": "Сёнэн-ай"
+       },
+       {
+        "id": "63",
+        "title": "Спорт"
+       },
+       {
+        "id": "87",
+        "title": "Супер сила"
+       },
+       {
+        "id": "64",
+        "title": "Сэйнэн"
+       },
+       {
+        "id": "65",
+        "title": "Трагедия"
+       },
+       {
+        "id": "66",
+        "title": "Триллер"
+       },
+       {
+        "id": "67",
+        "title": "Ужасы"
+       },
+       {
+        "id": "68",
+        "title": "Фантастика"
+       },
+       {
+        "id": "69",
+        "title": "Фэнтези"
+       },
+       {
+        "id": "70",
+        "title": "Школа"
+       },
+       {
+        "id": "71",
+        "title": "Эротика"
+       },
+       {
+        "id": "72",
+        "title": "Этти"
+       },
+       {
+        "id": "73",
+        "title": "Юри"
+       },
+       {
+        "id": "74",
+        "title": "Яой"
+       }
+      ]
+     },
+     {
+      "id": "status",
+      "title": "Статус тайтла",
+      "type": "multiselect",
+      "options": [
+       {
+        "id": "1",
+        "title": "Онгоинг"
+       },
+       {
+        "id": "2",
+        "title": "Завершён"
+       },
+       {
+        "id": "3",
+        "title": "Анонс"
+       },
+       {
+        "id": "4",
+        "title": "Приостановлен"
+       },
+       {
+        "id": "5",
+        "title": "Выпуск прекращён"
+       }
+      ]
+     },
+     {
+      "id": "translation",
+      "title": "Статус перевода",
+      "type": "multiselect",
+      "options": [
+       {
+        "id": "1",
+        "title": "Продолжается"
+       },
+       {
+        "id": "2",
+        "title": "Завершён"
+       },
+       {
+        "id": "3",
+        "title": "Заморожен"
+       },
+       {
+        "id": "4",
+        "title": "Заброшен"
+       }
+      ]
+     },
+     {
+      "id": "withChapters",
+      "title": "Только с главами",
+      "type": "toggle",
+      "default": true
+     }
+    ]
+   }
+  },
+  {
+   "fn": "bookIdFromUrl",
+   "args": [
+    "https://ranobelib.me/ru/book/19232--mother-of-learning?section=chapters"
+   ],
+   "result": {
+    "ok": "19232--mother-of-learning"
+   }
+  },
+  {
+   "fn": "bookIdFromUrl",
+   "args": [
+    "https://ranobelib.me/ru/19232--mother-of-learning/read/v1/c1"
+   ],
+   "result": {
+    "ok": "19232--mother-of-learning"
+   }
+  },
+  {
+   "fn": "bookIdFromUrl",
+   "args": [
+    "https://example.org/ru/book/1--x"
+   ],
+   "result": {
+    "ok": null
+   }
+  },
+  {
+   "fn": "details",
+   "args": [
+    "1--no-such-book-xyz"
+   ],
+   "result": {
+    "err": {
+     "code": "NOT_FOUND",
+     "message": "no such book",
+     "url": "https://ranobelib.me/ru/book/1--no-such-book-xyz"
+    }
+   }
+  }
+ ],
+ "missing": []
+}

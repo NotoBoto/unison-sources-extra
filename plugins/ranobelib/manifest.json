@@ -1,0 +1,23 @@
+{
+  "id": "ranobelib",
+  "name": "RanobeLib",
+  "version": "1.0.0",
+  "api": 1,
+  "lang": "ru",
+  "site": "https://ranobelib.me",
+  "domains": ["api.cdnlibs.org", "ranobelib.me"],
+  "icon": "icons/ranobelib.png",
+  "content": ["text"],
+  "features": ["popular", "latest", "search", "filters", "login", "byUrl"],
+  "nsfw": false,
+  "studio": "private",
+  "browser": "onChallenge",
+  "rateLimit": { "rps": 1, "burst": 3 },
+  "login": {
+    "url": "https://ranobelib.me/ru/front/auth",
+    "kind": "localStorage",
+    "key": "auth",
+    "path": "/token/access_token",
+    "header": "Authorization: Bearer {token}"
+  }
+}

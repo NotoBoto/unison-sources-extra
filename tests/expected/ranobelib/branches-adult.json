@@ -1,0 +1,4454 @@
+{
+ "manifest": {
+  "id": "ranobelib",
+  "name": "RanobeLib",
+  "version": "1.0.0",
+  "api": 1,
+  "lang": "ru",
+  "site": "https://ranobelib.me",
+  "domains": [
+   "api.cdnlibs.org",
+   "ranobelib.me"
+  ],
+  "icon": "icons/ranobelib.png",
+  "content": [
+   "text"
+  ],
+  "features": [
+   "popular",
+   "latest",
+   "search",
+   "filters",
+   "login",
+   "byUrl"
+  ],
+  "nsfw": false,
+  "studio": "private",
+  "browser": "onChallenge",
+  "rateLimit": {
+   "rps": 1,
+   "burst": 3
+  },
+  "login": {
+   "url": "https://ranobelib.me/ru/front/auth",
+   "kind": "localStorage",
+   "key": "auth",
+   "path": "/token/access_token",
+   "header": "Authorization: Bearer {token}"
+  }
+ },
+ "core": {
+  "version": "1.1.0"
+ },
+ "results": [
+  {
+   "fn": "details",
+   "args": [
+    "26690--omniscient-readers-viewpoint-novel"
+   ],
+   "result": {
+    "ok": {
+     "id": "26690--omniscient-readers-viewpoint-novel",
+     "title": "Точка зрения Всеведущего читателя",
+     "tags": [
+      "Боевик",
+      "Боевые искусства",
+      "Комедия",
+      "Научная фантастика",
+      "Постапокалиптика",
+      "Приключения",
+      "Психология",
+      "Сэйнэн",
+      "Трагедия",
+      "Триллер",
+      "Фантастика",
+      "Фэнтези",
+      "Демоны",
+      "Магия",
+      "Монстры",
+      "Реинкарнация",
+      "Выживание",
+      "Путешествие во времени",
+      "Боги",
+      "Владыка демонов",
+      "Ранги силы",
+      "Скрытие личности",
+      "ГГ имба",
+      "ГГ мужчина",
+      "Умный ГГ",
+      "Драконы",
+      "Подземелья",
+      "Путешествие в другой мир",
+      "Прыжки между мирами",
+      "Эволюция",
+      "Исторические фигуры",
+      "ГГ не ояш",
+      "Элементы РПГ",
+      "Характерный рост",
+      "Бессмертные",
+      "Регрессия"
+     ],
+     "status": "completed",
+     "lang": "ru",
+     "url": "https://ranobelib.me/ru/book/26690--omniscient-readers-viewpoint-novel",
+     "author": "singNsong",
+     "translator": "Ранобэ.рф, Heishen Team, DIT| Нам 7 лет, Недождавшиеся Некроманты, Marionetka4, fogrest_, Волк на псарне",
+     "cover": "https://cover.lib.social/uploads/cover/omniscient-readers-viewpoint-novel/cover/3b48638c-b4e1-498a-9ea2-2d88b6df245d.jpg",
+     "description": "Ким Докчжа — единственный читатель ежедневного романа под названием: «Три способа выжить в разрушенном мире» с более чем 3 000 глав. Этот роман заканчивается последней главой, с благодарностью и последними словами: «Тот факт, что вы читаете это, означает, что вы выживете». На следующий день Ким Докчжа получает от автора на телефон копию романа, после чего его содержание становится реальным. И с этого момента начинается игра со смертью, где каждый должен сделать всё, чтобы выжить.",
+     "nsfw": true
+    }
+   }
+  },
+  {
+   "fn": "chapters",
+   "args": [
+    "26690--omniscient-readers-viewpoint-novel"
+   ],
+   "result": {
+    "ok": [
+     {
+      "id": "1/0@17824",
+      "title": "Глава 0. Пролог: Три способа выжить в разрушенном мире",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c0?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-03-28T01:17:52Z"
+     },
+     {
+      "id": "1/1.1@17824",
+      "title": "Глава 1.1. Начало монетизации (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c1.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-03-28T01:17:52Z"
+     },
+     {
+      "id": "1/1.2@17824",
+      "title": "Глава 1.2. Начало монетизации (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c1.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-03-28T01:17:52Z"
+     },
+     {
+      "id": "1/1.3@17824",
+      "title": "Глава 1.3. Начало монетизации (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c1.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-03-28T01:17:52Z"
+     },
+     {
+      "id": "1/1.4@17824",
+      "title": "Глава 1.4. Начало монетизации (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c1.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-03-28T01:17:52Z"
+     },
+     {
+      "id": "1/1.5@17824",
+      "title": "Глава 1.5. Запуск платного обслуживания",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c1.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-03-28T01:17:52Z"
+     },
+     {
+      "id": "1/2.1@17824",
+      "title": "Глава 2.1. Протагонист (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c2.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-03-28T01:17:52Z"
+     },
+     {
+      "id": "1/2.2@17824",
+      "title": "Глава 2.2. Протагонист (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c2.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-03-28T12:36:26Z"
+     },
+     {
+      "id": "1/2.3@17824",
+      "title": "Глава 2.3. Протагонист (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c2.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-03-28T12:50:15Z"
+     },
+     {
+      "id": "1/2.4@17824",
+      "title": "Глава 2.4. Протагонист (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c2.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-03-28T13:03:08Z"
+     },
+     {
+      "id": "1/2.5@17824",
+      "title": "Глава 2.5. Протагонист (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c2.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-03-28T13:29:32Z"
+     },
+     {
+      "id": "1/3.1@17824",
+      "title": "Глава 3.1. Контракт (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c3.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-03-31T20:06:52Z"
+     },
+     {
+      "id": "1/3.2@17824",
+      "title": "Глава 3.2. Контракт (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c3.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-03-31T20:07:28Z"
+     },
+     {
+      "id": "1/3.3@17824",
+      "title": "Глава 3.3. Контракт (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c3.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-03-31T20:18:10Z"
+     },
+     {
+      "id": "1/3.4@17824",
+      "title": "Глава 3.4. Контракт (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c3.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-03-31T20:35:34Z"
+     },
+     {
+      "id": "1/4.1@17824",
+      "title": "Глава 4.1. Лицемерие — тоже благо (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c4.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-01T09:33:30Z"
+     },
+     {
+      "id": "1/4.2@17824",
+      "title": "Глава 4.2. Лицемерие — тоже благо (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c4.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-04T20:49:58Z"
+     },
+     {
+      "id": "1/4.3@17824",
+      "title": "Глава 4.3. Лицемерие — тоже благо (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c4.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-04T20:51:14Z"
+     },
+     {
+      "id": "1/4.4@17824",
+      "title": "Глава 4.4. Лицемерие — тоже благо (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c4.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-04T21:01:40Z"
+     },
+     {
+      "id": "1/5.1@17824",
+      "title": "Глава 5.1. Страж Тьмы (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c5.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-05T14:59:15Z"
+     },
+     {
+      "id": "1/5.2@17824",
+      "title": "Глава 5.2. Страж Тьмы (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c5.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-11T13:03:29Z"
+     },
+     {
+      "id": "1/5.3@17824",
+      "title": "Глава 5.3. Страж Тьмы (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c5.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-11T13:26:29Z"
+     },
+     {
+      "id": "1/5.4@17824",
+      "title": "Глава 5.4. Страж Тьмы (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c5.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-11T13:58:46Z"
+     },
+     {
+      "id": "1/6.1@17824",
+      "title": "Глава 6.1. Судный час (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c6.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-11T14:08:48Z"
+     },
+     {
+      "id": "1/6.2@17824",
+      "title": "Глава 6.2. Судный час (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c6.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-21T20:11:34Z"
+     },
+     {
+      "id": "1/6.3@17824",
+      "title": "Глава 6.3. Судный час (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c6.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-21T20:27:48Z"
+     },
+     {
+      "id": "1/6.4@17824",
+      "title": "Глава 6.4. Судный час (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c6.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-21T20:39:02Z"
+     },
+     {
+      "id": "1/7.1@17824",
+      "title": "Глава 7.1. Землевладелец (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c7.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-25T12:27:15Z"
+     },
+     {
+      "id": "1/7.2@17824",
+      "title": "Глава 7.2. Землевладелец (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c7.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-25T12:40:21Z"
+     },
+     {
+      "id": "1/7.3@17824",
+      "title": "Глава 7.3. Землевладелец (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c7.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-25T13:04:17Z"
+     },
+     {
+      "id": "1/7.4@17824",
+      "title": "Глава 7.4. Землевладелец (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c7.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-25T13:16:48Z"
+     },
+     {
+      "id": "1/7.5@17824",
+      "title": "Глава 7.5. Землевладелец (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c7.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-04-25T13:27:25Z"
+     },
+     {
+      "id": "1/8.1@17824",
+      "title": "Глава 8.1. Экстренная оборона (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c8.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-05-05T21:40:30Z"
+     },
+     {
+      "id": "1/8.2@17824",
+      "title": "Глава 8.2. Экстренная оборона (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c8.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-05-05T21:47:31Z"
+     },
+     {
+      "id": "1/8.3@17824",
+      "title": "Глава 8.3. Экстренная оборона (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c8.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-05-05T21:51:45Z"
+     },
+     {
+      "id": "1/8.4@17824",
+      "title": "Глава 8.4. Экстренная оборона (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c8.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-07-18T21:25:55Z"
+     },
+     {
+      "id": "1/9.1@17824",
+      "title": "Глава 9.1. Всеведущий солнечник (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c9.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-07-18T21:29:45Z"
+     },
+     {
+      "id": "1/9.2@17824",
+      "title": "Глава 9.2. Всеведущий солнечник (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c9.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-07-18T21:38:44Z"
+     },
+     {
+      "id": "1/9.3@17824",
+      "title": "Глава 9.3. Всеведущий солнечник (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c9.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-08-08T18:12:22Z"
+     },
+     {
+      "id": "1/9.4@17824",
+      "title": "Глава 9.4. Всеведущий солнечник (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c9.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-08-08T18:21:52Z"
+     },
+     {
+      "id": "1/9.5@17824",
+      "title": "Глава 9.5. Всеведущий Солнечник (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c9.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2024-08-08T18:35:47Z"
+     },
+     {
+      "id": "1/9.6@17824",
+      "title": "Глава 9.6. Всеведущий Солнечник [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c9.6?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-03T16:46:58Z"
+     },
+     {
+      "id": "1/10.1@17824",
+      "title": "Глава 10.1. Будущая война (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c10.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-04T10:59:27Z"
+     },
+     {
+      "id": "1/10.2@17824",
+      "title": "Глава 10.2. Будущая война (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c10.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-05T09:58:02Z"
+     },
+     {
+      "id": "1/10.3@17824",
+      "title": "Глава 10.3. Война будущего [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c10.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-06T17:45:40Z"
+     },
+     {
+      "id": "1/10.4@17824",
+      "title": "Глава 10.4. Война будущего [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c10.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-06T17:46:28Z"
+     },
+     {
+      "id": "1/10.5@17824",
+      "title": "Глава 10.5. Война будущего [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c10.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-06T17:47:02Z"
+     },
+     {
+      "id": "1/10.6@17824",
+      "title": "Глава 10.6. Война будущего [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c10.6?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-07T02:51:11Z"
+     },
+     {
+      "id": "1/10.7@17824",
+      "title": "Глава 10.7. Война будущего [7]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c10.7?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-08T08:44:55Z"
+     },
+     {
+      "id": "1/11.1@17824",
+      "title": "Глава 11.1. Ночь Пророков (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c11.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-09T14:01:49Z"
+     },
+     {
+      "id": "1/11.2@17824",
+      "title": "Глава 11.2. Ночь Пророков (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c11.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-12T07:56:12Z"
+     },
+     {
+      "id": "1/11.3@17824",
+      "title": "Глава 11.3. Ночь Пророков (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c11.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-12T07:56:45Z"
+     },
+     {
+      "id": "1/11.4@17824",
+      "title": "Глава 11.4. Ночь Пророков (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c11.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-12T07:57:21Z"
+     },
+     {
+      "id": "1/11.5@17824",
+      "title": "Глава 11.5. Ночь Пророков (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c11.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-12T07:57:53Z"
+     },
+     {
+      "id": "1/12.1@17824",
+      "title": "Глава 12.1. Точка зрения Главного Героя [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c12.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-14T12:08:51Z"
+     },
+     {
+      "id": "1/12.2@17824",
+      "title": "Глава 12.2. Точка зрения Главного Героя [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c12.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-14T12:09:32Z"
+     },
+     {
+      "id": "1/12.3@17824",
+      "title": "Глава 12.3. Точка зрения Главного Героя [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c12.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-14T12:10:00Z"
+     },
+     {
+      "id": "1/12.4@17824",
+      "title": "Глава 12.4. Точка зрения Главного Героя [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c12.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-14T12:11:20Z"
+     },
+     {
+      "id": "1/12.5@17824",
+      "title": "Глава 12.5. Точка зрения главного героя от первого лица [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c12.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-17T20:00:41Z"
+     },
+     {
+      "id": "1/13.1@17824",
+      "title": "Глава 13.1. Война Королей (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c13.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-18T17:23:35Z"
+     },
+     {
+      "id": "1/13.2@17824",
+      "title": "Глава 13.2. Война Королей (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c13.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-19T08:03:01Z"
+     },
+     {
+      "id": "1/13.3@17824",
+      "title": "Глава 13.3. Война Королей (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c13.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-20T11:41:57Z"
+     },
+     {
+      "id": "1/13.4@17824",
+      "title": "Глава 13.4. Война Королей [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c13.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-21T18:27:18Z"
+     },
+     {
+      "id": "1/13.5@17824",
+      "title": "Глава 13.5. Война Королей [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c13.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-21T18:28:35Z"
+     },
+     {
+      "id": "1/14.1@17824",
+      "title": "Глава 14.1. Владыка Трона [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c14.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-23T12:26:47Z"
+     },
+     {
+      "id": "1/14.2@17824",
+      "title": "Глава 14.2. Хозяин Трона (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c14.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-25T11:30:33Z"
+     },
+     {
+      "id": "1/14.3@17824",
+      "title": "Глава 14.3. Хозяин Трона (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c14.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-25T11:30:58Z"
+     },
+     {
+      "id": "1/14.4@17824",
+      "title": "Глава 14.4. Владыка Трона [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c14.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-26T10:32:19Z"
+     },
+     {
+      "id": "1/14.5@17824",
+      "title": "Глава 14.5. Владыка Трона [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c14.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-29T13:01:33Z"
+     },
+     {
+      "id": "1/14.6@17824",
+      "title": "Глава 14.6. Владыка Трона [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c14.6?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-29T13:01:33Z"
+     },
+     {
+      "id": "1/15.1@17824",
+      "title": "Глава 15.1. Мир Без Короля [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c15.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-07-29T16:24:06Z"
+     },
+     {
+      "id": "1/15.2@17824",
+      "title": "Глава 15.2. Мир без королей (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c15.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-03T10:11:20Z"
+     },
+     {
+      "id": "1/15.3@17824",
+      "title": "Глава 15.3. Мир без королей (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c15.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-03T10:11:20Z"
+     },
+     {
+      "id": "1/15.4@17824",
+      "title": "Глава 15.4. Мир Без Короля [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c15.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-03T10:11:20Z"
+     },
+     {
+      "id": "1/15.5@17824",
+      "title": "Глава 15.5. Мир Без Короля [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c15.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-03T19:32:22Z"
+     },
+     {
+      "id": "1/15.6@17824",
+      "title": "Глава 15.6. Мир Без Короля [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c15.6?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-04T20:20:25Z"
+     },
+     {
+      "id": "1/16.1@17824",
+      "title": "Глава 16.1. Пятый Сценарий [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c16.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-04T20:21:43Z"
+     },
+     {
+      "id": "1/16.2@17824",
+      "title": "Глава 16.2. Пятый сценарий [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c16.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-06T19:01:49Z"
+     },
+     {
+      "id": "1/16.3@17824",
+      "title": "Глава 16.3. Пятый Сценарий [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c16.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-06T19:02:33Z"
+     },
+     {
+      "id": "1/16.4@17824",
+      "title": "Глава 16.4. Пятый сценарий [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c16.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-11T18:04:59Z"
+     },
+     {
+      "id": "1/16.5@17824",
+      "title": "Глава 16.5. Пятый Сценарий [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c16.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-18T15:08:45Z"
+     },
+     {
+      "id": "1/17.1@17824",
+      "title": "Глава 17.1. Талант SSS-ранга [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c17.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-18T15:08:45Z"
+     },
+     {
+      "id": "1/17.2@17824",
+      "title": "Глава 17.2. Талант SSS-ранга [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c17.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-18T15:08:45Z"
+     },
+     {
+      "id": "1/17.3@17824",
+      "title": "Глава 17.3. Талант SSS-ранга [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c17.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-18T15:08:46Z"
+     },
+     {
+      "id": "1/17.4@17824",
+      "title": "Глава 17.4. Талант SSS-ранга [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c17.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-21T13:46:38Z"
+     },
+     {
+      "id": "1/17.5@17824",
+      "title": "Глава 17.5. Талант SSS-ранга [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c17.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-21T13:47:21Z"
+     },
+     {
+      "id": "1/17.6@17824",
+      "title": "Глава 17.6. Талант SSS-ранга [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c17.6?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-28T17:41:02Z"
+     },
+     {
+      "id": "1/18.1@17824",
+      "title": "Глава 18.1. Битва Читателя [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c18.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-08-28T17:41:28Z"
+     },
+     {
+      "id": "1/18.2@17824",
+      "title": "Глава 18.2. Битва Читателя [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c18.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-09-04T18:09:09Z"
+     },
+     {
+      "id": "1/18.3@17824",
+      "title": "Глава 18.3. Битва Читателя [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c18.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-09-05T13:59:09Z"
+     },
+     {
+      "id": "1/18.4@17824",
+      "title": "Глава 18.4. Битва читателя [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c18.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-09-08T15:45:05Z"
+     },
+     {
+      "id": "1/18.5@17824",
+      "title": "Глава 18.5. Битва читателя [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c18.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-09-08T15:45:43Z"
+     },
+     {
+      "id": "1/19.1@17824",
+      "title": "Глава 19.1. Сингулярность (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c19.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-09-11T17:52:47Z"
+     },
+     {
+      "id": "1/19.2@17824",
+      "title": "Глава 19.2. Сингулярность [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c19.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-09-12T13:34:06Z"
+     },
+     {
+      "id": "1/19.3@17824",
+      "title": "Глава 19.3. Сингулярность [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c19.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-09-21T11:07:14Z"
+     },
+     {
+      "id": "1/19.4@17824",
+      "title": "Глава 19.4. Сингулярность (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c19.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-09-22T14:06:09Z"
+     },
+     {
+      "id": "1/19.5@17824",
+      "title": "Глава 19.5. Сингулярность (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c19.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-09-25T18:45:53Z"
+     },
+     {
+      "id": "1/20.1@17824",
+      "title": "Глава 20.1. Катастрофа Наводнения (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c20.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-06T19:13:06Z"
+     },
+     {
+      "id": "1/20.2@17824",
+      "title": "Глава 20.2. Катастрофа Наводнения (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c20.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-06T19:14:38Z"
+     },
+     {
+      "id": "1/20.3@17824",
+      "title": "Глава 20.3. Катастрофа Наводнения (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c20.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-06T19:15:21Z"
+     },
+     {
+      "id": "1/20.4@17824",
+      "title": "Глава 20.4. Катастрофа Наводнения (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c20.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-11T10:04:02Z"
+     },
+     {
+      "id": "1/20.5@17824",
+      "title": "Глава 20.5. Катастрофа Наводнения (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c20.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-11T10:04:53Z"
+     },
+     {
+      "id": "1/21.1@17824",
+      "title": "Глава 21.1. То, что нельзя изменить [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c21.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-15T15:16:42Z"
+     },
+     {
+      "id": "1/21.2@17824",
+      "title": "Глава 21.2. То, что нельзя изменить [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c21.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-15T15:17:26Z"
+     },
+     {
+      "id": "1/21.3@17824",
+      "title": "Глава 21.3. То, что нельзя изменить [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c21.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-15T15:18:02Z"
+     },
+     {
+      "id": "1/21.4@17824",
+      "title": "Глава 21.4. То, что нельзя изменить [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c21.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-15T15:18:35Z"
+     },
+     {
+      "id": "1/21.5@17824",
+      "title": "Глава 21.5. То, что нельзя изменить [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c21.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-15T15:19:18Z"
+     },
+     {
+      "id": "1/21.6@17824",
+      "title": "Глава 21.6. То, что нельзя изменить [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c21.6?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-15T19:56:58Z"
+     },
+     {
+      "id": "1/22.1@17824",
+      "title": "Глава 22.1. Три обещания [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c22.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-17T18:02:10Z"
+     },
+     {
+      "id": "1/22.2@17824",
+      "title": "Глава 22.2. Три обещания [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c22.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-17T18:02:51Z"
+     },
+     {
+      "id": "1/22.3@17824",
+      "title": "Глава 22.3. Три обещания [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c22.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-17T18:03:28Z"
+     },
+     {
+      "id": "1/22.4@17824",
+      "title": "Глава 22.4. Три обещания [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c22.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-17T18:04:20Z"
+     },
+     {
+      "id": "1/22.5@17824",
+      "title": "Глава 22.5. Три обещания [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c22.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-17T18:05:02Z"
+     },
+     {
+      "id": "1/22.6@17824",
+      "title": "Глава 22.6. Три обещания [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c22.6?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-17T18:05:41Z"
+     },
+     {
+      "id": "1/22.7@17824",
+      "title": "Глава 22.7. Три обещания [7]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c22.7?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-17T18:06:19Z"
+     },
+     {
+      "id": "1/23.1@17824",
+      "title": "Глава 23.1. Покинутый мир [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c23.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-24T11:14:44Z"
+     },
+     {
+      "id": "1/23.2@17824",
+      "title": "Глава 23.2. Покинутый мир [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c23.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-24T11:15:51Z"
+     },
+     {
+      "id": "1/23.3@17824",
+      "title": "Глава 23.3. Покинутый мир [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c23.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-24T11:16:42Z"
+     },
+     {
+      "id": "1/23.4@17824",
+      "title": "Глава 23.4. Покинутый мир [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c23.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-24T11:17:38Z"
+     },
+     {
+      "id": "1/23.5@17824",
+      "title": "Глава 23.5. Покинутый мир [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c23.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-24T11:18:36Z"
+     },
+     {
+      "id": "1/24.1@17824",
+      "title": "Глава 24.1. То, что можно изменить [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c24.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-26T18:27:18Z"
+     },
+     {
+      "id": "1/24.2@17824",
+      "title": "Глава 24.2. То, что можно изменить [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c24.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-26T18:28:17Z"
+     },
+     {
+      "id": "1/24.3@17824",
+      "title": "Глава 24.3. То, что можно изменить [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c24.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-26T18:29:25Z"
+     },
+     {
+      "id": "1/24.4@17824",
+      "title": "Глава 24.4. То, что можно изменить [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c24.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-26T18:31:09Z"
+     },
+     {
+      "id": "1/24.5@17824",
+      "title": "Глава 24.5. То, что можно изменить [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c24.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-26T18:30:14Z"
+     },
+     {
+      "id": "1/24.6@17824",
+      "title": "Глава 24.6. То, что можно изменить [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c24.6?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-26T18:31:44Z"
+     },
+     {
+      "id": "1/25.1@17824",
+      "title": "Глава 25.1. Те, кто столкнулся с Богом (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c25.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-29T14:12:33Z"
+     },
+     {
+      "id": "1/25.2@17824",
+      "title": "Глава 25.2. Те, кто столкнулся с Богом (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c25.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-29T14:13:42Z"
+     },
+     {
+      "id": "1/25.3@17824",
+      "title": "Глава 25.3. Те, кто столкнулся с Богом (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c25.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-29T14:14:29Z"
+     },
+     {
+      "id": "1/25.4@17824",
+      "title": "Глава 25.4. Те, кто столкнулся с Богом (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c25.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-10-29T14:15:33Z"
+     },
+     {
+      "id": "1/26.1@17824",
+      "title": "Глава 26.1. Разрушитель сценария [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c26.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-11-05T07:16:03Z"
+     },
+     {
+      "id": "1/26.2@17824",
+      "title": "Глава 26.2. Разрушитель сценария [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c26.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-11-05T07:16:03Z"
+     },
+     {
+      "id": "1/26.3@17824",
+      "title": "Глава 26.3. Разрушитель сценария [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c26.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-11-05T07:16:04Z"
+     },
+     {
+      "id": "1/26.4@17824",
+      "title": "Глава 26.4. Разрушитель сценария [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c26.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-11-05T07:16:04Z"
+     },
+     {
+      "id": "1/26.5@17824",
+      "title": "Глава 26.5. Уничтожитель Сценариев (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c26.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-11-07T10:50:10Z"
+     },
+     {
+      "id": "1/26.6@17824",
+      "title": "Глава 26.6. Уничтожитель Сценариев (6)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c26.6?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-11-07T10:51:45Z"
+     },
+     {
+      "id": "1/27.1@17824",
+      "title": "Глава 27.1. Нечитаемое (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c27.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-11-14T10:46:53Z"
+     },
+     {
+      "id": "1/27.2@17824",
+      "title": "Глава 27.2. Нечитаемое (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c27.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-11-14T10:47:31Z"
+     },
+     {
+      "id": "1/27.3@17824",
+      "title": "Глава 27.3. Нечитаемое (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c27.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-11-26T07:35:29Z"
+     },
+     {
+      "id": "1/27.4@17824",
+      "title": "Глава 27.4. Нечитаемое (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c27.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-11-26T07:35:29Z"
+     },
+     {
+      "id": "1/28.1@17824",
+      "title": "Глава 28.1. Максимальная жертва (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c28.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-14T19:34:50Z"
+     },
+     {
+      "id": "1/28.2@17824",
+      "title": "Глава 28.2. Максимальная жертва (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c28.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-14T19:35:30Z"
+     },
+     {
+      "id": "1/28.3@17824",
+      "title": "Глава 28.3. Максимальная жертва (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c28.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-14T19:36:04Z"
+     },
+     {
+      "id": "1/28.4@17824",
+      "title": "Глава 28.4. Максимальная жертва (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c28.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-14T19:37:01Z"
+     },
+     {
+      "id": "1/28.5@17824",
+      "title": "Глава 28.5. Максимальная жертва (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c28.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-14T19:38:01Z"
+     },
+     {
+      "id": "1/29.1@17824",
+      "title": "Глава 29.1. Банкет созвездий [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c29.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-17T16:45:51Z"
+     },
+     {
+      "id": "1/29.2@17824",
+      "title": "Глава 29.2. Банкет созвездий [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c29.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-17T16:46:25Z"
+     },
+     {
+      "id": "1/29.3@17824",
+      "title": "Глава 29.3. Банкет Созвездий (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c29.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-17T16:47:17Z"
+     },
+     {
+      "id": "1/29.4@17824",
+      "title": "Глава 29.4. Банкет созвездий [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c29.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-17T16:48:03Z"
+     },
+     {
+      "id": "1/29.5@17824",
+      "title": "Глава 29.5. Банкет созвездий [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c29.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-17T16:49:13Z"
+     },
+     {
+      "id": "1/30.1@17824",
+      "title": "Глава 30.1. Тёмный замок [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c30.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-19T17:09:57Z"
+     },
+     {
+      "id": "1/30.2@17824",
+      "title": "Глава 30.2. Тёмный замок [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c30.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-19T17:10:55Z"
+     },
+     {
+      "id": "1/30.3@17824",
+      "title": "Глава 30.3. Тёмный замок [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c30.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-19T17:11:34Z"
+     },
+     {
+      "id": "1/30.4@17824",
+      "title": "Глава 30.4. Тёмный замок [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c30.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-19T17:12:16Z"
+     },
+     {
+      "id": "1/30.5@17824",
+      "title": "Глава 30.5. Тёмный замок [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c30.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-19T17:12:58Z"
+     },
+     {
+      "id": "1/30.6@17824",
+      "title": "Глава 30.6. Тёмный замок [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c30.6?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-19T17:13:39Z"
+     },
+     {
+      "id": "1/31.1@17824",
+      "title": "Глава 31.1. Гробница сценариев [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c31.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-20T19:30:12Z"
+     },
+     {
+      "id": "1/31.2@17824",
+      "title": "Глава 31.2. Гробница сценариев [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c31.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-20T19:31:05Z"
+     },
+     {
+      "id": "1/31.3@17824",
+      "title": "Глава 31.3. Гробница сценариев [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c31.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-20T19:31:42Z"
+     },
+     {
+      "id": "1/31.4@17824",
+      "title": "Глава 31.4. Гробница сценариев [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c31.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-20T19:32:30Z"
+     },
+     {
+      "id": "1/31.5@17824",
+      "title": "Глава 31.5. Гробница сценария [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c31.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-20T19:33:33Z"
+     },
+     {
+      "id": "1/32.1@17824",
+      "title": "Глава 32.1. Любовь Кима Докчи (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c32.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-22T18:42:19Z"
+     },
+     {
+      "id": "1/32.2@17824",
+      "title": "Глава 32.2. Любовь Кима Докчи (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c32.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-22T18:42:56Z"
+     },
+     {
+      "id": "1/32.3@17824",
+      "title": "Глава 32.3. Любовь Кима Докчи (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c32.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-22T18:43:29Z"
+     },
+     {
+      "id": "1/32.4@17824",
+      "title": "Глава 32.4. Любовь Ким Докчжа [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c32.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-22T18:44:03Z"
+     },
+     {
+      "id": "1/32.5@17824",
+      "title": "Глава 32.5. Любовь Кима Докчи (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c32.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-22T18:46:26Z"
+     },
+     {
+      "id": "1/32.6@17824",
+      "title": "Глава 32.6. Любовь Ким Докчжа [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c32.6?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-22T18:46:57Z"
+     },
+     {
+      "id": "1/32.7@17824",
+      "title": "Глава 32.7. Любовь Ким Докчжа [7]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c32.7?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-22T18:48:04Z"
+     },
+     {
+      "id": "1/32.8@17824",
+      "title": "Глава 32.8. Любовь Кима Докчи (8)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c32.8?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-22T18:48:38Z"
+     },
+     {
+      "id": "1/33.1@17824",
+      "title": "Глава 33.1. Перечитывая (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c33.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-26T12:37:50Z"
+     },
+     {
+      "id": "1/33.2@17824",
+      "title": "Глава 33.2. Перечитывая (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c33.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-26T12:38:51Z"
+     },
+     {
+      "id": "1/33.3@17824",
+      "title": "Глава 33.3. Перечитывая [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c33.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-26T12:39:27Z"
+     },
+     {
+      "id": "1/33.4@17824",
+      "title": "Глава 33.4. Перечитывая [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c33.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-26T12:39:57Z"
+     },
+     {
+      "id": "1/33.5@17824",
+      "title": "Глава 33.5. Перечитывая (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c33.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-26T12:40:30Z"
+     },
+     {
+      "id": "1/33.6@17824",
+      "title": "Глава 33.6. Перечитывая (6)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c33.6?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-26T12:41:09Z"
+     },
+     {
+      "id": "1/33.7@17824",
+      "title": "Глава 33.7. Перечитывая (7)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c33.7?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-26T12:41:40Z"
+     },
+     {
+      "id": "1/33.8@17824",
+      "title": "Глава 33.8. Перечитывая (8)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c33.8?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-26T12:42:11Z"
+     },
+     {
+      "id": "1/33.9@17824",
+      "title": "Глава 33.9. Перечитывая (9)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c33.9?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-26T12:42:39Z"
+     },
+     {
+      "id": "1/34.1@17824",
+      "title": "Глава 34.1. Неперевариваемый (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c34.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-26T12:43:33Z"
+     },
+     {
+      "id": "1/34.2@17824",
+      "title": "Глава 34.2. Неперевариваемый (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c34.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-26T12:45:54Z"
+     },
+     {
+      "id": "1/34.3@17824",
+      "title": "Глава 34.3. Неперевариваемый (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c34.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-26T12:46:24Z"
+     },
+     {
+      "id": "1/35.1@17824",
+      "title": "Глава 35.1. 73 Король Демонов (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c35.1?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-27T18:41:53Z"
+     },
+     {
+      "id": "1/35.2@17824",
+      "title": "Глава 35.2. 73 Король Демонов (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c35.2?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-27T18:43:44Z"
+     },
+     {
+      "id": "1/35.3@17824",
+      "title": "Глава 35.3. 73 Король Демонов (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c35.3?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-27T18:44:43Z"
+     },
+     {
+      "id": "1/35.4@17824",
+      "title": "Глава 35.4. 73 Король Демонов (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c35.4?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-27T18:45:31Z"
+     },
+     {
+      "id": "1/35.5@17824",
+      "title": "Глава 35.5. 73 Король Демонов (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c35.5?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-27T18:46:06Z"
+     },
+     {
+      "id": "1/35.6@17824",
+      "title": "Глава 35.6. 73 Король Демонов (6)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c35.6?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-27T18:46:40Z"
+     },
+     {
+      "id": "1/35.7@17824",
+      "title": "Глава 35.7. 73-й Демонический Король [7]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c35.7?bid=17824",
+      "volume": "Том 1",
+      "date": "2025-12-27T18:48:56Z"
+     },
+     {
+      "id": "2/36.1@17824",
+      "title": "Глава 36.1. Горизонт Историй [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c36.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2025-12-30T16:33:07Z"
+     },
+     {
+      "id": "2/36.2@17824",
+      "title": "Глава 36.2. Горизонт Историй [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c36.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2025-12-30T16:34:17Z"
+     },
+     {
+      "id": "2/36.3@17824",
+      "title": "Глава 36.3. Горизонт Историй [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c36.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2025-12-30T16:34:58Z"
+     },
+     {
+      "id": "2/36.4@17824",
+      "title": "Глава 36.4. Горизонт Истории (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c36.4?bid=17824",
+      "volume": "Том 2",
+      "date": "2025-12-30T16:35:42Z"
+     },
+     {
+      "id": "2/36.5@17824",
+      "title": "Глава 36.5. Горизонт Истории (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c36.5?bid=17824",
+      "volume": "Том 2",
+      "date": "2025-12-30T16:36:15Z"
+     },
+     {
+      "id": "2/37.1@17824",
+      "title": "Глава 37.1. Пейзаж Мира Демонов (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c37.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-13T10:21:30Z"
+     },
+     {
+      "id": "2/37.2@17824",
+      "title": "Глава 37.2. Пейзаж Мира Демонов (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c37.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-13T10:22:12Z"
+     },
+     {
+      "id": "2/37.3@17824",
+      "title": "Глава 37.3. Пейзаж Мира Демонов (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c37.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-13T10:23:50Z"
+     },
+     {
+      "id": "2/37.4@17824",
+      "title": "Глава 37.4. Пейзаж Мира Демонов (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c37.4?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-13T10:24:25Z"
+     },
+     {
+      "id": "2/37.5@17824",
+      "title": "Глава 37.5. Пейзаж Мира Демонов (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c37.5?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-13T10:32:14Z"
+     },
+     {
+      "id": "2/38.1@17824",
+      "title": "Глава 38.1. Лжереволюционер [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c38.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-14T19:27:25Z"
+     },
+     {
+      "id": "2/38.2@17824",
+      "title": "Глава 38.2. Лжереволюционер [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c38.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-14T19:28:54Z"
+     },
+     {
+      "id": "2/38.3@17824",
+      "title": "Глава 38.3. Лжереволюционер [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c38.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-14T19:29:36Z"
+     },
+     {
+      "id": "2/38.4@17824",
+      "title": "Глава 38.4. Лжереволюционер [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c38.4?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-14T19:30:08Z"
+     },
+     {
+      "id": "2/38.5@17824",
+      "title": "Глава 38.5. Лжереволюционер [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c38.5?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-14T19:30:46Z"
+     },
+     {
+      "id": "2/39.1@17824",
+      "title": "Глава 39.1. Неопознанная Стена [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c39.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-15T07:44:15Z"
+     },
+     {
+      "id": "2/39.2@17824",
+      "title": "Глава 39.2. Неопознанная Стена [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c39.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-15T07:45:28Z"
+     },
+     {
+      "id": "2/39.3@17824",
+      "title": "Глава 39.3. Неопознанная Стена [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c39.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-15T07:46:20Z"
+     },
+     {
+      "id": "2/39.4@17824",
+      "title": "Глава 39.4. Неопознанная Стена [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c39.4?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-15T07:47:09Z"
+     },
+     {
+      "id": "2/39.5@17824",
+      "title": "Глава 39.5. Неопознанная Стена [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c39.5?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-15T07:49:30Z"
+     },
+     {
+      "id": "2/39.6@17824",
+      "title": "Глава 39.6. Неопознанная Стена [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c39.6?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-15T07:50:24Z"
+     },
+     {
+      "id": "2/40.1@17824",
+      "title": "Глава 40.1. Вылупление (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c40.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-17T15:06:33Z"
+     },
+     {
+      "id": "2/40.2@17824",
+      "title": "Глава 40.2. Вылупление (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c40.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-17T15:07:18Z"
+     },
+     {
+      "id": "2/40.3@17824",
+      "title": "Глава 40.3. Вылупление [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c40.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-17T15:07:56Z"
+     },
+     {
+      "id": "2/40.4@17824",
+      "title": "Глава 40.4. Вылупление (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c40.4?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-17T15:08:37Z"
+     },
+     {
+      "id": "2/40.5@17824",
+      "title": "Глава 40.5. Вылупление (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c40.5?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-17T15:09:16Z"
+     },
+     {
+      "id": "2/41.1@17824",
+      "title": "Глава 41.1. Истинный Революционер (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c41.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-17T15:09:54Z"
+     },
+     {
+      "id": "2/41.2@17824",
+      "title": "Глава 41.2. Истинный Революционер (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c41.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-17T15:10:31Z"
+     },
+     {
+      "id": "2/41.3@17824",
+      "title": "Глава 41.3. Истинный Революционер (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c41.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-17T15:11:10Z"
+     },
+     {
+      "id": "2/41.4@17824",
+      "title": "Глава 41.4. Истинный Революционер (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c41.4?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-17T15:11:53Z"
+     },
+     {
+      "id": "2/41.5@17824",
+      "title": "Глава 41.5. Истинный Революционер (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c41.5?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-17T15:12:29Z"
+     },
+     {
+      "id": "2/41.6@17824",
+      "title": "Глава 41.6. Истинный Революционер (6)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c41.6?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-17T15:13:06Z"
+     },
+     {
+      "id": "2/42.1@17824",
+      "title": "Глава 42.1. Асмодей (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c42.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-19T10:28:04Z"
+     },
+     {
+      "id": "2/42.2@17824",
+      "title": "Глава 42.2. Асмодей (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c42.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-19T10:28:50Z"
+     },
+     {
+      "id": "2/42.3@17824",
+      "title": "Глава 42.3. Асмодей (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c42.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-19T10:36:12Z"
+     },
+     {
+      "id": "2/42.4@17824",
+      "title": "Глава 42.4. Асмодей [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c42.4?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-19T10:37:52Z"
+     },
+     {
+      "id": "2/42.5@17824",
+      "title": "Глава 42.5. Асмодей [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c42.5?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-19T10:38:28Z"
+     },
+     {
+      "id": "2/42.6@17824",
+      "title": "Глава 42.6. Асмодей (6)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c42.6?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-19T10:39:03Z"
+     },
+     {
+      "id": "2/43.1@17824",
+      "title": "Глава 43.1. Святая, Рассекающая Небеса Мечом [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c43.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-22T10:35:51Z"
+     },
+     {
+      "id": "2/43.2@17824",
+      "title": "Глава 43.2. Святая, Рассекающая Небеса Мечом [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c43.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-22T10:36:39Z"
+     },
+     {
+      "id": "2/43.3@17824",
+      "title": "Глава 43.3. Святая, Рассекающая Небеса Мечом [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c43.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-22T10:37:15Z"
+     },
+     {
+      "id": "2/43.4@17824",
+      "title": "Глава 43.4. Святая, Рассекающая Небеса Мечом [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c43.4?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-22T10:38:14Z"
+     },
+     {
+      "id": "2/43.5@17824",
+      "title": "Глава 43.5. Святая, Рассекающая Небеса Мечом [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c43.5?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-22T10:38:49Z"
+     },
+     {
+      "id": "2/43.6@17824",
+      "title": "Глава 43.6. Святая, Рассекающая Небеса Мечом [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c43.6?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-22T10:40:38Z"
+     },
+     {
+      "id": "2/44.1@17824",
+      "title": "Глава 44.1. Мошенник [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c44.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-22T10:41:57Z"
+     },
+     {
+      "id": "2/44.2@17824",
+      "title": "Глава 44.2. Мошенник [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c44.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-22T10:43:08Z"
+     },
+     {
+      "id": "2/44.3@17824",
+      "title": "Глава 44.3. Мошенник [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c44.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-22T10:44:22Z"
+     },
+     {
+      "id": "2/44.4@17824",
+      "title": "Глава 44.4. Мошенник [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c44.4?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-22T10:44:51Z"
+     },
+     {
+      "id": "2/45.1@17824",
+      "title": "Глава 45.1. Ассоциация Гурманов [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c45.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-23T15:38:19Z"
+     },
+     {
+      "id": "2/45.2@17824",
+      "title": "Глава 45.2. Ассоциация Гурманов [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c45.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-23T15:38:58Z"
+     },
+     {
+      "id": "2/45.3@17824",
+      "title": "Глава 45.3. Ассоциация Гурманов (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c45.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-23T15:40:07Z"
+     },
+     {
+      "id": "2/45.4@17824",
+      "title": "Глава 45.4. Ассоциация Гурманов [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c45.4?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-23T15:41:13Z"
+     },
+     {
+      "id": "2/45.5@17824",
+      "title": "Глава 45.5. Ассоциация Гурманов [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c45.5?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-23T15:41:53Z"
+     },
+     {
+      "id": "2/45.6@17824",
+      "title": "Глава 45.6. Ассоциация Гурманов [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c45.6?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-23T15:42:40Z"
+     },
+     {
+      "id": "2/45.7@17824",
+      "title": "Глава 45.7. Ассоциация Гурманов (7)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c45.7?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-23T15:43:17Z"
+     },
+     {
+      "id": "2/46.1@17824",
+      "title": "Глава 46.1. Новая История (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c46.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-24T09:23:37Z"
+     },
+     {
+      "id": "2/46.2@17824",
+      "title": "Глава 46.2. Новая История (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c46.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-24T09:25:49Z"
+     },
+     {
+      "id": "2/46.3@17824",
+      "title": "Глава 46.3. Новая История (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c46.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-24T09:26:31Z"
+     },
+     {
+      "id": "2/47.1@17824",
+      "title": "Глава 47.1. Избрание Короля Демонов (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c47.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-31T15:56:05Z"
+     },
+     {
+      "id": "2/47.2@17824",
+      "title": "Глава 47.2. Избрание Короля Демонов (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c47.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-31T15:57:08Z"
+     },
+     {
+      "id": "2/47.3@17824",
+      "title": "Глава 47.3. Выбор Демонического Короля [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c47.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-31T15:58:41Z"
+     },
+     {
+      "id": "2/47.4@17824",
+      "title": "Глава 47.4. Избрание Короля Демонов (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c47.4?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-31T15:59:21Z"
+     },
+     {
+      "id": "2/47.5@17824",
+      "title": "Глава 47.5. Выбор Демонического Короля [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c47.5?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-31T16:00:23Z"
+     },
+     {
+      "id": "2/47.6@17824",
+      "title": "Глава 47.6. Избрание Короля Демонов (6)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c47.6?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-31T16:02:28Z"
+     },
+     {
+      "id": "2/47.7@17824",
+      "title": "Глава 47.7. Избрание Короля Демонов (7)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c47.7?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-31T16:03:13Z"
+     },
+     {
+      "id": "2/47.8@17824",
+      "title": "Глава 47.8. Избрание Короля Демонов (8)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c47.8?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-01-31T16:04:56Z"
+     },
+     {
+      "id": "2/48.1@17824",
+      "title": "Глава 48.1. Становление Персонажем (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c48.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-04T18:53:25Z"
+     },
+     {
+      "id": "2/48.2@17824",
+      "title": "Глава 48.2. Становление Персонажем (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c48.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-04T18:54:16Z"
+     },
+     {
+      "id": "2/48.3@17824",
+      "title": "Глава 48.3. Становление Персонажем (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c48.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-04T18:55:54Z"
+     },
+     {
+      "id": "2/48.4@17824",
+      "title": "Глава 48.4. Становление Персонажем (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c48.4?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-04T18:56:55Z"
+     },
+     {
+      "id": "2/49.1@17824",
+      "title": "Глава 49.1. Лучший в чем-то (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c49.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-21T17:01:04Z"
+     },
+     {
+      "id": "2/49.2@17824",
+      "title": "Глава 49.2. Лучший в чём-то [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c49.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-21T17:01:43Z"
+     },
+     {
+      "id": "2/49.3@17824",
+      "title": "Глава 49.3. Лучший в чём-то [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c49.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-21T17:02:16Z"
+     },
+     {
+      "id": "2/49.4@17824",
+      "title": "Глава 49.4. Лучший в чём-то [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c49.4?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-21T17:04:32Z"
+     },
+     {
+      "id": "2/49.5@17824",
+      "title": "Глава 49.5. Лучший в чём-то [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c49.5?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-21T17:06:35Z"
+     },
+     {
+      "id": "2/50.1@17824",
+      "title": "Глава 50.1. История Докчжа [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c50.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-23T18:02:35Z"
+     },
+     {
+      "id": "2/50.2@17824",
+      "title": "Глава 50.2. История Докчжа [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c50.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-23T18:03:27Z"
+     },
+     {
+      "id": "2/50.3@17824",
+      "title": "Глава 50.3. История Докчжа [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c50.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-23T18:04:36Z"
+     },
+     {
+      "id": "2/50.4@17824",
+      "title": "Глава 50.4. История Докчжа [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c50.4?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-23T18:05:29Z"
+     },
+     {
+      "id": "2/50.5@17824",
+      "title": "Глава 50.5. История Докчжа [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c50.5?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-23T18:06:53Z"
+     },
+     {
+      "id": "2/50.6@17824",
+      "title": "Глава 50.6. История Докчжа [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c50.6?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-23T18:07:36Z"
+     },
+     {
+      "id": "2/50.7@17824",
+      "title": "Глава 50.7. История Докчжа [7]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c50.7?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-23T18:09:00Z"
+     },
+     {
+      "id": "2/50.8@17824",
+      "title": "Глава 50.8. История Докчжа [8]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c50.8?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-02-23T18:11:41Z"
+     },
+     {
+      "id": "2/51.1@17824",
+      "title": "Глава 51.1. Гигантская История (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c51.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-03-08T19:33:48Z"
+     },
+     {
+      "id": "2/51.2@17824",
+      "title": "Глава 51.2. Гигантская История (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c51.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-03-08T19:35:31Z"
+     },
+     {
+      "id": "2/51.3@17824",
+      "title": "Глава 51.3. Гигантская История (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c51.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-03-08T19:36:12Z"
+     },
+     {
+      "id": "2/51.4@17824",
+      "title": "Глава 51.4. Гигантская История (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c51.4?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-03-08T19:39:00Z"
+     },
+     {
+      "id": "2/52.1@17824",
+      "title": "Глава 52.1. ■■ [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c52.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-03-15T15:45:49Z"
+     },
+     {
+      "id": "2/52.2@17824",
+      "title": "Глава 52.2. ■■ (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c52.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-03-15T15:46:40Z"
+     },
+     {
+      "id": "2/52.3@17824",
+      "title": "Глава 52.3. ■■ [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c52.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-03-15T15:48:18Z"
+     },
+     {
+      "id": "2/53.1@17824",
+      "title": "Глава 53.1. Демонический Король Спасения (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c53.1?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-03-25T17:49:07Z"
+     },
+     {
+      "id": "2/53.2@17824",
+      "title": "Глава 53.2. Демонический Король Спасения [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c53.2?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-03-25T17:49:47Z"
+     },
+     {
+      "id": "2/53.3@17824",
+      "title": "Глава 53.3. Демонический Король Спасения [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c53.3?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-03-25T17:50:25Z"
+     },
+     {
+      "id": "2/53.4@17824",
+      "title": "Глава 53.4. Демонический Король Спасения (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c53.4?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-03-25T17:51:55Z"
+     },
+     {
+      "id": "2/53.5@17824",
+      "title": "Глава 53.5. Демонический Король Спасения [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c53.5?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-03-25T17:53:06Z"
+     },
+     {
+      "id": "2/53.6@17824",
+      "title": "Глава 53.6. Демонический Король Спасения (6)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v2/c53.6?bid=17824",
+      "volume": "Том 2",
+      "date": "2026-03-25T17:55:11Z"
+     },
+     {
+      "id": "3/54.1@17824",
+      "title": "Глава 54.1. Убийца Демонических Королей [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c54.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-03-28T17:40:57Z"
+     },
+     {
+      "id": "3/54.2@17824",
+      "title": "Глава 54.2. Убийца Королей Демонов (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c54.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-03-28T17:42:31Z"
+     },
+     {
+      "id": "3/54.3@17824",
+      "title": "Глава 54.3. Убийца Королей Демонов (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c54.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-03-28T17:43:34Z"
+     },
+     {
+      "id": "3/54.4@17824",
+      "title": "Глава 54.4. Убийца Королей Демонов (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c54.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-03-28T17:44:14Z"
+     },
+     {
+      "id": "3/54.5@17824",
+      "title": "Глава 54.5. Убийца Демонических Королей [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c54.5?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-03-28T17:45:00Z"
+     },
+     {
+      "id": "3/54.6@17824",
+      "title": "Глава 54.6. Убийца Королей Демонов (6)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c54.6?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-03-28T17:48:34Z"
+     },
+     {
+      "id": "3/55.1@17824",
+      "title": "Глава 55.1. Счастливые Воспоминания (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c55.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-03-30T14:17:07Z"
+     },
+     {
+      "id": "3/55.2@17824",
+      "title": "Глава 55.2. Счастливые Воспоминания (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c55.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-03-30T14:17:56Z"
+     },
+     {
+      "id": "3/55.3@17824",
+      "title": "Глава 55.3. Счастливые Воспоминания (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c55.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-03-30T14:18:45Z"
+     },
+     {
+      "id": "3/55.4@17824",
+      "title": "Глава 55.4. Счастливые Воспоминания (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c55.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-03-30T14:19:24Z"
+     },
+     {
+      "id": "3/56.1@17824",
+      "title": "Глава 56.1. Читатель и Писатель [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c56.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-02T17:43:07Z"
+     },
+     {
+      "id": "3/56.2@17824",
+      "title": "Глава 56.2. Читатель и Писатель [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c56.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-02T17:45:08Z"
+     },
+     {
+      "id": "3/56.3@17824",
+      "title": "Глава 56.3. Читатель и Писатель [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c56.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-02T17:46:22Z"
+     },
+     {
+      "id": "3/56.4@17824",
+      "title": "Глава 56.4. Читатель и Писатель [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c56.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-02T17:47:50Z"
+     },
+     {
+      "id": "3/56.5@17824",
+      "title": "Глава 56.5. Читатель и Писатель [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c56.5?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-02T17:50:15Z"
+     },
+     {
+      "id": "3/57.1@17824",
+      "title": "Глава 57.1. Великолепное Возвращение [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c57.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-02T17:51:52Z"
+     },
+     {
+      "id": "3/57.2@17824",
+      "title": "Глава 57.2. Великолепное Возвращение [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c57.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-02T17:54:04Z"
+     },
+     {
+      "id": "3/57.3@17824",
+      "title": "Глава 57.3. Великолепное Возвращение [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c57.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-02T17:55:24Z"
+     },
+     {
+      "id": "3/57.4@17824",
+      "title": "Глава 57.4. Великолепное Возвращение [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c57.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-02T17:56:18Z"
+     },
+     {
+      "id": "3/57.5@17824",
+      "title": "Глава 57.5. Великолепное Возвращение [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c57.5?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-02T17:57:08Z"
+     },
+     {
+      "id": "3/58.1@17824",
+      "title": "Глава 58.1. Контекст Созвездий (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c58.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-03T19:05:45Z"
+     },
+     {
+      "id": "3/58.2@17824",
+      "title": "Глава 58.2. Контекст Созвездий (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c58.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-03T19:07:22Z"
+     },
+     {
+      "id": "3/58.3@17824",
+      "title": "Глава 58.3. Контекст Созвездий (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c58.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-03T19:08:14Z"
+     },
+     {
+      "id": "3/58.4@17824",
+      "title": "Глава 58.4. Контекст Созвездий (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c58.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-03T19:08:51Z"
+     },
+     {
+      "id": "3/58.5@17824",
+      "title": "Глава 58.5. Контекст Созвездий (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c58.5?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-03T19:09:27Z"
+     },
+     {
+      "id": "3/59.1@17824",
+      "title": "Глава 59.1. Компания Ким Докчжа [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c59.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-04T11:04:16Z"
+     },
+     {
+      "id": "3/59.2@17824",
+      "title": "Глава 59.2. Компания Ким Докчжа [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c59.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-04T11:04:55Z"
+     },
+     {
+      "id": "3/59.3@17824",
+      "title": "Глава 59.3. Компания Ким Докчжа [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c59.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-04T11:06:29Z"
+     },
+     {
+      "id": "3/59.4@17824",
+      "title": "Глава 59.4. Компания Ким Докчжа [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c59.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-08T15:15:51Z"
+     },
+     {
+      "id": "3/59.5@17824",
+      "title": "Глава 59.5. Компания Ким Докчжа [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c59.5?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-08T15:17:27Z"
+     },
+     {
+      "id": "3/59.6@17824",
+      "title": "Глава 59.6. Компания Ким Докчжа [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c59.6?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-08T15:19:51Z"
+     },
+     {
+      "id": "3/60.1@17824",
+      "title": "Глава 60.1. Вкус погибели [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c60.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-08T15:22:19Z"
+     },
+     {
+      "id": "3/60.2@17824",
+      "title": "Глава 60.2. Вкус погибели [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c60.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-08T15:24:22Z"
+     },
+     {
+      "id": "3/60.3@17824",
+      "title": "Глава 60.3. Вкус погибели [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c60.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-08T15:24:56Z"
+     },
+     {
+      "id": "3/60.4@17824",
+      "title": "Глава 60.4. Вкус погибели [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c60.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-08T15:25:40Z"
+     },
+     {
+      "id": "3/60.5@17824",
+      "title": "Глава 60.5. Вкус разрушения (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c60.5?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-08T15:27:32Z"
+     },
+     {
+      "id": "3/61.1@17824",
+      "title": "Глава 61.1. Гигантомахия (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c61.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-09T14:55:27Z"
+     },
+     {
+      "id": "3/61.2@17824",
+      "title": "Глава 61.2. Гигантомахия (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c61.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-09T14:59:50Z"
+     },
+     {
+      "id": "3/61.3@17824",
+      "title": "Глава 61.3. Гигантомахия [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c61.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-09T15:01:57Z"
+     },
+     {
+      "id": "3/61.4@17824",
+      "title": "Глава 61.4. Гигантомахия [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c61.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-09T15:02:52Z"
+     },
+     {
+      "id": "3/61.5@17824",
+      "title": "Глава 61.5. Гигантомахия [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c61.5?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-09T15:04:13Z"
+     },
+     {
+      "id": "3/61.6@17824",
+      "title": "Глава 61.6. Гигантомахия [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c61.6?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-09T15:05:09Z"
+     },
+     {
+      "id": "3/61.7@17824",
+      "title": "Глава 61.7. Гигантомахия (7)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c61.7?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-09T15:06:34Z"
+     },
+     {
+      "id": "3/62.1@17824",
+      "title": "Глава 62.1. Враг Бога [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c62.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-12T16:16:16Z"
+     },
+     {
+      "id": "3/62.2@17824",
+      "title": "Глава 62.2. Враг Бога [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c62.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-12T16:18:21Z"
+     },
+     {
+      "id": "3/62.3@17824",
+      "title": "Глава 62.3. Враг Бога [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c62.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-12T16:19:07Z"
+     },
+     {
+      "id": "3/62.4@17824",
+      "title": "Глава 62.4. Враг Бога [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c62.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-12T16:19:54Z"
+     },
+     {
+      "id": "3/62.5@17824",
+      "title": "Глава 62.5. Враг Бога [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c62.5?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-12T16:20:51Z"
+     },
+     {
+      "id": "3/62.6@17824",
+      "title": "Глава 62.6. Враг Бога [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c62.6?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-12T16:21:29Z"
+     },
+     {
+      "id": "3/63.1@17824",
+      "title": "Глава 63.1. Конец Мифа [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c63.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-14T17:29:21Z"
+     },
+     {
+      "id": "3/63.2@17824",
+      "title": "Глава 63.2. Конец Мифа [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c63.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-14T17:30:22Z"
+     },
+     {
+      "id": "3/63.3@17824",
+      "title": "Глава 63.3. Конец Мифа [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c63.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-14T17:31:46Z"
+     },
+     {
+      "id": "3/63.4@17824",
+      "title": "Глава 63.4. Конец Мифа [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c63.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-14T17:33:50Z"
+     },
+     {
+      "id": "3/63.5@17824",
+      "title": "Глава 63.5. Конец Мифа [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c63.5?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-14T17:35:25Z"
+     },
+     {
+      "id": "3/63.6@17824",
+      "title": "Глава 63.6. Конец мифу (6)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c63.6?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-14T17:36:15Z"
+     },
+     {
+      "id": "3/64.1@17824",
+      "title": "Глава 64.1. Дорога, что таковой не является [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c64.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-15T19:12:07Z"
+     },
+     {
+      "id": "3/64.2@17824",
+      "title": "Глава 64.2. Дорога, что таковой не является [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c64.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-15T19:13:48Z"
+     },
+     {
+      "id": "3/64.3@17824",
+      "title": "Глава 64.3. Дорога, что таковой не является [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c64.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-15T19:14:37Z"
+     },
+     {
+      "id": "3/64.4@17824",
+      "title": "Глава 64.4. Дорога, что таковой не является [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c64.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-15T19:15:24Z"
+     },
+     {
+      "id": "3/64.5@17824",
+      "title": "Глава 64.5. Дорога, что таковой не является [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c64.5?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-15T19:16:11Z"
+     },
+     {
+      "id": "3/65.1@17824",
+      "title": "Глава 65.1. Добро и зло [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c65.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-16T17:00:07Z"
+     },
+     {
+      "id": "3/65.2@17824",
+      "title": "Глава 65.2. Добро и Зло (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c65.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-16T17:00:46Z"
+     },
+     {
+      "id": "3/65.3@17824",
+      "title": "Глава 65.3. Добро и зло [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c65.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-16T17:03:54Z"
+     },
+     {
+      "id": "3/65.4@17824",
+      "title": "Глава 65.4. Добро и зло [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c65.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-16T17:07:20Z"
+     },
+     {
+      "id": "3/65.5@17824",
+      "title": "Глава 65.5. Добро и зло [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c65.5?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-16T17:09:21Z"
+     },
+     {
+      "id": "3/65.6@17824",
+      "title": "Глава 65.6. Добро и Зло (6)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c65.6?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-16T17:10:44Z"
+     },
+     {
+      "id": "3/66.1@17824",
+      "title": "Глава 66.1. По ту сторону добра и зла (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c66.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-16T17:13:04Z"
+     },
+     {
+      "id": "3/66.2@17824",
+      "title": "Глава 66.2. По ту сторону добра и зла (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c66.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-16T17:13:48Z"
+     },
+     {
+      "id": "3/66.3@17824",
+      "title": "Глава 66.3. По ту сторону добра и зла [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c66.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-16T17:15:01Z"
+     },
+     {
+      "id": "3/66.4@17824",
+      "title": "Глава 66.4. По ту сторону добра и зла [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c66.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-16T17:16:25Z"
+     },
+     {
+      "id": "3/66.5@17824",
+      "title": "Глава 66.5. По ту сторону добра и зла (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c66.5?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-16T17:17:57Z"
+     },
+     {
+      "id": "3/67.1@17824",
+      "title": "Глава 67.1. Забытые люди сценария [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c67.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:36:28Z"
+     },
+     {
+      "id": "3/67.2@17824",
+      "title": "Глава 67.2. Забытые люди сценария [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c67.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:37:24Z"
+     },
+     {
+      "id": "3/67.3@17824",
+      "title": "Глава 67.3. Забытые люди сценария [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c67.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:37:58Z"
+     },
+     {
+      "id": "3/67.4@17824",
+      "title": "Глава 67.4. Забытые люди сценария [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c67.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:38:39Z"
+     },
+     {
+      "id": "3/67.5@17824",
+      "title": "Глава 67.5. Забытые люди сценария [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c67.5?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:40:23Z"
+     },
+     {
+      "id": "3/68.1@17824",
+      "title": "Глава 68.1. Неразборчивые Слова (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c68.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:41:29Z"
+     },
+     {
+      "id": "3/68.2@17824",
+      "title": "Глава 68.2. Неразборчивые Слова (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c68.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:42:03Z"
+     },
+     {
+      "id": "3/68.3@17824",
+      "title": "Глава 68.3. Неразборчивые Слова (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c68.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:43:43Z"
+     },
+     {
+      "id": "3/68.4@17824",
+      "title": "Глава 68.4. Неразборчивые Слова (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c68.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:45:01Z"
+     },
+     {
+      "id": "3/69.1@17824",
+      "title": "Глава 69.1. Охота на Архангела [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c69.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:45:44Z"
+     },
+     {
+      "id": "3/69.2@17824",
+      "title": "Глава 69.2. Охота на Архангела [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c69.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:47:11Z"
+     },
+     {
+      "id": "3/69.3@17824",
+      "title": "Глава 69.3. Охота на Архангела [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c69.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:51:47Z"
+     },
+     {
+      "id": "3/69.4@17824",
+      "title": "Глава 69.4. Охота на Архангела [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c69.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:52:45Z"
+     },
+     {
+      "id": "3/70.1@17824",
+      "title": "Глава 70.1. История, которой нельзя поделиться [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c70.1?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:53:27Z"
+     },
+     {
+      "id": "3/70.2@17824",
+      "title": "Глава 70.2. История, которой нельзя поделиться [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c70.2?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:54:03Z"
+     },
+     {
+      "id": "3/70.3@17824",
+      "title": "Глава 70.3. История, которой нельзя поделиться [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c70.3?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:56:54Z"
+     },
+     {
+      "id": "3/70.4@17824",
+      "title": "Глава 70.4. История, которой нельзя поделиться [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v3/c70.4?bid=17824",
+      "volume": "Том 3",
+      "date": "2026-04-17T18:58:31Z"
+     },
+     {
+      "id": "4/71.1@17824",
+      "title": "Глава 71.1. 50 лет спустя [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c71.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-17T19:01:02Z"
+     },
+     {
+      "id": "4/71.2@17824",
+      "title": "Глава 71.2. 50 лет спустя [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c71.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-17T19:04:05Z"
+     },
+     {
+      "id": "4/71.3@17824",
+      "title": "Глава 71.3. 50 лет спустя [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c71.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-17T19:06:36Z"
+     },
+     {
+      "id": "4/71.4@17824",
+      "title": "Глава 71.4. 50 лет спустя [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c71.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T18:47:17Z"
+     },
+     {
+      "id": "4/72.1@17824",
+      "title": "Глава 72.1. Три метода [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c72.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T18:49:27Z"
+     },
+     {
+      "id": "4/72.2@17824",
+      "title": "Глава 72.2. Три метода [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c72.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T18:50:13Z"
+     },
+     {
+      "id": "4/72.3@17824",
+      "title": "Глава 72.3. Три метода [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c72.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T18:51:33Z"
+     },
+     {
+      "id": "4/72.4@17824",
+      "title": "Глава 72.4. Три метода [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c72.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T18:53:51Z"
+     },
+     {
+      "id": "4/72.5@17824",
+      "title": "Глава 72.5. Три метода [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c72.5?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T18:55:33Z"
+     },
+     {
+      "id": "4/73.1@17824",
+      "title": "Глава 73.1. Самое жаркое место в аду [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c73.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T18:56:21Z"
+     },
+     {
+      "id": "4/73.2@17824",
+      "title": "Глава 73.2. Самое жаркое место в аду [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c73.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T18:57:19Z"
+     },
+     {
+      "id": "4/73.3@17824",
+      "title": "Глава 73.3. Самое жаркое место в аду [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c73.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T18:58:09Z"
+     },
+     {
+      "id": "4/73.4@17824",
+      "title": "Глава 73.4. Самое жаркое место в аду [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c73.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T18:59:42Z"
+     },
+     {
+      "id": "4/74.1@17824",
+      "title": "Глава 74.1. Великая Война Святых и Демонов [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c74.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T19:00:27Z"
+     },
+     {
+      "id": "4/74.2@17824",
+      "title": "Глава 74.2. Великая Война Святых и Демонов [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c74.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T19:01:52Z"
+     },
+     {
+      "id": "4/74.3@17824",
+      "title": "Глава 74.3. Великая Война Святых и Демонов [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c74.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T19:02:43Z"
+     },
+     {
+      "id": "4/74.4@17824",
+      "title": "Глава 74.4. Великая Война Святых и Демонов [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c74.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T19:03:52Z"
+     },
+     {
+      "id": "4/74.5@17824",
+      "title": "Глава 74.5. Великая Война Святых и Демонов [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c74.5?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T19:04:39Z"
+     },
+     {
+      "id": "4/74.6@17824",
+      "title": "Глава 74.6. Великая Война Святых и Демонов [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c74.6?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T19:08:14Z"
+     },
+     {
+      "id": "4/74.7@17824",
+      "title": "Глава 74.7. Великая Война Святых и Демонов [7]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c74.7?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T19:09:13Z"
+     },
+     {
+      "id": "4/74.8@17824",
+      "title": "Глава 74.8. Великая Война Святых и Демонов [8]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c74.8?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-19T19:09:50Z"
+     },
+     {
+      "id": "4/75.1@17824",
+      "title": "Глава 75.1. Верные Сердца (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c75.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:14:13Z"
+     },
+     {
+      "id": "4/75.2@17824",
+      "title": "Глава 75.2. Верные Сердца (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c75.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:15:41Z"
+     },
+     {
+      "id": "4/75.3@17824",
+      "title": "Глава 75.3. Верные Сердца (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c75.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:17:20Z"
+     },
+     {
+      "id": "4/75.4@17824",
+      "title": "Глава 75.4. Верные Сердца (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c75.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:19:24Z"
+     },
+     {
+      "id": "4/75.5@17824",
+      "title": "Глава 75.5. Верные Сердца (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c75.5?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:21:51Z"
+     },
+     {
+      "id": "4/76.1@17824",
+      "title": "Глава 76.1. Книга Откровения [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c76.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:24:38Z"
+     },
+     {
+      "id": "4/76.2@17824",
+      "title": "Глава 76.2. Книга Откровения [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c76.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:25:20Z"
+     },
+     {
+      "id": "4/76.3@17824",
+      "title": "Глава 76.3. Книга Откровения [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c76.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:26:04Z"
+     },
+     {
+      "id": "4/76.4@17824",
+      "title": "Глава 76.4. Книга Откровения [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c76.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:26:44Z"
+     },
+     {
+      "id": "4/76.5@17824",
+      "title": "Глава 76.5. Книга Откровения [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c76.5?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:28:34Z"
+     },
+     {
+      "id": "4/77.1@17824",
+      "title": "Глава 77.1. Последний Дракон [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c77.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:29:37Z"
+     },
+     {
+      "id": "4/77.2@17824",
+      "title": "Глава 77.2. Последний Дракон [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c77.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:31:23Z"
+     },
+     {
+      "id": "4/77.3@17824",
+      "title": "Глава 77.3. Последний Дракон [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c77.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:32:21Z"
+     },
+     {
+      "id": "4/77.4@17824",
+      "title": "Глава 77.4. Последний Дракон [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c77.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:33:16Z"
+     },
+     {
+      "id": "4/77.5@17824",
+      "title": "Глава 77.5. Последний Дракон [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c77.5?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:34:03Z"
+     },
+     {
+      "id": "4/78.1@17824",
+      "title": "Глава 78.1. Кульминация/轉 [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c78.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:35:30Z"
+     },
+     {
+      "id": "4/78.2@17824",
+      "title": "Глава 78.2. Кульминация (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c78.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:37:25Z"
+     },
+     {
+      "id": "4/78.3@17824",
+      "title": "Глава 78.3. Кульминация (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c78.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:38:50Z"
+     },
+     {
+      "id": "4/78.4@17824",
+      "title": "Глава 78.4. Кульминация (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c78.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:39:33Z"
+     },
+     {
+      "id": "4/78.5@17824",
+      "title": "Глава 78.5. Кульминация (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c78.5?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:40:07Z"
+     },
+     {
+      "id": "4/78.6@17824",
+      "title": "Глава 78.6. Кульминация (6)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c78.6?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:41:43Z"
+     },
+     {
+      "id": "4/78.7@17824",
+      "title": "Глава 78.7. Кульминация (7)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c78.7?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-20T18:43:31Z"
+     },
+     {
+      "id": "4/79.1@17824",
+      "title": "Глава 79.1. Скрытый Интриган (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c79.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-21T17:56:22Z"
+     },
+     {
+      "id": "4/79.2@17824",
+      "title": "Глава 79.2. Скрытый Интриган (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c79.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-21T17:57:48Z"
+     },
+     {
+      "id": "4/79.3@17824",
+      "title": "Глава 79.3. Скрытный Интриган [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c79.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-21T17:58:44Z"
+     },
+     {
+      "id": "4/79.4@17824",
+      "title": "Глава 79.4. Скрытный Интриган [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c79.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-21T17:59:20Z"
+     },
+     {
+      "id": "4/79.5@17824",
+      "title": "Глава 79.5. Скрытный Интриган [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c79.5?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-21T17:59:53Z"
+     },
+     {
+      "id": "4/79.6@17824",
+      "title": "Глава 79.6. Скрытный Интриган [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c79.6?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-21T18:00:34Z"
+     },
+     {
+      "id": "4/79.7@17824",
+      "title": "Глава 79.7. Скрытный Интриган [7]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c79.7?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-21T18:01:07Z"
+     },
+     {
+      "id": "4/80.1@17824",
+      "title": "Глава 80.1. Наш величайший союзник [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c80.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:07:51Z"
+     },
+     {
+      "id": "4/80.2@17824",
+      "title": "Глава 80.2. Наш величайший союзник [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c80.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:08:59Z"
+     },
+     {
+      "id": "4/80.3@17824",
+      "title": "Глава 80.3. Наш величайший союзник [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c80.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:11:40Z"
+     },
+     {
+      "id": "4/80.4@17824",
+      "title": "Глава 80.4. Наш Величайший Союзник (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c80.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:13:33Z"
+     },
+     {
+      "id": "4/80.5@17824",
+      "title": "Глава 80.5. Наш Величайший Союзник (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c80.5?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:14:54Z"
+     },
+     {
+      "id": "4/81.1@17824",
+      "title": "Глава 81.1. Воспоминания пельмешки [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c81.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:15:59Z"
+     },
+     {
+      "id": "4/81.2@17824",
+      "title": "Глава 81.2. Воспоминания пельмешки [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c81.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:16:53Z"
+     },
+     {
+      "id": "4/81.3@17824",
+      "title": "Глава 81.3. Воспоминания пельмешки [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c81.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:17:54Z"
+     },
+     {
+      "id": "4/81.4@17824",
+      "title": "Глава 81.4. Воспоминания о Пельменях (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c81.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:18:38Z"
+     },
+     {
+      "id": "4/82.1@17824",
+      "title": "Глава 82.1. Внешний бог(1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c82.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:19:49Z"
+     },
+     {
+      "id": "4/82.2@17824",
+      "title": "Глава 82.2. Внешний Бог [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c82.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:20:46Z"
+     },
+     {
+      "id": "4/82.3@17824",
+      "title": "Глава 82.3. Внешний Бог [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c82.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:21:23Z"
+     },
+     {
+      "id": "4/82.4@17824",
+      "title": "Глава 82.4. Внешний Бог [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c82.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:22:30Z"
+     },
+     {
+      "id": "4/82.5@17824",
+      "title": "Глава 82.5. Внешний Бог [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c82.5?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:23:29Z"
+     },
+     {
+      "id": "4/82.6@17824",
+      "title": "Глава 82.6. Внешний Бог [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c82.6?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:24:19Z"
+     },
+     {
+      "id": "4/82.7@17824",
+      "title": "Глава 82.7. Внешний Бог [7]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c82.7?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:25:25Z"
+     },
+     {
+      "id": "4/83.1@17824",
+      "title": "Глава 83.1. Воплощение Докчжа [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c83.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:26:29Z"
+     },
+     {
+      "id": "4/83.2@17824",
+      "title": "Глава 83.2. Воплощение Докчжа [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c83.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:27:07Z"
+     },
+     {
+      "id": "4/83.3@17824",
+      "title": "Глава 83.3. Воплощение Докчжа [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c83.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:27:46Z"
+     },
+     {
+      "id": "4/83.4@17824",
+      "title": "Глава 83.4. Воплощение Докчжа [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c83.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:28:45Z"
+     },
+     {
+      "id": "4/83.5@17824",
+      "title": "Глава 83.5. Воплощение Докчжа [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c83.5?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:29:53Z"
+     },
+     {
+      "id": "4/83.6@17824",
+      "title": "Глава 83.6. Воплощение Докчжа [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c83.6?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:30:36Z"
+     },
+     {
+      "id": "4/84.1@17824",
+      "title": "Глава 84.1. 1864 [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c84.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:32:22Z"
+     },
+     {
+      "id": "4/84.2@17824",
+      "title": "Глава 84.2. 1864 [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c84.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:33:28Z"
+     },
+     {
+      "id": "4/84.3@17824",
+      "title": "Глава 84.3. 1864 [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c84.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:34:04Z"
+     },
+     {
+      "id": "4/84.4@17824",
+      "title": "Глава 84.4. 1864 [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c84.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:34:43Z"
+     },
+     {
+      "id": "4/85.1@17824",
+      "title": "Глава 85.1. Последняя Стена [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c85.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:35:25Z"
+     },
+     {
+      "id": "4/85.2@17824",
+      "title": "Глава 85.2. Последняя Стена [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c85.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:38:01Z"
+     },
+     {
+      "id": "4/85.3@17824",
+      "title": "Глава 85.3. Последняя Стена [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c85.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:39:54Z"
+     },
+     {
+      "id": "4/85.4@17824",
+      "title": "Глава 85.4. Последняя Стена [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c85.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:40:35Z"
+     },
+     {
+      "id": "4/85.5@17824",
+      "title": "Глава 85.5. Последняя Стена [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c85.5?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:41:21Z"
+     },
+     {
+      "id": "4/86.1@17824",
+      "title": "Глава 86.1. Квадратный круг [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c86.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:42:59Z"
+     },
+     {
+      "id": "4/86.2@17824",
+      "title": "Глава 86.2. Точка зрения Всеведущего читателя - Квадратный Круг (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c86.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:44:37Z"
+     },
+     {
+      "id": "4/86.3@17824",
+      "title": "Глава 86.3. Точка зрения Всеведущего читателя - Квадратный Круг (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c86.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:46:28Z"
+     },
+     {
+      "id": "4/86.4@17824",
+      "title": "Глава 86.4. Точка зрения Всеведущего читателя - Квадратный Круг (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c86.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:47:27Z"
+     },
+     {
+      "id": "4/86.5@17824",
+      "title": "Глава 86.5. Точка зрения Всеведущего читателя - Квадратный Круг (5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c86.5?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-22T18:48:52Z"
+     },
+     {
+      "id": "4/87.1@17824",
+      "title": "Глава 87.1. Стальное Сердце [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c87.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T18:37:11Z"
+     },
+     {
+      "id": "4/87.2@17824",
+      "title": "Глава 87.2. Точка зрения Всеведущего читателя - Стальное Сердце (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c87.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T18:38:25Z"
+     },
+     {
+      "id": "4/87.3@17824",
+      "title": "Глава 87.3. Точка зрения Всеведущего читателя - Стальное Сердце (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c87.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T18:39:10Z"
+     },
+     {
+      "id": "4/87.4@17824",
+      "title": "Глава 87.4. Точка зрения Всеведущего читателя - Стальное Сердце (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c87.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T18:40:58Z"
+     },
+     {
+      "id": "4/88.1@17824",
+      "title": "Глава 88.1. Точка зрения Всеведущего читателя - Мифологическое Созвездие (1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c88.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T18:42:20Z"
+     },
+     {
+      "id": "4/88.2@17824",
+      "title": "Глава 88.2. Точка зрения Всеведущего читателя - Мифологическое Созвездие (2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c88.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T18:43:17Z"
+     },
+     {
+      "id": "4/88.3@17824",
+      "title": "Глава 88.3. Точка зрения Всеведущего читателя - Мифологическое Созвездие (3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c88.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T18:44:56Z"
+     },
+     {
+      "id": "4/88.4@17824",
+      "title": "Глава 88.4. Точка зрения Всеведущего читателя - Мифологическое Созвездие (4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c88.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T18:46:03Z"
+     },
+     {
+      "id": "4/89.1@17824",
+      "title": "Глава 89.1. Точка зрения Всеведущего читателя - Великий Апокалипсис(1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c89.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T18:48:28Z"
+     },
+     {
+      "id": "4/89.2@17824",
+      "title": "Глава 89.2. Точка зрения Всеведущего читателя - Великий Апокалипсис(2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c89.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T18:49:24Z"
+     },
+     {
+      "id": "4/89.3@17824",
+      "title": "Глава 89.3. Точка зрения Всеведущего читателя - Великий Апокалипсис(3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c89.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T18:53:31Z"
+     },
+     {
+      "id": "4/89.4@17824",
+      "title": "Глава 89.4. Точка зрения Всеведущего читателя - Великий Апокалипсис(4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c89.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T18:55:08Z"
+     },
+     {
+      "id": "4/89.5@17824",
+      "title": "Глава 89.5. Точка зрения Всеведущего читателя - Великий Апокалипсис(5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c89.5?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T18:56:31Z"
+     },
+     {
+      "id": "4/90.1@17824",
+      "title": "Глава 90.1. Точка зрения Всеведущего читателя - Один Человек(1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c90.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T19:00:16Z"
+     },
+     {
+      "id": "4/90.2@17824",
+      "title": "Глава 90.2. Точка зрения Всеведущего читателя - Один Человек(2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c90.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T19:01:03Z"
+     },
+     {
+      "id": "4/90.3@17824",
+      "title": "Глава 90.3. Точка зрения Всеведущего читателя - Один Человек(3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c90.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T19:01:46Z"
+     },
+     {
+      "id": "4/90.4@17824",
+      "title": "Глава 90.4. Точка зрения Всеведущего читателя - Один Человек(4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c90.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T19:02:38Z"
+     },
+     {
+      "id": "4/90.5@17824",
+      "title": "Глава 90.5. Точка зрения Всеведущего читателя - Один Человек(5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c90.5?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-23T19:03:14Z"
+     },
+     {
+      "id": "4/91.1@17824",
+      "title": "Глава 91.1. Одна единственная История [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c91.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-24T18:11:27Z"
+     },
+     {
+      "id": "4/91.2@17824",
+      "title": "Глава 91.2. Одна единственная История [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c91.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-24T18:12:14Z"
+     },
+     {
+      "id": "4/91.3@17824",
+      "title": "Глава 91.3. Одна единственная История [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c91.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-24T18:13:49Z"
+     },
+     {
+      "id": "4/91.4@17824",
+      "title": "Глава 91.4. Одна единственная История [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c91.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-24T18:15:05Z"
+     },
+     {
+      "id": "4/91.5@17824",
+      "title": "Глава 91.5. Одна единственная История [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c91.5?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-24T18:16:15Z"
+     },
+     {
+      "id": "4/92.1@17824",
+      "title": "Глава 92.1. Последний Сценарий [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c92.1?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-24T18:16:56Z"
+     },
+     {
+      "id": "4/92.2@17824",
+      "title": "Глава 92.2. Последний Сценарий [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c92.2?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-24T18:17:52Z"
+     },
+     {
+      "id": "4/92.3@17824",
+      "title": "Глава 92.3. Последний Сценарий [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c92.3?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-24T18:18:36Z"
+     },
+     {
+      "id": "4/92.4@17824",
+      "title": "Глава 92.4. Последний Сценарий [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c92.4?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-24T18:20:13Z"
+     },
+     {
+      "id": "4/92.5@17824",
+      "title": "Глава 92.5. Последний Сценарий [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c92.5?bid=17824",
+      "volume": "Том 4",
+      "date": "2026-04-24T18:21:26Z"
+     },
+     {
+      "id": "4/93.1@17823",
+      "title": "Глава 93.1. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Автора(1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c93.1?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:14:10Z"
+     },
+     {
+      "id": "4/93.2@17823",
+      "title": "Глава 93.2. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Автора(2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c93.2?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:14:33Z"
+     },
+     {
+      "id": "4/93.3@17823",
+      "title": "Глава 93.3. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Автора(3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c93.3?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:14:47Z"
+     },
+     {
+      "id": "4/93.4@17823",
+      "title": "Глава 93.4. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Автора(4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c93.4?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:14:59Z"
+     },
+     {
+      "id": "4/93.5@17823",
+      "title": "Глава 93.5. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Автора(5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c93.5?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:15:11Z"
+     },
+     {
+      "id": "4/93.6@17823",
+      "title": "Глава 93.6. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Автора(6)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c93.6?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:16:44Z"
+     },
+     {
+      "id": "4/94.1@17823",
+      "title": "Глава 94.1. Точка зрения Всеведущего читателя - Начало Конца(1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c94.1?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:16:59Z"
+     },
+     {
+      "id": "4/94.2@17823",
+      "title": "Глава 94.2. Точка зрения Всеведущего читателя - Начало Конца(2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c94.2?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:17:11Z"
+     },
+     {
+      "id": "4/94.3@17823",
+      "title": "Глава 94.3. Точка зрения Всеведущего читателя - Начало Конца(3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c94.3?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:17:22Z"
+     },
+     {
+      "id": "4/94.4@17823",
+      "title": "Глава 94.4. Точка зрения Всеведущего читателя - Начало Конца(4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c94.4?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:17:33Z"
+     },
+     {
+      "id": "4/95.1@17823",
+      "title": "Глава 95.1. Точка зрения Всеведущего читателя - Гэчхвон(1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c95.1?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:17:50Z"
+     },
+     {
+      "id": "4/95.2@17823",
+      "title": "Глава 95.2. Точка зрения Всеведущего читателя - Гэчхвон(2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c95.2?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:18:03Z"
+     },
+     {
+      "id": "4/95.3@17823",
+      "title": "Глава 95.3. Точка зрения Всеведущего читателя - Гэчхвон(3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c95.3?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:18:17Z"
+     },
+     {
+      "id": "4/95.4@17823",
+      "title": "Глава 95.4. Точка зрения Всеведущего читателя - Гэчхвон(4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c95.4?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:18:31Z"
+     },
+     {
+      "id": "4/96.1@17823",
+      "title": "Глава 96.1. Точка зрения Всеведущего читателя - Демоноподобный Огненный Судья(1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c96.1?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:18:46Z"
+     },
+     {
+      "id": "4/96.2@17823",
+      "title": "Глава 96.2. Точка зрения Всеведущего читателя - Демоноподобный Огненный Судья(2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c96.2?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:18:57Z"
+     },
+     {
+      "id": "4/96.3@17823",
+      "title": "Глава 96.3. Точка зрения Всеведущего читателя - Демоноподобный Огненный Судья(3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c96.3?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:19:10Z"
+     },
+     {
+      "id": "4/97.1@17823",
+      "title": "Глава 97.1. Точка зрения Всеведущего читателя - Звезда, Которую Нельзя Увидеть(1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c97.1?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:19:22Z"
+     },
+     {
+      "id": "4/97.2@17823",
+      "title": "Глава 97.2. Точка зрения Всеведущего читателя - Звезда, Которую Нельзя Увидеть(2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c97.2?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:19:35Z"
+     },
+     {
+      "id": "4/97.3@17823",
+      "title": "Глава 97.3. Точка зрения Всеведущего читателя - Звезда, Которую Нельзя Увидеть(3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c97.3?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:19:48Z"
+     },
+     {
+      "id": "4/97.4@17823",
+      "title": "Глава 97.4. Точка зрения Всеведущего читателя - Звезда, Которую Нельзя Увидеть(4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c97.4?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:20:04Z"
+     },
+     {
+      "id": "4/98.1@17823",
+      "title": "Глава 98.1. Точка зрения Всеведущего читателя - Защитил Ли Ты Все, Что Должен Был Защитить(1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c98.1?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:20:19Z"
+     },
+     {
+      "id": "4/98.2@17823",
+      "title": "Глава 98.2. Точка зрения Всеведущего читателя - Защитил Ли Ты Все, Что Должен Был Защитить(2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c98.2?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:20:31Z"
+     },
+     {
+      "id": "4/98.3@17823",
+      "title": "Глава 98.3. Точка зрения Всеведущего читателя - Защитил Ли Ты Все, Что Должен Был Защитить(3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c98.3?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:20:41Z"
+     },
+     {
+      "id": "4/98.4@17823",
+      "title": "Глава 98.4. Точка зрения Всеведущего читателя - Защитил Ли Ты Все, Что Должен Был Защитить(4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c98.4?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:21:15Z"
+     },
+     {
+      "id": "4/99.1@17823",
+      "title": "Глава 99.1. Точка зрения Всеведущего читателя - Древнейшая Мечта(1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c99.1?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:21:32Z"
+     },
+     {
+      "id": "4/99.2@17823",
+      "title": "Глава 99.2. Точка зрения Всеведущего читателя - Древнейшая Мечта(2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c99.2?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:21:44Z"
+     },
+     {
+      "id": "4/99.3@17823",
+      "title": "Глава 99.3. Точка зрения Всеведущего читателя - Древнейшая Мечта(3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c99.3?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:21:55Z"
+     },
+     {
+      "id": "4/99.4@17823",
+      "title": "Глава 99.4. Точка зрения Всеведущего читателя - Древнейшая Мечта(4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c99.4?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:22:15Z"
+     },
+     {
+      "id": "4/99.5@17823",
+      "title": "Глава 99.5. Точка зрения Всеведущего читателя - Древнейшая Мечта(5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c99.5?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:22:25Z"
+     },
+     {
+      "id": "4/100.1@17823",
+      "title": "Глава 100.1. Точка зрения Всеведущего читателя - Мир Нуля(1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c100.1?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:22:39Z"
+     },
+     {
+      "id": "4/100.2@17823",
+      "title": "Глава 100.2. Точка зрения Всеведущего читателя - Мир Нуля(2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c100.2?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:23:26Z"
+     },
+     {
+      "id": "4/100.3@17823",
+      "title": "Глава 100.3. Точка зрения Всеведущего читателя - Мир Нуля(3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c100.3?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:23:43Z"
+     },
+     {
+      "id": "4/100.4@17823",
+      "title": "Глава 100.4. Точка зрения Всеведущего читателя - Мир Нуля(4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c100.4?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:23:54Z"
+     },
+     {
+      "id": "4/100.5@17823",
+      "title": "Глава 100.5. Точка зрения Всеведущего читателя - Мир Нуля(5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c100.5?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:24:06Z"
+     },
+     {
+      "id": "4/100.6@17823",
+      "title": "Глава 100.6. Точка зрения Всеведущего читателя - Мир Нуля(6)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c100.6?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:24:20Z"
+     },
+     {
+      "id": "4/100.7@17823",
+      "title": "Глава 100.7. Точка зрения Всеведущего читателя - Мир Нуля(7)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c100.7?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:24:33Z"
+     },
+     {
+      "id": "4/100.8@17823",
+      "title": "Глава 100.8. Точка зрения Всеведущего читателя - Мир Нуля(8)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c100.8?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:24:44Z"
+     },
+     {
+      "id": "4/100.9@17823",
+      "title": "Глава 100.9. Точка зрения Всеведущего читателя - Мир Нуля(9)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c100.9?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:24:55Z"
+     },
+     {
+      "id": "4/101.1@17823",
+      "title": "Глава 101.1. Точка зрения Всеведущего читателя - Нигде Не Найден(1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c101.1?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:25:12Z"
+     },
+     {
+      "id": "4/101.2@17823",
+      "title": "Глава 101.2. Точка зрения Всеведущего читателя - Нигде Не Найден(2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c101.2?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:25:22Z"
+     },
+     {
+      "id": "4/101.3@17823",
+      "title": "Глава 101.3. Точка зрения Всеведущего читателя - Нигде Не Найден(3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c101.3?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:25:33Z"
+     },
+     {
+      "id": "4/101.4@17823",
+      "title": "Глава 101.4. Точка зрения Всеведущего читателя - Нигде Не Найден(4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c101.4?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:25:45Z"
+     },
+     {
+      "id": "4/101.5@17823",
+      "title": "Глава 101.5. Точка зрения Всеведущего читателя - Нигде Не Найден(5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c101.5?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:25:59Z"
+     },
+     {
+      "id": "4/101.6@17823",
+      "title": "Глава 101.6. Точка зрения Всеведущего читателя - Нигде Не Найден(6)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c101.6?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:26:11Z"
+     },
+     {
+      "id": "4/102.1@17823",
+      "title": "Глава 102.1. Точка зрения Всеведущего читателя - Слова Автора(1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c102.1?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:26:26Z"
+     },
+     {
+      "id": "4/102.2@17823",
+      "title": "Глава 102.2. Точка зрения Всеведущего читателя - Слова Автора(2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c102.2?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:26:38Z"
+     },
+     {
+      "id": "4/102.3@17823",
+      "title": "Глава 102.3. Точка зрения Всеведущего читателя - Слова Автора(3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c102.3?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:28:02Z"
+     },
+     {
+      "id": "4/102.4@17823",
+      "title": "Глава 102.4. Точка зрения Всеведущего читателя - Слова Автора(4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c102.4?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:28:19Z"
+     },
+     {
+      "id": "4/103.1@17823",
+      "title": "Глава 103.1. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Читателя(1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c103.1?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:28:35Z"
+     },
+     {
+      "id": "4/103.10@17823",
+      "title": "Глава 103.10. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Читателя(10)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c103.10?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:30:54Z"
+     },
+     {
+      "id": "4/103.2@17823",
+      "title": "Глава 103.2. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Читателя(2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c103.2?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:28:48Z"
+     },
+     {
+      "id": "4/103.3@17823",
+      "title": "Глава 103.3. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Читателя(3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c103.3?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:29:02Z"
+     },
+     {
+      "id": "4/103.4@17823",
+      "title": "Глава 103.4. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Читателя(4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c103.4?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:29:12Z"
+     },
+     {
+      "id": "4/103.5@17823",
+      "title": "Глава 103.5. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Читателя(5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c103.5?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:29:24Z"
+     },
+     {
+      "id": "4/103.6@17823",
+      "title": "Глава 103.6. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Читателя(6)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c103.6?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:29:47Z"
+     },
+     {
+      "id": "4/103.7@17823",
+      "title": "Глава 103.7. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Читателя(7)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c103.7?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:30:01Z"
+     },
+     {
+      "id": "4/103.8@17823",
+      "title": "Глава 103.8. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Читателя(8)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c103.8?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:30:22Z"
+     },
+     {
+      "id": "4/103.9@17823",
+      "title": "Глава 103.9. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Читателя(9)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c103.9?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:30:39Z"
+     },
+     {
+      "id": "4/104.1@17823",
+      "title": "Глава 104.1. Точка зрения Всеведущего читателя - Вечность и Эпилог(1)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c104.1?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:32:26Z"
+     },
+     {
+      "id": "4/104.2@17823",
+      "title": "Глава 104.2. Точка зрения Всеведущего читателя - Вечность и Эпилог(2)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c104.2?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:32:41Z"
+     },
+     {
+      "id": "4/104.3@17823",
+      "title": "Глава 104.3. Точка зрения Всеведущего читателя - Вечность и Эпилог(3)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c104.3?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:32:54Z"
+     },
+     {
+      "id": "4/104.4@17823",
+      "title": "Глава 104.4. Точка зрения Всеведущего читателя - Вечность и Эпилог(4)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c104.4?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:33:08Z"
+     },
+     {
+      "id": "4/104.5@17823",
+      "title": "Глава 104.5. Точка зрения Всеведущего читателя - Вечность и Эпилог(5)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c104.5?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:33:28Z"
+     },
+     {
+      "id": "5/93.1@17824",
+      "title": "Глава 93.1. Точка Зрения Всеведущего Автора [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c93.1?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:23:01Z"
+     },
+     {
+      "id": "5/93.2@17824",
+      "title": "Глава 93.2. Точка Зрения Всеведущего Автора [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c93.2?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:26:05Z"
+     },
+     {
+      "id": "5/93.3@17824",
+      "title": "Глава 93.3. Точка Зрения Всеведущего Автора [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c93.3?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:26:50Z"
+     },
+     {
+      "id": "5/93.4@17824",
+      "title": "Глава 93.4. Точка Зрения Всеведущего Автора [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c93.4?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:27:32Z"
+     },
+     {
+      "id": "5/93.5@17824",
+      "title": "Глава 93.5. Точка Зрения Всеведущего Автора [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c93.5?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:29:07Z"
+     },
+     {
+      "id": "5/93.6@17824",
+      "title": "Глава 93.6. Точка Зрения Всеведущего Автора [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c93.6?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:29:54Z"
+     },
+     {
+      "id": "5/94.1@17824",
+      "title": "Глава 94.1. Начало конца [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c94.1?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:30:47Z"
+     },
+     {
+      "id": "5/94.2@17824",
+      "title": "Глава 94.2. Начало конца [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c94.2?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:31:38Z"
+     },
+     {
+      "id": "5/94.3@17824",
+      "title": "Глава 94.3. Начало конца [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c94.3?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:32:15Z"
+     },
+     {
+      "id": "5/94.4@17824",
+      "title": "Глава 94.4. Начало конца [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c94.4?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:33:27Z"
+     },
+     {
+      "id": "5/95.1@17824",
+      "title": "Глава 95.1. Гэчхон/開天 [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c95.1?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:34:54Z"
+     },
+     {
+      "id": "5/95.2@17824",
+      "title": "Глава 95.2. Гэчхон/開天 [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c95.2?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:35:37Z"
+     },
+     {
+      "id": "5/95.3@17824",
+      "title": "Глава 95.3. Гэчхон/開天 [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c95.3?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:36:19Z"
+     },
+     {
+      "id": "5/95.4@17824",
+      "title": "Глава 95.4. Гэчхон/開天 [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c95.4?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:36:55Z"
+     },
+     {
+      "id": "5/96.1@17824",
+      "title": "Глава 96.1. Демоноподобный Огненный Судья [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c96.1?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:38:34Z"
+     },
+     {
+      "id": "5/96.2@17824",
+      "title": "Глава 96.2. Демоноподобный Огненный Судья [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c96.2?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:39:20Z"
+     },
+     {
+      "id": "5/96.3@17824",
+      "title": "Глава 96.3. Демоноподобный Огненный Судья [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c96.3?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:40:50Z"
+     },
+     {
+      "id": "5/97.1@17824",
+      "title": "Глава 97.1. Звезда, которую нельзя увидеть [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c97.1?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:42:44Z"
+     },
+     {
+      "id": "5/97.2@17824",
+      "title": "Глава 97.2. Звезда, которую нельзя увидеть [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c97.2?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:43:46Z"
+     },
+     {
+      "id": "5/97.3@17824",
+      "title": "Глава 97.3. Звезда, которую нельзя увидеть [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c97.3?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:44:22Z"
+     },
+     {
+      "id": "5/97.4@17824",
+      "title": "Глава 97.4. Звезда, которую нельзя увидеть [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c97.4?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:45:16Z"
+     },
+     {
+      "id": "5/98.1@17824",
+      "title": "Глава 98.1. Защитил ли ты всё, что должен был [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c98.1?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:46:17Z"
+     },
+     {
+      "id": "5/98.2@17824",
+      "title": "Глава 98.2. Защитил ли ты всё, что должен был [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c98.2?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:46:56Z"
+     },
+     {
+      "id": "5/98.3@17824",
+      "title": "Глава 98.3. Защитил ли ты всё, что должен был [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c98.3?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:47:38Z"
+     },
+     {
+      "id": "5/98.4@17824",
+      "title": "Глава 98.4. Защитил ли ты всё, что должен был [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c98.4?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:48:56Z"
+     },
+     {
+      "id": "5/99.1@17824",
+      "title": "Глава 99.1. Древнейшая Мечта [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c99.1?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:50:08Z"
+     },
+     {
+      "id": "5/99.2@17824",
+      "title": "Глава 99.2. Древнейшая Мечта [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c99.2?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:51:03Z"
+     },
+     {
+      "id": "5/99.3@17824",
+      "title": "Глава 99.3. Древнейшая Мечта [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c99.3?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:52:13Z"
+     },
+     {
+      "id": "5/99.4@17824",
+      "title": "Глава 99.4. Древнейшая Мечта [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c99.4?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:54:12Z"
+     },
+     {
+      "id": "5/99.5@17824",
+      "title": "Глава 99.5. Древнейшая Мечта [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c99.5?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-24T18:57:14Z"
+     },
+     {
+      "id": "5/100.1@17824",
+      "title": "Глава 100.1. Мир Нуля [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c100.1?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:32:49Z"
+     },
+     {
+      "id": "5/100.2@17824",
+      "title": "Глава 100.2. Мир Нуля [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c100.2?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:35:46Z"
+     },
+     {
+      "id": "5/100.3@17824",
+      "title": "Глава 100.3. Мир Нуля [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c100.3?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:37:02Z"
+     },
+     {
+      "id": "5/100.4@17824",
+      "title": "Глава 100.4. Мир Нуля [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c100.4?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:38:46Z"
+     },
+     {
+      "id": "5/100.5@17824",
+      "title": "Глава 100.5. Мир Нуля [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c100.5?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:39:20Z"
+     },
+     {
+      "id": "5/100.6@17824",
+      "title": "Глава 100.6. Мир Нуля [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c100.6?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:40:12Z"
+     },
+     {
+      "id": "5/100.7@17824",
+      "title": "Глава 100.7. Мир Нуля [7]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c100.7?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:41:01Z"
+     },
+     {
+      "id": "5/100.8@17824",
+      "title": "Глава 100.8. Мир Нуля [8]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c100.8?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:41:48Z"
+     },
+     {
+      "id": "5/100.9@17824",
+      "title": "Глава 100.9. Мир Нуля [9]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c100.9?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:43:26Z"
+     },
+     {
+      "id": "5/101.1@17824",
+      "title": "Глава 101.1. Нигде не найти [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c101.1?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:44:46Z"
+     },
+     {
+      "id": "5/101.2@17824",
+      "title": "Глава 101.2. Нигде не найти [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c101.2?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:45:25Z"
+     },
+     {
+      "id": "5/101.3@17824",
+      "title": "Глава 101.3. Нигде не найти [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c101.3?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:46:13Z"
+     },
+     {
+      "id": "5/101.4@17824",
+      "title": "Глава 101.4. Нигде не найти [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c101.4?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:47:01Z"
+     },
+     {
+      "id": "5/101.5@17824",
+      "title": "Глава 101.5. Нигде не найти [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c101.5?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:47:46Z"
+     },
+     {
+      "id": "5/101.6@17824",
+      "title": "Глава 101.6. Нигде не найти [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c101.6?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:48:53Z"
+     },
+     {
+      "id": "5/102.1@17824",
+      "title": "Глава 102.1. Слова автора [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c102.1?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:49:43Z"
+     },
+     {
+      "id": "5/102.2@17824",
+      "title": "Глава 102.2. Слова автора [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c102.2?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:51:12Z"
+     },
+     {
+      "id": "5/102.3@17824",
+      "title": "Глава 102.3. Слова автора [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c102.3?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:51:46Z"
+     },
+     {
+      "id": "5/102.4@17824",
+      "title": "Глава 102.4. Слова автора [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c102.4?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:53:43Z"
+     },
+     {
+      "id": "5/103.1@17824",
+      "title": "Глава 103.1. Точка Зрения Всеведущего Читателя [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c103.1?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:55:34Z"
+     },
+     {
+      "id": "5/103.2@17824",
+      "title": "Глава 103.2. Точка Зрения Всеведущего Читателя [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c103.2?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:56:37Z"
+     },
+     {
+      "id": "5/103.3@17824",
+      "title": "Глава 103.3. Точка Зрения Всеведущего Читателя [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c103.3?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:58:10Z"
+     },
+     {
+      "id": "5/103.4@17824",
+      "title": "Глава 103.4. Точка Зрения Всеведущего Читателя [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c103.4?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T18:59:40Z"
+     },
+     {
+      "id": "5/103.5@17824",
+      "title": "Глава 103.5. Точка Зрения Всеведущего Читателя [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c103.5?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T19:01:10Z"
+     },
+     {
+      "id": "5/103.6@17824",
+      "title": "Глава 103.6. Точка Зрения Всеведущего Читателя [6]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c103.6?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T19:02:03Z"
+     },
+     {
+      "id": "5/103.7@17824",
+      "title": "Глава 103.7. Точка Зрения Всеведущего Читателя [7]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c103.7?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T19:02:48Z"
+     },
+     {
+      "id": "5/103.8@17824",
+      "title": "Глава 103.8. Точка Зрения Всеведущего Читателя [8]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c103.8?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T19:04:03Z"
+     },
+     {
+      "id": "5/103.9@17824",
+      "title": "Глава 103.9. Точка Зрения Всеведущего Читателя [9]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c103.9?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T19:05:44Z"
+     },
+     {
+      "id": "5/103.91@17824",
+      "title": "Глава 103.91. Точка Зрения Всеведущего Читателя [10]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c103.91?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T19:06:38Z"
+     },
+     {
+      "id": "5/104.1@17824",
+      "title": "Глава 104.1. Вечность и Эпилог [1]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c104.1?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T19:07:27Z"
+     },
+     {
+      "id": "5/104.2@17824",
+      "title": "Глава 104.2. Вечность и Эпилог [2]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c104.2?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T19:08:11Z"
+     },
+     {
+      "id": "5/104.3@17824",
+      "title": "Глава 104.3. Вечность и Эпилог [3]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c104.3?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T19:09:05Z"
+     },
+     {
+      "id": "5/104.4@17824",
+      "title": "Глава 104.4. Вечность и Эпилог [4]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c104.4?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T19:10:43Z"
+     },
+     {
+      "id": "5/104.5@17824",
+      "title": "Глава 104.5. Вечность и Эпилог [5]",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c104.5?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T19:11:46Z"
+     },
+     {
+      "id": "5/104.6@17824",
+      "title": "Глава 104.6. Вечность и Эпилог (Конец)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c104.6?bid=17824",
+      "volume": "Том 5",
+      "date": "2026-04-27T19:14:08Z"
+     },
+     {
+      "id": "5/105@17823",
+      "title": "Глава 105. Пролог",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c105?bid=17823",
+      "volume": "Том 5",
+      "date": "2023-09-26T14:06:41Z"
+     },
+     {
+      "id": "5/105.1@17823",
+      "title": "Глава 105.1. Мир после завершения. Эпизод 1",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c105.1?bid=17823",
+      "volume": "Том 5",
+      "date": "2023-06-09T00:10:46Z"
+     },
+     {
+      "id": "5/105.2@17823",
+      "title": "Глава 105.2. Мир после завершения. Эпизод 2",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v5/c105.2?bid=17823",
+      "volume": "Том 5",
+      "date": "2023-09-15T21:20:45Z"
+     }
+    ]
+   }
+  },
+  {
+   "fn": "chapter",
+   "args": [
+    "26690--omniscient-readers-viewpoint-novel",
+    "1/1@17824"
+   ],
+   "result": {
+    "err": {
+     "code": "NEEDS_LOGIN",
+     "message": "Глава 18+: войдите в RanobeLib",
+     "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v1/c1?bid=17824"
+    }
+   }
+  }
+ ],
+ "missing": []
+}

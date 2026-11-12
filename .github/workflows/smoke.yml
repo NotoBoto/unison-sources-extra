@@ -1,0 +1,33 @@
+name: Nightly smoke test
+# Runs every plugin against the live site; opens an issue when a site changed (§6, §17).
+on:
+  schedule: [{ cron: "30 3 * * *" }]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+env: { UNISON_PROJECT: "${{ github.workspace }}" }
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { submodules: true }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: base/package-lock.json }
+      - run: npm ci --prefix base
+      - id: smoke
+        run: node base/scripts/smoke.mjs
+        continue-on-error: true
+      - name: Open an issue
+        if: steps.smoke.outcome == 'failure'
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          title="Smoke test failed $(date -u +%Y-%m-%d)"
+          gh issue list --state open --search "Smoke test failed in:title" --json number --jq '.[0].number' | grep -q . \
+            && gh issue comment "$(gh issue list --state open --search 'Smoke test failed in:title' --json number --jq '.[0].number')" --body-file tests/out/smoke-report.md \
+            || gh issue create --title "$title" --body-file tests/out/smoke-report.md
+          exit 1

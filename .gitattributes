@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# golden fixtures and expected outputs are compared byte-for-byte: never convert them
+tests/cases/** -text
+tests/expected/** -text
+*.png binary

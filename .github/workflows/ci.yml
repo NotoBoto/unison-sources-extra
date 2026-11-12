@@ -1,0 +1,24 @@
+name: CI
+# Same checks as unison-sources (lib, scripts and test hosts come from the base/ submodule).
+on:
+  push:
+  pull_request:
+
+env: { UNISON_PROJECT: "${{ github.workspace }}" }
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { submodules: true }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: base/package-lock.json }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: npm ci --prefix base
+      - run: cd base && npx tsc --noEmit -p ../tsconfig.json
+      # quickjs-ng (wasm) + V8 + Python, byte-identical (§4)
+      - run: python -m pip install quickjs-ng==0.12.1.1
+      - run: node base/tests/golden.mjs --python python
+      - run: node base/scripts/build.mjs --repo unison-sources-extra --name "Unison: источники (дополнительные)"

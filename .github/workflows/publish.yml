@@ -1,0 +1,45 @@
+name: Publish
+# Builds the plugins, signs index.json with the same ed25519 key as unison-sources and publishes site/ to Pages (§6).
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency: { group: pages, cancel-in-progress: false }
+
+env: { UNISON_PROJECT: "${{ github.workspace }}" }
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: "${{ steps.deploy.outputs.page_url }}" }
+    steps:
+      - uses: actions/checkout@v4
+        with: { submodules: true }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: base/package-lock.json }
+      - run: npm ci --prefix base
+      - run: node base/tests/golden.mjs
+      # An unsigned index is never published: without the key the job only warns.
+      - id: key
+        env: { UNISON_SIGNING_KEY: "${{ secrets.UNISON_SIGNING_KEY }}" }
+        run: |
+          if [ -n "$UNISON_SIGNING_KEY" ]; then echo "ok=true" >> "$GITHUB_OUTPUT"
+          else echo "::warning::secret UNISON_SIGNING_KEY is not set, nothing is published"; echo "ok=false" >> "$GITHUB_OUTPUT"; fi
+      - name: Build and sign
+        if: steps.key.outputs.ok == 'true'
+        env: { UNISON_SIGNING_KEY: "${{ secrets.UNISON_SIGNING_KEY }}" }
+        run: |
+          node base/scripts/build.mjs --repo unison-sources-extra --name "Unison: источники (дополнительные)"
+          test -s site/index.json.sig
+      - if: steps.key.outputs.ok == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with: { path: site }
+      - id: deploy
+        if: steps.key.outputs.ok == 'true'
+        uses: actions/deploy-pages@v4
