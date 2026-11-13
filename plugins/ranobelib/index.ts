@@ -3,7 +3,12 @@
 // Book id = slug_url ("19232--mother-of-learning"): the API does not accept the bare number.
 // A chapter can exist in several translations (branches). For each book the plugin picks one branch, the one with
 // the most chapters, remembers it in storage (so chapter ids stay stable when another team appears) and takes every
-// chapter from it, falling back to the first branch that has the chapter.
+// chapter from it, falling back to the first branch that has the chapter. The host may pin a branch itself by
+// writing storage "branch:<bookId>" before chapters() (Unison Studio keeps the team of an already voiced book);
+// details(bookId, {branches: true}) lists the branches with their teams and chapter counts for that choice.
+// Chapters are listed in reading order (the API's "index").
+// Text: a translator's notes block at the end ("Примечания", "•Примечание.•", "Сноски") is not part of the chapter,
+// and a first paragraph that only repeats the chapter title is dropped (it would be read twice).
 // Chapter id = "<volume>/<number>" plus "@<branch>" when the branch is not null, e.g. "1/5@17824".
 // Text comes either as HTML or as ProseMirror JSON (core.prosemirrorToHtml). Images use site-relative links.
 // Chapters of 18+ books are 404 without login: then the plugin asks to log in (NEEDS_LOGIN).
@@ -100,6 +105,54 @@ const chapterTitle = (number: string, name: unknown) =>
 
 const branchKey = (b: unknown) => (b === null || b === undefined ? "" : String(b));
 
+const NOTES = /^[\s•*·]*(примечани[еяй]|сноск[аи])(\s+(переводчик[аов]*|редактор[аов]*))?[\s.:…•*·]*$/i;
+const bare = (s: string) => s.toLowerCase().replace(/ё/g, "е").replace(/[^a-zа-я0-9]+/g, "");
+
+interface Branch { id: string; teams: string; chapters: number }
+
+/** Branches of a book with their teams, most chapters first (ids as in chapter ids, "" = no branch). */
+function branchesOf(chs: any[]): Branch[] {
+  const m = new Map<string, { teams: string[]; chapters: number }>();
+  for (const c of chs) for (const b of c.branches || []) {
+    const k = branchKey(b.branch_id);
+    const e = m.get(k) || { teams: [], chapters: 0 };
+    e.chapters++;
+    for (const t of b.teams || []) if (t?.name && !e.teams.includes(String(t.name))) e.teams.push(String(t.name));
+    m.set(k, e);
+  }
+  return [...m.entries()].map(([id, e]) => ({ id, teams: e.teams.join(", "), chapters: e.chapters }))
+    .sort((a, b) => b.chapters - a.chapters || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+}
+
+/** The chapter list of the API in reading order. */
+async function chapterList(bookId: string): Promise<any[]> {
+  const d = await api("/manga/" + encodeURIComponent(bookId) + "/chapters");
+  if (!d) fail("NOT_FOUND", "no such book", bookUrl(bookId));
+  if (!Array.isArray(d.data)) fail("CHANGED_LAYOUT", "no chapter list");
+  const chs: any[] = d.data.filter((c: any) => Array.isArray(c.branches) && c.branches.length);
+  // stable sort by the API's reading-order index (it already comes sorted; numbers like 0.10 / 0.2 never decide)
+  return chs.map((c, i) => [c, i] as [any, number])
+    .sort((a, b) => (typeof a[0].index === "number" && typeof b[0].index === "number" ? a[0].index - b[0].index : 0) || a[1] - b[1])
+    .map((x) => x[0]);
+}
+
+/** Notes at the end and a repeated title at the start are not read aloud. */
+function cleanText(title: string, name: unknown, paras: string[], images: { after: number }[]) {
+  let cut = -1;
+  for (let i = paras.length - 1; i >= 0; i--) if (NOTES.test(paras[i])) { cut = i; break; }
+  if (cut >= 0) {
+    paras = paras.slice(0, cut);
+    for (const im of images) if (im.after > paras.length - 1) im.after = paras.length - 1;
+  }
+  const first = paras.length ? bare(paras[0]) : "";
+  const nm = typeof name === "string" ? bare(name) : "";
+  if (first && paras.length > 1 && (first === bare(title) || (nm && first === nm))) {
+    paras = paras.slice(1);
+    for (const im of images) im.after = Math.max(-1, im.after - 1);
+  }
+  return paras;
+}
+
 const plugin = {
   popular: (page: number, filters?: FilterValues) => list(filterParams(filters, "-rating_score"), page),
 
@@ -127,7 +180,7 @@ const plugin = {
     ];
   },
 
-  async details(bookId: string): Promise<BookDetails> {
+  async details(bookId: string, opts?: { branches?: boolean }): Promise<BookDetails> {
     const fields = ["summary", "genres", "tags", "teams", "authors", "status_id"];
     const d = (await api("/manga/" + encodeURIComponent(bookId) + "?" + qs(fields.map((f) => ["fields[]", f]))))?.data;
     if (!d) fail("NOT_FOUND", "no such book", bookUrl(bookId));
@@ -143,14 +196,12 @@ const plugin = {
     const desc = summaryText(d.summary);
     if (desc) out.description = desc;
     if (isAdult(d)) out.nsfw = true;
+    if (opts?.branches) (out as BookDetails & { branches: Branch[] }).branches = branchesOf(await chapterList(bookId));
     return out;
   },
 
   async chapters(bookId: string): Promise<ChapterStub[]> {
-    const d = await api("/manga/" + encodeURIComponent(bookId) + "/chapters");
-    if (!d) fail("NOT_FOUND", "no such book", bookUrl(bookId));
-    if (!Array.isArray(d.data)) fail("CHANGED_LAYOUT", "no chapter list");
-    const chs: any[] = d.data.filter((c: any) => Array.isArray(c.branches) && c.branches.length);
+    const chs = await chapterList(bookId);
 
     // one branch for the whole book, chosen once
     const key = "branch:" + bookId;
@@ -201,7 +252,8 @@ const plugin = {
     else fail("CHANGED_LAYOUT", "unknown chapter content", url);
     const title = chapterTitle(String(d.number ?? number), d.name);
     const parsed = parseChapterHtml(html, { lang: "ru", titleFromHeading: false, fallbackTitle: title, baseUrl: SITE + "/" });
-    return { kind: "text" as const, title, paras: parsed.paras, images: parsed.images };
+    const paras = cleanText(title, d.name, parsed.paras, parsed.images);
+    return { kind: "text" as const, title, paras, images: parsed.images };
   },
 
   async bookIdFromUrl(url: string): Promise<string | null> {

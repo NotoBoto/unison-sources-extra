@@ -2,7 +2,7 @@
  "manifest": {
   "id": "ranobelib",
   "name": "RanobeLib",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "api": 1,
   "lang": "ru",
   "site": "https://ranobelib.me",
@@ -23,7 +23,7 @@
    "byUrl"
   ],
   "nsfw": false,
-  "studio": "private",
+  "studio": "public",
   "browser": "onChallenge",
   "rateLimit": {
    "rps": 1,
