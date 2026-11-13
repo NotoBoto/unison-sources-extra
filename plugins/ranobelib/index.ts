@@ -6,7 +6,8 @@
 // chapter from it, falling back to the first branch that has the chapter. The host may pin a branch itself by
 // writing storage "branch:<bookId>" before chapters() (Unison Studio keeps the team of an already voiced book);
 // details(bookId, {branches: true}) lists the branches with their teams and chapter counts for that choice.
-// Chapters are listed in reading order (the API's "index").
+// Chapters are listed in reading order: by volume, then by chapter number compared part by part as integers
+// ("0.2" < "0.10", "5" < "5.0"). The API's own "index" puts "0.10" before "0.2" (it compares the numbers as text).
 // Text: a translator's notes block at the end ("Примечания", "•Примечание.•", "Сноски") is not part of the chapter,
 // and a first paragraph that only repeats the chapter title is dropped (it would be read twice).
 // Chapter id = "<volume>/<number>" plus "@<branch>" when the branch is not null, e.g. "1/5@17824".
@@ -130,10 +131,24 @@ async function chapterList(bookId: string): Promise<any[]> {
   if (!d) fail("NOT_FOUND", "no such book", bookUrl(bookId));
   if (!Array.isArray(d.data)) fail("CHANGED_LAYOUT", "no chapter list");
   const chs: any[] = d.data.filter((c: any) => Array.isArray(c.branches) && c.branches.length);
-  // stable sort by the API's reading-order index (it already comes sorted; numbers like 0.10 / 0.2 never decide)
+  // stable: chapters whose volume and number compare equal keep the API's order
   return chs.map((c, i) => [c, i] as [any, number])
-    .sort((a, b) => (typeof a[0].index === "number" && typeof b[0].index === "number" ? a[0].index - b[0].index : 0) || a[1] - b[1])
+    .sort((a, b) => compareParts(String(a[0].volume), String(b[0].volume)) || compareParts(String(a[0].number), String(b[0].number)) || a[1] - b[1])
     .map((x) => x[0]);
+}
+
+/** "0.2" < "0.10" < "1", "5" < "5.0" < "5.1": parts as integers, a shorter prefix first; non-numbers last, as text. */
+export function compareParts(a: string, b: string): number {
+  const pa = a.split("."), pb = b.split(".");
+  for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
+    if (i >= pa.length) return -1;
+    if (i >= pb.length) return 1;
+    const na = /^\d+$/.test(pa[i]) ? Number(pa[i]) : NaN, nb = /^\d+$/.test(pb[i]) ? Number(pb[i]) : NaN;
+    if (!isNaN(na) && !isNaN(nb)) { if (na !== nb) return na - nb; continue; }
+    if (isNaN(na) !== isNaN(nb)) return isNaN(na) ? 1 : -1;
+    if (pa[i] !== pb[i]) return pa[i] < pb[i] ? -1 : 1;
+  }
+  return 0;
 }
 
 /** Notes at the end and a repeated title at the start are not read aloud. */

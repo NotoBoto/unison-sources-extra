@@ -2,7 +2,7 @@
  "manifest": {
   "id": "ranobelib",
   "name": "RanobeLib",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "api": 1,
   "lang": "ru",
   "site": "https://ranobelib.me",
@@ -3859,13 +3859,6 @@
       "date": "2022-11-28T18:28:35Z"
      },
      {
-      "id": "4/103.10@17823",
-      "title": "Глава 103.10. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Читателя(10)",
-      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c103.10?bid=17823",
-      "volume": "Том 4",
-      "date": "2022-11-28T18:30:54Z"
-     },
-     {
       "id": "4/103.2@17823",
       "title": "Глава 103.2. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Читателя(2)",
       "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c103.2?bid=17823",
@@ -3920,6 +3913,13 @@
       "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c103.9?bid=17823",
       "volume": "Том 4",
       "date": "2022-11-28T18:30:39Z"
+     },
+     {
+      "id": "4/103.10@17823",
+      "title": "Глава 103.10. Точка зрения Всеведущего читателя - Точка Зрения Всеведущего Читателя(10)",
+      "url": "https://ranobelib.me/ru/26690--omniscient-readers-viewpoint-novel/read/v4/c103.10?bid=17823",
+      "volume": "Том 4",
+      "date": "2022-11-28T18:30:54Z"
      },
      {
       "id": "4/104.1@17823",

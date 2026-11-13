@@ -2,7 +2,7 @@
  "manifest": {
   "id": "ranobelib",
   "name": "RanobeLib",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "api": 1,
   "lang": "ru",
   "site": "https://ranobelib.me",
@@ -473,62 +473,6 @@
       "date": "2025-02-21T16:01:43Z"
      },
      {
-      "id": "9/0.10",
-      "title": "Глава 0.10. DLC Глава 1 – Геймеры и война игр",
-      "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.10",
-      "volume": "Том 9",
-      "date": "2025-02-27T09:20:13Z"
-     },
-     {
-      "id": "9/0.11",
-      "title": "Глава 0.11. DLC Глава 2 – Аюму Кирия и Юность-сдерживающая прямая трансляция",
-      "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.11",
-      "volume": "Том 9",
-      "date": "2025-03-03T23:49:21Z"
-     },
-     {
-      "id": "9/0.12",
-      "title": "Глава 0.12. DLC Глава 3 – Аюму Кирия и сладкий вкус",
-      "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.12",
-      "volume": "Том 9",
-      "date": "2025-03-04T14:11:22Z"
-     },
-     {
-      "id": "9/0.13",
-      "title": "Глава 0.13. DLC Глава 4 – Аюму Кирия и АКТ таинственного вывода",
-      "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.13",
-      "volume": "Том 9",
-      "date": "2025-03-05T12:53:56Z"
-     },
-     {
-      "id": "9/0.14",
-      "title": "Глава 0.14. DLC Глава 5 – Аюму Кирия и обманывающие читы",
-      "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.14",
-      "volume": "Том 9",
-      "date": "2025-03-05T23:22:49Z"
-     },
-     {
-      "id": "9/0.15",
-      "title": "Глава 0.15. DLC Глава 6 – Обсуждение геймеров и дополнительного продукта",
-      "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.15",
-      "volume": "Том 9",
-      "date": "2025-03-06T14:06:41Z"
-     },
-     {
-      "id": "9/0.16",
-      "title": "Глава 0.16. DLC Глава 7 – Аюму Кирия и оффлайн-схватка",
-      "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.16",
-      "volume": "Том 9",
-      "date": "2025-03-06T23:08:17Z"
-     },
-     {
-      "id": "9/0.17",
-      "title": "Глава 0.17. Послесловие к DLC",
-      "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.17",
-      "volume": "Том 9",
-      "date": "2025-03-06T23:12:37Z"
-     },
-     {
       "id": "9/0.2",
       "title": "Глава 0.2. Сборник рассказов: глава 2 – Короткий рассказ Fantasia 2017",
       "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.2",
@@ -583,6 +527,62 @@
       "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.9",
       "volume": "Том 9",
       "date": "2025-02-23T15:00:02Z"
+     },
+     {
+      "id": "9/0.10",
+      "title": "Глава 0.10. DLC Глава 1 – Геймеры и война игр",
+      "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.10",
+      "volume": "Том 9",
+      "date": "2025-02-27T09:20:13Z"
+     },
+     {
+      "id": "9/0.11",
+      "title": "Глава 0.11. DLC Глава 2 – Аюму Кирия и Юность-сдерживающая прямая трансляция",
+      "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.11",
+      "volume": "Том 9",
+      "date": "2025-03-03T23:49:21Z"
+     },
+     {
+      "id": "9/0.12",
+      "title": "Глава 0.12. DLC Глава 3 – Аюму Кирия и сладкий вкус",
+      "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.12",
+      "volume": "Том 9",
+      "date": "2025-03-04T14:11:22Z"
+     },
+     {
+      "id": "9/0.13",
+      "title": "Глава 0.13. DLC Глава 4 – Аюму Кирия и АКТ таинственного вывода",
+      "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.13",
+      "volume": "Том 9",
+      "date": "2025-03-05T12:53:56Z"
+     },
+     {
+      "id": "9/0.14",
+      "title": "Глава 0.14. DLC Глава 5 – Аюму Кирия и обманывающие читы",
+      "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.14",
+      "volume": "Том 9",
+      "date": "2025-03-05T23:22:49Z"
+     },
+     {
+      "id": "9/0.15",
+      "title": "Глава 0.15. DLC Глава 6 – Обсуждение геймеров и дополнительного продукта",
+      "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.15",
+      "volume": "Том 9",
+      "date": "2025-03-06T14:06:41Z"
+     },
+     {
+      "id": "9/0.16",
+      "title": "Глава 0.16. DLC Глава 7 – Аюму Кирия и оффлайн-схватка",
+      "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.16",
+      "volume": "Том 9",
+      "date": "2025-03-06T23:08:17Z"
+     },
+     {
+      "id": "9/0.17",
+      "title": "Глава 0.17. Послесловие к DLC",
+      "url": "https://ranobelib.me/ru/31200--gemazu/read/v9/c0.17",
+      "volume": "Том 9",
+      "date": "2025-03-06T23:12:37Z"
      },
      {
       "id": "9/1",
