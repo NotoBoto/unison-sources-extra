@@ -16,9 +16,12 @@ import { parseDocument, DomUtils } from "htmlparser2";
 import type { Element } from "domhandler";
 
 const SITE = "https://author.today";
+// After a login in the phone's WebView the site sets mobile-mode=true and then serves its mobile pages to every
+// request with those cookies; the plugin reads the desktop markup, so it always asks for it (the host merges cookies).
+const DESKTOP = { Cookie: "mobile-mode=false" };
 
 async function page(url: string): Promise<{ doc: ReturnType<typeof parseDocument>; html: string }> {
-  const r = await fetch(url);
+  const r = await fetch(url, { headers: DESKTOP });
   if (r.status === 404) fail("NOT_FOUND", "no such page", url);
   if (r.status === 429) fail("RATE_LIMITED", "Author.Today 429");
   if (r.status === 403 && !/text\/html/.test(r.headers["content-type"] || "") ) fail("NEEDS_BROWSER", "Проверка защиты сайта", url);
@@ -190,7 +193,7 @@ const plugin = {
     const id = chapterId === "0" ? /chapterId:\s*(\d+)\s*,/.exec(html)?.[1] : chapterId;
     if (!id) fail("CHANGED_LAYOUT", "no chapter id", readerUrl);
     const url = `${SITE}/reader/${bookId}/chapter?id=${id}`;
-    const r = await fetch(url, { headers: { Accept: "application/json", "X-Requested-With": "XMLHttpRequest", Referer: readerUrl }, responseHeaders: ["reader-secret"] });
+    const r = await fetch(url, { headers: { ...DESKTOP, Accept: "application/json", "X-Requested-With": "XMLHttpRequest", Referer: readerUrl }, responseHeaders: ["reader-secret"] });
     if (r.status === 429) fail("RATE_LIMITED", "Author.Today 429");
     if (r.status !== 200) fail(r.status === 404 ? "NOT_FOUND" : "CHANGED_LAYOUT", `HTTP ${r.status}`, readerUrl);
     let d: any;
