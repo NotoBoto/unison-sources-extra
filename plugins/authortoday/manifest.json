@@ -1,7 +1,7 @@
 {
   "id": "authortoday",
   "name": "Author.Today",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "api": 1,
   "lang": "ru",
   "site": "https://author.today",
@@ -10,7 +10,7 @@
   "content": ["text"],
   "features": ["popular", "latest", "search", "filters", "login", "byUrl"],
   "nsfw": false,
-  "studio": "permission",
+  "studio": "public",
   "browser": "onChallenge",
   "rateLimit": { "rps": 0.5, "burst": 2 },
   "login": { "url": "https://author.today/account/login", "kind": "cookies" }

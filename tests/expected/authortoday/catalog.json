@@ -2,7 +2,7 @@
  "manifest": {
   "id": "authortoday",
   "name": "Author.Today",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "api": 1,
   "lang": "ru",
   "site": "https://author.today",
@@ -23,7 +23,7 @@
    "byUrl"
   ],
   "nsfw": false,
-  "studio": "permission",
+  "studio": "public",
   "browser": "onChallenge",
   "rateLimit": {
    "rps": 0.5,
