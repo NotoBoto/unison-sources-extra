@@ -24,7 +24,7 @@ async function page(url: string): Promise<{ doc: ReturnType<typeof parseDocument
   const r = await fetch(url, { headers: DESKTOP });
   if (r.status === 404) fail("NOT_FOUND", "no such page", url);
   if (r.status === 429) fail("RATE_LIMITED", "Author.Today 429");
-  if (r.status === 403 && !/text\/html/.test(r.headers["content-type"] || "") ) fail("NEEDS_BROWSER", "Проверка защиты сайта", url);
+  if (r.status === 403) fail("NEEDS_BROWSER", "Проверка защиты сайта", url);   // DDoS-Guard answers its check page with 403
   if (r.status >= 500) fail("UNAVAILABLE", `Author.Today ${r.status}`, url);
   if (r.status !== 200) fail("CHANGED_LAYOUT", `HTTP ${r.status}`, url);
   if (/ddos-guard|checking your browser/i.test(r.text.slice(0, 3000)) && !/book-row|book-meta-panel|reader/.test(r.text)) fail("NEEDS_BROWSER", "Проверка защиты сайта", url);

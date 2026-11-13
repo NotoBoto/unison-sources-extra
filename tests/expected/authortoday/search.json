@@ -2,7 +2,7 @@
  "manifest": {
   "id": "authortoday",
   "name": "Author.Today",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "api": 1,
   "lang": "ru",
   "site": "https://author.today",
