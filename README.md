@@ -1,6 +1,10 @@
 # unison-sources-extra
 
-Additional book-source plugins for Unison (ranobelib, later Author.Today, Royal Road, AO3).
+Дополнительные источники книг для [Unison](https://github.com/NotoBoto/unison): **RanobeLib** и **Author.Today**.
+Подключение в приложении: «Обзор» → «Расширения» → «Добавить репозиторий» →
+`https://notoboto.github.io/unison-sources-extra/`. Встроенные источники — в [unison-sources](https://github.com/NotoBoto/unison-sources).
+
+Additional book-source plugins for Unison (RanobeLib, Author.Today; later Royal Road, AO3).
 Same contract, `core` and build as `unison-sources`, which is the `base/` submodule.
 Sites' content belongs to its rights holders; plugins are for personal use only.
 
